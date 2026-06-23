@@ -1,0 +1,69 @@
+PROJECT TITLE: Parastatal X Dynamic Budget Monitoring and Forecasting Dashboard
+
+PROJECT TYPE: Portfolio / Demonstration Project (All data is synthetic)
+
+DESCRIPTION:
+
+Designed and built a complete, end-to-end financial analytics solution simulating how a 
+Kenyan State Corporation can use data analytics, Power BI, Python, and advanced Excel to 
+strengthen budget control, expenditure monitoring, accountability, and management decision-making.
+
+The project simulates a fictional organisation (Parastatal X) operating within the Kenyan 
+public sector framework — with financial years running July to June, Authority to Incur 
+Expenditure workflows, supplementary budgets, vote code controls, Appropriations-in-Aid, 
+donor-funded programmes, quarterly M&E reporting, and audit readiness requirements.
+
+SCOPE AND SCALE:
+• 3 financial years of data: FY2023/2024, FY2024/2025, FY2025/2026 (active)
+• 18,896+ rows across 13 datasets generated programmatically in Python
+• 32 cost centres, 13 directorates, 8 regional offices, 40 activities, 33 vote codes
+• Approved annual budget: KSh 1.70 billion (FY2025/2026)
+• Analysis cut-off: 31 May 2026 (11 months of actual data + 1 month forecast)
+
+DATA AND MODELLING:
+• Synthetic data generation using Python (Pandas, NumPy, random seed 42)
+• Star schema design: 12 fact tables + 14 dimension tables
+• Power Query M code (500+ lines) for data cleaning and transformation
+• 70+ DAX measures across budget, expenditure, commitment, forecasting, and risk categories
+• 36 automated data validation checks (all passing)
+• 18 reconciliation checks (all reconciled)
+• Data quality score: 96.2%
+
+FINANCIAL ANALYTICS:
+• 4-method year-end expenditure forecast (straight-line, moving average, seasonal, commitment-adjusted)
+• Blended forecast: KSh 1.763B (103.7% absorption) — slight over-expenditure risk identified
+• Traffic light (RAG) monitoring for absorption, forecast risk, request aging, pending bills, data quality
+• Scenario analysis: Base Case, Optimistic, Adverse
+• Cost-centre-level absorption analysis and ranking
+• Management commentary in Senior Finance Manager voice
+
+DASHBOARD DESIGN (12 Pages):
+• Executive Financial Overview (KPI cards, waterfall chart, trend analysis)
+• Budget Performance (absorption, variance, drill-down by directorate/CC/vote)
+• Budget Review Workflow (AIE processing, aging, turnaround monitoring)
+• Commitments and Cash Exposure
+• Procurement Monitoring
+• Pending Bills
+• Revenue and AIA
+• Performance and Value for Money (4-quadrant analysis)
+• Forecasting and Financial Risk (scenarios, risk heatmap)
+• Audit, Controls and Data Quality
+• Cost Centre Drill-Through
+• Management Action Register
+
+KEY FINDINGS DEMONSTRATED:
+• 23 of 32 cost centres rated Red on absorption (below 80% vs 91.7% expected)
+• KSh 700M in open commitments creating year-end cash exposure
+• Revenue KSh 130.9M (11.8%) below target requiring immediate collection drive
+• KSh 2.48B in approved but unprocessed budget requests — processing bottleneck
+• 20% repeat audit findings indicating systemic control weaknesses
+
+SKILLS DEMONSTRATED:
+Python | Power BI | DAX | Power Query | M Language | Star Schema Design |
+Financial Forecasting | Budget Analysis | Data Modelling | Data Cleaning |
+Excel (XlsxWriter/openpyxl) | Management Reporting | Public Finance | 
+Business Intelligence | Data Visualisation | Scenario Analysis | Risk Management
+
+DISCLAIMER: All data used in this project is entirely synthetic. No real persons, 
+institutions, government documents, or confidential data are represented. This is a 
+portfolio demonstration project only.

@@ -1,0 +1,70 @@
+🏛️ I just built a full financial analytics solution for a fictional Kenyan parastatal — from raw data to a Power BI dashboard in one end-to-end project.
+
+Here's the management problem I set out to solve 👇
+
+Most public sector finance teams are flying blind. By the time a monthly report reaches management, the data is stale, the exceptions are buried in spreadsheets, and the year-end forecast exists only in someone's head.
+
+I wanted to show what a modern, data-driven approach looks like in a Kenyan public sector context.
+
+---
+
+THE PROJECT: Parastatal X Dynamic Budget Monitoring, Forecasting and Management Dashboard
+
+✅ 13 synthetic datasets | 18,896+ rows of realistic data
+✅ 32 cost centres | 13 directorates | 8 regional offices
+✅ 3 financial years (FY2023/24 to FY2025/26)
+✅ Python data generation (reproducible, seed=42)
+✅ Star schema data model (12 fact tables, 14 dimensions)
+✅ 70+ DAX measures
+✅ 500 lines of Power Query M code
+✅ 4-method financial forecast model
+✅ 12-page Power BI dashboard design
+✅ Management commentary and action plan
+
+---
+
+THE KENYAN CONTEXT I EMBEDDED:
+
+The data reflects how Kenyan parastatals actually operate — financial years running July to June, Authority to Incur Expenditure workflow, supplementary budgets, vote code controls, AIA revenue streams, donor-funded programmes, quarterly M&E reporting, and audit readiness requirements.
+
+This isn't generic finance analytics. It's designed for the public sector environment.
+
+---
+
+THE HEADLINE NUMBERS (FY2025/2026 as at 31 May 2026):
+
+📊 Approved Budget: KSh 1.70 billion
+💰 YTD Expenditure: KSh 1.478 billion (87.0% absorbed)
+⚠️ Expected absorption: 91.7% — we're 4.7 points behind
+🔮 Forecast year-end: KSh 1.763 billion (103.7%) — slight over-expenditure risk
+📌 Open commitments: KSh 700 million
+📋 Pending bills: KSh 1.12 billion uncleared
+📉 Revenue shortfall: KSh 130.9 million
+🚨 23 of 32 cost centres are Red on absorption
+
+---
+
+WHAT THE DASHBOARD ENABLES:
+
+🔴🟡🟢 Traffic light monitoring of all 32 cost centres
+📈 4-method year-end expenditure forecasting
+⏱️ Real-time AIE workflow monitoring and aging analysis
+🔍 Drill-through from directorate → cost centre → transaction
+📊 Value-for-money: cost per output vs performance achievement
+🛡️ Audit exception tracking and data quality scoring
+
+---
+
+All data is entirely synthetic — no real government data used.
+Full code and build pack are available on GitHub.
+
+This project covers the complete analytics lifecycle:
+Business problem → Synthetic data → Cleaning → Modelling → Dashboard → Analysis → Portfolio
+
+---
+
+If you're working in public finance in Kenya or anywhere else, I'd love to connect and hear how you're using data to strengthen budget accountability.
+
+💬 Drop a comment or DM if you'd like to know more about the methodology.
+
+#PowerBI #DataAnalytics #BusinessIntelligence #FinancialAnalysis #BudgetManagement #PublicFinance #DataScience #Python #DAX #Kenya #ManagementReporting #FinancialPlanning #KenyanPublicSector #PowerQuery #DataModelling #PublicSectorFinance #BudgetMonitoring #FinancialDashboard #DataVisualization #Analytics
