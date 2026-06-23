@@ -1,0 +1,118 @@
+SubActivityCode,SubActivityName,ActivityCode
+ACT-001-S01,General Management and Administration - Sub-Activity 1,ACT-001
+ACT-001-S02,General Management and Administration - Sub-Activity 2,ACT-001
+ACT-002-S01,Board and Governance Support - Sub-Activity 1,ACT-002
+ACT-002-S02,Board and Governance Support - Sub-Activity 2,ACT-002
+ACT-003-S01,Financial Accounting and Reporting - Sub-Activity 1,ACT-003
+ACT-003-S02,Financial Accounting and Reporting - Sub-Activity 2,ACT-003
+ACT-004-S01,Budget Preparation and Management - Sub-Activity 1,ACT-004
+ACT-004-S02,Budget Preparation and Management - Sub-Activity 2,ACT-004
+ACT-004-S03,Budget Preparation and Management - Sub-Activity 3,ACT-004
+ACT-004-S04,Budget Preparation and Management - Sub-Activity 4,ACT-004
+ACT-005-S01,Internal Controls and Compliance - Sub-Activity 1,ACT-005
+ACT-005-S02,Internal Controls and Compliance - Sub-Activity 2,ACT-005
+ACT-005-S03,Internal Controls and Compliance - Sub-Activity 3,ACT-005
+ACT-005-S04,Internal Controls and Compliance - Sub-Activity 4,ACT-005
+ACT-006-S01,Strategic Planning - Sub-Activity 1,ACT-006
+ACT-006-S02,Strategic Planning - Sub-Activity 2,ACT-006
+ACT-007-S01,Performance Monitoring and Reporting - Sub-Activity 1,ACT-007
+ACT-007-S02,Performance Monitoring and Reporting - Sub-Activity 2,ACT-007
+ACT-007-S03,Performance Monitoring and Reporting - Sub-Activity 3,ACT-007
+ACT-007-S04,Performance Monitoring and Reporting - Sub-Activity 4,ACT-007
+ACT-008-S01,Staff Recruitment and Selection - Sub-Activity 1,ACT-008
+ACT-008-S02,Staff Recruitment and Selection - Sub-Activity 2,ACT-008
+ACT-009-S01,Training and Capacity Building - Sub-Activity 1,ACT-009
+ACT-009-S02,Training and Capacity Building - Sub-Activity 2,ACT-009
+ACT-009-S03,Training and Capacity Building - Sub-Activity 3,ACT-009
+ACT-009-S04,Training and Capacity Building - Sub-Activity 4,ACT-009
+ACT-010-S01,Staff Welfare and Benefits - Sub-Activity 1,ACT-010
+ACT-010-S02,Staff Welfare and Benefits - Sub-Activity 2,ACT-010
+ACT-010-S03,Staff Welfare and Benefits - Sub-Activity 3,ACT-010
+ACT-010-S04,Staff Welfare and Benefits - Sub-Activity 4,ACT-010
+ACT-011-S01,Procurement Planning - Sub-Activity 1,ACT-011
+ACT-011-S02,Procurement Planning - Sub-Activity 2,ACT-011
+ACT-011-S03,Procurement Planning - Sub-Activity 3,ACT-011
+ACT-011-S04,Procurement Planning - Sub-Activity 4,ACT-011
+ACT-012-S01,Tender Management - Sub-Activity 1,ACT-012
+ACT-012-S02,Tender Management - Sub-Activity 2,ACT-012
+ACT-012-S03,Tender Management - Sub-Activity 3,ACT-012
+ACT-012-S04,Tender Management - Sub-Activity 4,ACT-012
+ACT-013-S01,Contract Management - Sub-Activity 1,ACT-013
+ACT-013-S02,Contract Management - Sub-Activity 2,ACT-013
+ACT-013-S03,Contract Management - Sub-Activity 3,ACT-013
+ACT-014-S01,ICT Systems Development - Sub-Activity 1,ACT-014
+ACT-014-S02,ICT Systems Development - Sub-Activity 2,ACT-014
+ACT-015-S01,ICT Infrastructure Maintenance - Sub-Activity 1,ACT-015
+ACT-015-S02,ICT Infrastructure Maintenance - Sub-Activity 2,ACT-015
+ACT-015-S03,ICT Infrastructure Maintenance - Sub-Activity 3,ACT-015
+ACT-016-S01,Cybersecurity and Data Protection - Sub-Activity 1,ACT-016
+ACT-016-S02,Cybersecurity and Data Protection - Sub-Activity 2,ACT-016
+ACT-016-S03,Cybersecurity and Data Protection - Sub-Activity 3,ACT-016
+ACT-016-S04,Cybersecurity and Data Protection - Sub-Activity 4,ACT-016
+ACT-017-S01,Legal Advisory Services - Sub-Activity 1,ACT-017
+ACT-017-S02,Legal Advisory Services - Sub-Activity 2,ACT-017
+ACT-017-S03,Legal Advisory Services - Sub-Activity 3,ACT-017
+ACT-018-S01,Contract Review and Litigation - Sub-Activity 1,ACT-018
+ACT-018-S02,Contract Review and Litigation - Sub-Activity 2,ACT-018
+ACT-019-S01,Internal Audit Programmes - Sub-Activity 1,ACT-019
+ACT-019-S02,Internal Audit Programmes - Sub-Activity 2,ACT-019
+ACT-020-S01,Risk Assessment and Management - Sub-Activity 1,ACT-020
+ACT-020-S02,Risk Assessment and Management - Sub-Activity 2,ACT-020
+ACT-020-S03,Risk Assessment and Management - Sub-Activity 3,ACT-020
+ACT-020-S04,Risk Assessment and Management - Sub-Activity 4,ACT-020
+ACT-021-S01,Public Communications - Sub-Activity 1,ACT-021
+ACT-021-S02,Public Communications - Sub-Activity 2,ACT-021
+ACT-021-S03,Public Communications - Sub-Activity 3,ACT-021
+ACT-022-S01,Stakeholder Engagement - Sub-Activity 1,ACT-022
+ACT-022-S02,Stakeholder Engagement - Sub-Activity 2,ACT-022
+ACT-022-S03,Stakeholder Engagement - Sub-Activity 3,ACT-022
+ACT-023-S01,Research and Studies - Sub-Activity 1,ACT-023
+ACT-023-S02,Research and Studies - Sub-Activity 2,ACT-023
+ACT-023-S03,Research and Studies - Sub-Activity 3,ACT-023
+ACT-024-S01,Monitoring and Evaluation - Sub-Activity 1,ACT-024
+ACT-024-S02,Monitoring and Evaluation - Sub-Activity 2,ACT-024
+ACT-025-S01,Technical Service Delivery - Sub-Activity 1,ACT-025
+ACT-025-S02,Technical Service Delivery - Sub-Activity 2,ACT-025
+ACT-026-S01,Equipment Maintenance and Repair - Sub-Activity 1,ACT-026
+ACT-026-S02,Equipment Maintenance and Repair - Sub-Activity 2,ACT-026
+ACT-026-S03,Equipment Maintenance and Repair - Sub-Activity 3,ACT-026
+ACT-027-S01,Infrastructure Construction - Sub-Activity 1,ACT-027
+ACT-027-S02,Infrastructure Construction - Sub-Activity 2,ACT-027
+ACT-028-S01,Project Management - Sub-Activity 1,ACT-028
+ACT-028-S02,Project Management - Sub-Activity 2,ACT-028
+ACT-029-S01,Regional Service Coordination - Sub-Activity 1,ACT-029
+ACT-029-S02,Regional Service Coordination - Sub-Activity 2,ACT-029
+ACT-029-S03,Regional Service Coordination - Sub-Activity 3,ACT-029
+ACT-030-S01,Community Outreach - Sub-Activity 1,ACT-030
+ACT-030-S02,Community Outreach - Sub-Activity 2,ACT-030
+ACT-031-S01,Donor Programme Implementation - Sub-Activity 1,ACT-031
+ACT-031-S02,Donor Programme Implementation - Sub-Activity 2,ACT-031
+ACT-031-S03,Donor Programme Implementation - Sub-Activity 3,ACT-031
+ACT-032-S01,Donor Reporting and Compliance - Sub-Activity 1,ACT-032
+ACT-032-S02,Donor Reporting and Compliance - Sub-Activity 2,ACT-032
+ACT-032-S03,Donor Reporting and Compliance - Sub-Activity 3,ACT-032
+ACT-033-S01,Pilot Programme Operations - Sub-Activity 1,ACT-033
+ACT-033-S02,Pilot Programme Operations - Sub-Activity 2,ACT-033
+ACT-033-S03,Pilot Programme Operations - Sub-Activity 3,ACT-033
+ACT-033-S04,Pilot Programme Operations - Sub-Activity 4,ACT-033
+ACT-034-S01,Innovation and Technology Pilots - Sub-Activity 1,ACT-034
+ACT-034-S02,Innovation and Technology Pilots - Sub-Activity 2,ACT-034
+ACT-034-S03,Innovation and Technology Pilots - Sub-Activity 3,ACT-034
+ACT-035-S01,Revenue Collection and Management - Sub-Activity 1,ACT-035
+ACT-035-S02,Revenue Collection and Management - Sub-Activity 2,ACT-035
+ACT-036-S01,Asset Management - Sub-Activity 1,ACT-036
+ACT-036-S02,Asset Management - Sub-Activity 2,ACT-036
+ACT-036-S03,Asset Management - Sub-Activity 3,ACT-036
+ACT-036-S04,Asset Management - Sub-Activity 4,ACT-036
+ACT-037-S01,Fleet Management - Sub-Activity 1,ACT-037
+ACT-037-S02,Fleet Management - Sub-Activity 2,ACT-037
+ACT-037-S03,Fleet Management - Sub-Activity 3,ACT-037
+ACT-038-S01,Facility Management - Sub-Activity 1,ACT-038
+ACT-038-S02,Facility Management - Sub-Activity 2,ACT-038
+ACT-038-S03,Facility Management - Sub-Activity 3,ACT-038
+ACT-038-S04,Facility Management - Sub-Activity 4,ACT-038
+ACT-039-S01,Security Services - Sub-Activity 1,ACT-039
+ACT-039-S02,Security Services - Sub-Activity 2,ACT-039
+ACT-040-S01,Environmental and Social Safeguards - Sub-Activity 1,ACT-040
+ACT-040-S02,Environmental and Social Safeguards - Sub-Activity 2,ACT-040
+ACT-040-S03,Environmental and Social Safeguards - Sub-Activity 3,ACT-040

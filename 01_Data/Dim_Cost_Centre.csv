@@ -1,0 +1,33 @@
+CostCentreCode,CostCentreName,DirectorateCode,DirectorateName,RegionCode,RegionName,Type
+CC-001,Office of the Chief Executive Officer - HQ,DIR-01,Office of the Chief Executive Officer,RG-01,Nairobi Region,Headquarters
+CC-002,Finance and Accounts Directorate - HQ,DIR-02,Finance and Accounts Directorate,RG-01,Nairobi Region,Headquarters
+CC-003,"Strategy, Planning and Performance Directorate - HQ",DIR-03,"Strategy, Planning and Performance Directorate",RG-01,Nairobi Region,Headquarters
+CC-004,Human Resource and Administration Directorate - HQ,DIR-04,Human Resource and Administration Directorate,RG-01,Nairobi Region,Headquarters
+CC-005,Procurement and Supply Chain Directorate - HQ,DIR-05,Procurement and Supply Chain Directorate,RG-01,Nairobi Region,Headquarters
+CC-006,Information and Communication Technology Directorate - HQ,DIR-06,Information and Communication Technology Directorate,RG-01,Nairobi Region,Headquarters
+CC-007,Legal and Corporation Secretary Directorate - HQ,DIR-07,Legal and Corporation Secretary Directorate,RG-01,Nairobi Region,Headquarters
+CC-008,Internal Audit and Risk Directorate - HQ,DIR-08,Internal Audit and Risk Directorate,RG-01,Nairobi Region,Headquarters
+CC-009,Corporate Communications and Customer Experience Directorate - HQ,DIR-09,Corporate Communications and Customer Experience Directorate,RG-01,Nairobi Region,Headquarters
+CC-010,"Research, Monitoring and Evaluation Directorate - HQ",DIR-10,"Research, Monitoring and Evaluation Directorate",RG-01,Nairobi Region,Headquarters
+CC-011,Technical Operations Directorate - HQ,DIR-11,Technical Operations Directorate,RG-01,Nairobi Region,Headquarters
+CC-012,Projects and Infrastructure Directorate - HQ,DIR-12,Projects and Infrastructure Directorate,RG-01,Nairobi Region,Headquarters
+CC-013,Regional Operations Directorate - HQ,DIR-13,Regional Operations Directorate,RG-01,Nairobi Region,Headquarters
+CC-014,Regional Office - Nairobi Region,DIR-13,Regional Operations Directorate,RG-01,Nairobi Region,Regional
+CC-015,Regional Office - Central Region,DIR-13,Regional Operations Directorate,RG-02,Central Region,Regional
+CC-016,Regional Office - Coast Region,DIR-13,Regional Operations Directorate,RG-03,Coast Region,Regional
+CC-017,Regional Office - Eastern Region,DIR-13,Regional Operations Directorate,RG-04,Eastern Region,Regional
+CC-018,Regional Office - North Eastern Region,DIR-13,Regional Operations Directorate,RG-05,North Eastern Region,Regional
+CC-019,Regional Office - Nyanza Region,DIR-13,Regional Operations Directorate,RG-06,Nyanza Region,Regional
+CC-020,Regional Office - Rift Valley Region,DIR-13,Regional Operations Directorate,RG-07,Rift Valley Region,Regional
+CC-021,Regional Office - Western Region,DIR-13,Regional Operations Directorate,RG-08,Western Region,Regional
+CC-022,Infrastructure Project Unit 01,DIR-12,Projects and Infrastructure Directorate,RG-02,Central Region,Project
+CC-023,Infrastructure Project Unit 02,DIR-12,Projects and Infrastructure Directorate,RG-01,Nairobi Region,Project
+CC-024,Infrastructure Project Unit 03,DIR-12,Projects and Infrastructure Directorate,RG-05,North Eastern Region,Project
+CC-025,Infrastructure Project Unit 04,DIR-12,Projects and Infrastructure Directorate,RG-04,Eastern Region,Project
+CC-026,Infrastructure Project Unit 05,DIR-12,Projects and Infrastructure Directorate,RG-04,Eastern Region,Project
+CC-027,Infrastructure Project Unit 06,DIR-12,Projects and Infrastructure Directorate,RG-03,Coast Region,Project
+CC-028,Infrastructure Project Unit 07,DIR-12,Projects and Infrastructure Directorate,RG-02,Central Region,Project
+CC-029,Technical Service Unit 01,DIR-11,Technical Operations Directorate,RG-02,Central Region,Technical
+CC-030,Technical Service Unit 02,DIR-11,Technical Operations Directorate,RG-07,Rift Valley Region,Technical
+CC-031,Technical Service Unit 03,DIR-11,Technical Operations Directorate,RG-01,Nairobi Region,Technical
+CC-032,Technical Service Unit 04,DIR-11,Technical Operations Directorate,RG-01,Nairobi Region,Technical

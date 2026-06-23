@@ -1,0 +1,41 @@
+ActivityCode,ActivityName,ProgrammeCode
+ACT-001,General Management and Administration,PRG-01
+ACT-002,Board and Governance Support,PRG-01
+ACT-003,Financial Accounting and Reporting,PRG-02
+ACT-004,Budget Preparation and Management,PRG-02
+ACT-005,Internal Controls and Compliance,PRG-02
+ACT-006,Strategic Planning,PRG-03
+ACT-007,Performance Monitoring and Reporting,PRG-03
+ACT-008,Staff Recruitment and Selection,PRG-04
+ACT-009,Training and Capacity Building,PRG-04
+ACT-010,Staff Welfare and Benefits,PRG-04
+ACT-011,Procurement Planning,PRG-05
+ACT-012,Tender Management,PRG-05
+ACT-013,Contract Management,PRG-05
+ACT-014,ICT Systems Development,PRG-06
+ACT-015,ICT Infrastructure Maintenance,PRG-06
+ACT-016,Cybersecurity and Data Protection,PRG-06
+ACT-017,Legal Advisory Services,PRG-07
+ACT-018,Contract Review and Litigation,PRG-07
+ACT-019,Internal Audit Programmes,PRG-08
+ACT-020,Risk Assessment and Management,PRG-08
+ACT-021,Public Communications,PRG-09
+ACT-022,Stakeholder Engagement,PRG-09
+ACT-023,Research and Studies,PRG-10
+ACT-024,Monitoring and Evaluation,PRG-10
+ACT-025,Technical Service Delivery,PRG-11
+ACT-026,Equipment Maintenance and Repair,PRG-11
+ACT-027,Infrastructure Construction,PRG-12
+ACT-028,Project Management,PRG-12
+ACT-029,Regional Service Coordination,PRG-13
+ACT-030,Community Outreach,PRG-13
+ACT-031,Donor Programme Implementation,PRG-14
+ACT-032,Donor Reporting and Compliance,PRG-14
+ACT-033,Pilot Programme Operations,PRG-15
+ACT-034,Innovation and Technology Pilots,PRG-15
+ACT-035,Revenue Collection and Management,PRG-02
+ACT-036,Asset Management,PRG-05
+ACT-037,Fleet Management,PRG-04
+ACT-038,Facility Management,PRG-01
+ACT-039,Security Services,PRG-01
+ACT-040,Environmental and Social Safeguards,PRG-12

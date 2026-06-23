@@ -1,0 +1,251 @@
+DQLogID,RecordIdentifier,Dataset,Field,IssueType,OriginalValue,CorrectedValue,CorrectionRule,ResolutionStatus,Severity,DateCorrected,FinancialYear,CorrectedByRole
+DQL-00001,REC-828537,Monthly_Budget_Allocation,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Pending,High,,FY2024/2025,Data Officer
+DQL-00002,REC-788036,Commitments,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Pending,High,2025-10-07,FY2023/2024,Data Officer
+DQL-00003,REC-942721,Budget_Reallocation,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,2025-08-06,FY2025/2026,Data Officer
+DQL-00004,REC-342149,Approved_Annual_Budget,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Pending,Medium,2026-01-04,FY2025/2026,Data Officer
+DQL-00005,REC-232979,Approved_Annual_Budget,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Pending,Critical,,FY2023/2024,Data Officer
+DQL-00006,REC-358818,Budget_Review_Requests,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,In Review,Low,2025-07-20,FY2023/2024,Data Officer
+DQL-00007,REC-446536,Budget_Reallocation,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,2025-11-12,FY2024/2025,Data Officer
+DQL-00008,REC-284453,Budget_Reallocation,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,In Review,High,,FY2023/2024,Data Officer
+DQL-00009,REC-898421,Budget_Reallocation,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Pending,Low,,FY2025/2026,Data Officer
+DQL-00010,REC-790842,Approved_Annual_Budget,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,,FY2023/2024,Data Officer
+DQL-00011,REC-307935,Budget_Reallocation,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,In Review,High,,FY2023/2024,Data Officer
+DQL-00012,REC-248682,Approved_Annual_Budget,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,2026-04-16,FY2025/2026,Data Officer
+DQL-00013,REC-484515,Budget_Review_Requests,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,2025-12-25,FY2025/2026,Data Officer
+DQL-00014,REC-745554,Budget_Review_Requests,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,2026-02-18,FY2023/2024,Data Officer
+DQL-00015,REC-732902,Monthly_Budget_Allocation,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2026-04-23,FY2025/2026,Data Officer
+DQL-00016,REC-573198,Monthly_Budget_Allocation,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Pending,High,2025-11-17,FY2023/2024,Data Officer
+DQL-00017,REC-544560,Expenditure_Transactions,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,In Review,High,2025-12-12,FY2024/2025,Data Officer
+DQL-00018,REC-749859,Approved_Annual_Budget,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,Pending,Critical,2025-07-31,FY2023/2024,Data Officer
+DQL-00019,REC-618186,Budget_Reallocation,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,In Review,Low,,FY2023/2024,Data Officer
+DQL-00020,REC-641388,Pending_Bills,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Pending,High,,FY2025/2026,Data Officer
+DQL-00021,REC-758749,Expenditure_Transactions,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,,FY2024/2025,Data Officer
+DQL-00022,REC-995095,Budget_Review_Requests,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2025-09-20,FY2023/2024,Data Officer
+DQL-00023,REC-545081,Monthly_Budget_Allocation,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,2025-07-31,FY2023/2024,Data Officer
+DQL-00024,REC-536102,Budget_Reallocation,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Pending,Critical,2025-12-23,FY2025/2026,Data Officer
+DQL-00025,REC-264866,Budget_Reallocation,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Pending,Medium,2025-10-30,FY2025/2026,Data Officer
+DQL-00026,REC-135267,Expenditure_Transactions,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,In Review,High,2025-08-23,FY2025/2026,Data Officer
+DQL-00027,REC-673067,Budget_Review_Requests,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,,FY2023/2024,Data Officer
+DQL-00028,REC-228689,Monthly_Budget_Allocation,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,,FY2024/2025,Data Officer
+DQL-00029,REC-250648,Budget_Review_Requests,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Resolved,High,2025-12-27,FY2025/2026,Data Officer
+DQL-00030,REC-426052,Pending_Bills,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,2025-12-31,FY2024/2025,Data Officer
+DQL-00031,REC-665411,Approved_Annual_Budget,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Pending,High,2026-02-20,FY2024/2025,Data Officer
+DQL-00032,REC-491520,Pending_Bills,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Pending,High,,FY2024/2025,Data Officer
+DQL-00033,REC-656276,Monthly_Budget_Allocation,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Resolved,Critical,2025-10-01,FY2023/2024,Data Officer
+DQL-00034,REC-379940,Commitments,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,,FY2025/2026,Data Officer
+DQL-00035,REC-120789,Commitments,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,In Review,Low,2025-07-06,FY2023/2024,Data Officer
+DQL-00036,REC-204175,Pending_Bills,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2025-10-08,FY2023/2024,Data Officer
+DQL-00037,REC-761803,Expenditure_Transactions,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,,FY2023/2024,Data Officer
+DQL-00038,REC-285422,Commitments,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2025-11-06,FY2024/2025,Data Officer
+DQL-00039,REC-635217,Commitments,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,,FY2023/2024,Data Officer
+DQL-00040,REC-163322,Budget_Reallocation,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Pending,High,2025-12-28,FY2023/2024,Data Officer
+DQL-00041,REC-720789,Approved_Annual_Budget,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Resolved,Medium,2026-03-31,FY2023/2024,Data Officer
+DQL-00042,REC-893078,Pending_Bills,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Pending,Medium,2026-02-27,FY2025/2026,Data Officer
+DQL-00043,REC-207415,Monthly_Budget_Allocation,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,2026-03-31,FY2025/2026,Data Officer
+DQL-00044,REC-254504,Monthly_Budget_Allocation,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,,FY2025/2026,Data Officer
+DQL-00045,REC-615197,Budget_Review_Requests,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Pending,High,2025-07-19,FY2025/2026,Data Officer
+DQL-00046,REC-434048,Budget_Review_Requests,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,,FY2023/2024,Data Officer
+DQL-00047,REC-542599,Commitments,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Resolved,High,,FY2023/2024,Data Officer
+DQL-00048,REC-756032,Expenditure_Transactions,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2026-01-29,FY2025/2026,Data Officer
+DQL-00049,REC-898976,Expenditure_Transactions,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Pending,High,,FY2023/2024,Data Officer
+DQL-00050,REC-577074,Commitments,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,Resolved,Critical,2025-08-26,FY2024/2025,Data Officer
+DQL-00051,REC-436598,Expenditure_Transactions,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2025-08-10,FY2025/2026,Data Officer
+DQL-00052,REC-670371,Pending_Bills,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Resolved,High,2026-04-03,FY2025/2026,Data Officer
+DQL-00053,REC-911516,Pending_Bills,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Resolved,High,2025-11-04,FY2024/2025,Data Officer
+DQL-00054,REC-541528,Approved_Annual_Budget,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,,FY2023/2024,Data Officer
+DQL-00055,REC-744263,Commitments,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2026-02-18,FY2025/2026,Data Officer
+DQL-00056,REC-776766,Commitments,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Resolved,Medium,2025-09-07,FY2025/2026,Data Officer
+DQL-00057,REC-460680,Budget_Review_Requests,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2026-03-03,FY2023/2024,Data Officer
+DQL-00058,REC-883159,Budget_Reallocation,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,2026-04-16,FY2023/2024,Data Officer
+DQL-00059,REC-226198,Pending_Bills,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2025-10-27,FY2024/2025,Data Officer
+DQL-00060,REC-405670,Monthly_Budget_Allocation,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,2025-08-15,FY2024/2025,Data Officer
+DQL-00061,REC-175958,Expenditure_Transactions,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,2025-12-30,FY2023/2024,Data Officer
+DQL-00062,REC-218218,Pending_Bills,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Resolved,High,,FY2025/2026,Data Officer
+DQL-00063,REC-625555,Expenditure_Transactions,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Resolved,High,,FY2025/2026,Data Officer
+DQL-00064,REC-707179,Commitments,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Pending,High,2026-05-26,FY2023/2024,Data Officer
+DQL-00065,REC-611953,Budget_Reallocation,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,Pending,Critical,2026-03-06,FY2024/2025,Data Officer
+DQL-00066,REC-244147,Expenditure_Transactions,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2026-03-23,FY2025/2026,Data Officer
+DQL-00067,REC-107887,Expenditure_Transactions,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,In Review,Medium,,FY2024/2025,Data Officer
+DQL-00068,REC-471140,Expenditure_Transactions,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Pending,High,2025-09-26,FY2023/2024,Data Officer
+DQL-00069,REC-428200,Commitments,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,2026-03-23,FY2025/2026,Data Officer
+DQL-00070,REC-890617,Expenditure_Transactions,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Resolved,High,2025-11-14,FY2025/2026,Data Officer
+DQL-00071,REC-927463,Monthly_Budget_Allocation,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,,FY2023/2024,Data Officer
+DQL-00072,REC-794716,Expenditure_Transactions,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,2026-03-08,FY2023/2024,Data Officer
+DQL-00073,REC-957568,Monthly_Budget_Allocation,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2025-10-24,FY2025/2026,Data Officer
+DQL-00074,REC-611286,Budget_Review_Requests,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,In Review,High,2026-03-12,FY2025/2026,Data Officer
+DQL-00075,REC-179592,Approved_Annual_Budget,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,,FY2024/2025,Data Officer
+DQL-00076,REC-670869,Budget_Reallocation,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Resolved,High,2025-09-01,FY2023/2024,Data Officer
+DQL-00077,REC-501904,Monthly_Budget_Allocation,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Resolved,High,2025-12-17,FY2023/2024,Data Officer
+DQL-00078,REC-349338,Approved_Annual_Budget,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,,FY2024/2025,Data Officer
+DQL-00079,REC-498650,Approved_Annual_Budget,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Pending,High,2026-04-27,FY2023/2024,Data Officer
+DQL-00080,REC-304661,Budget_Reallocation,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,,FY2023/2024,Data Officer
+DQL-00081,REC-177209,Expenditure_Transactions,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,In Review,High,2026-01-16,FY2025/2026,Data Officer
+DQL-00082,REC-745945,Approved_Annual_Budget,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,,FY2023/2024,Data Officer
+DQL-00083,REC-346307,Monthly_Budget_Allocation,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,,FY2025/2026,Data Officer
+DQL-00084,REC-444704,Budget_Review_Requests,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,In Review,Medium,,FY2025/2026,Data Officer
+DQL-00085,REC-892997,Budget_Reallocation,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,Resolved,Critical,2025-11-06,FY2025/2026,Data Officer
+DQL-00086,REC-332935,Commitments,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,2026-04-19,FY2025/2026,Data Officer
+DQL-00087,REC-573147,Budget_Reallocation,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Resolved,Medium,2026-05-23,FY2025/2026,Data Officer
+DQL-00088,REC-643081,Commitments,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,In Review,Critical,2026-01-18,FY2024/2025,Data Officer
+DQL-00089,REC-700612,Pending_Bills,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2025-11-22,FY2023/2024,Data Officer
+DQL-00090,REC-624235,Budget_Reallocation,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2026-05-18,FY2024/2025,Data Officer
+DQL-00091,REC-470931,Budget_Review_Requests,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Pending,High,,FY2024/2025,Data Officer
+DQL-00092,REC-436603,Pending_Bills,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Pending,Low,2026-04-02,FY2023/2024,Data Officer
+DQL-00093,REC-461553,Budget_Review_Requests,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2025-10-07,FY2025/2026,Data Officer
+DQL-00094,REC-756703,Expenditure_Transactions,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,,FY2023/2024,Data Officer
+DQL-00095,REC-343199,Pending_Bills,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,2025-07-30,FY2023/2024,Data Officer
+DQL-00096,REC-509531,Expenditure_Transactions,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Pending,High,2026-05-05,FY2024/2025,Data Officer
+DQL-00097,REC-835492,Commitments,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2025-09-12,FY2024/2025,Data Officer
+DQL-00098,REC-691497,Pending_Bills,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Pending,Critical,,FY2025/2026,Data Officer
+DQL-00099,REC-697196,Commitments,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,,FY2023/2024,Data Officer
+DQL-00100,REC-496365,Budget_Reallocation,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Resolved,High,2025-09-03,FY2024/2025,Data Officer
+DQL-00101,REC-291727,Budget_Reallocation,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Resolved,High,2025-09-26,FY2024/2025,Data Officer
+DQL-00102,REC-270368,Expenditure_Transactions,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,,FY2024/2025,Data Officer
+DQL-00103,REC-183184,Commitments,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,2025-09-12,FY2023/2024,Data Officer
+DQL-00104,REC-339638,Approved_Annual_Budget,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2026-02-19,FY2023/2024,Data Officer
+DQL-00105,REC-661818,Expenditure_Transactions,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,,FY2025/2026,Data Officer
+DQL-00106,REC-806937,Approved_Annual_Budget,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2025-09-29,FY2025/2026,Data Officer
+DQL-00107,REC-319983,Approved_Annual_Budget,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2026-04-02,FY2025/2026,Data Officer
+DQL-00108,REC-704828,Budget_Review_Requests,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,,FY2025/2026,Data Officer
+DQL-00109,REC-736470,Pending_Bills,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,,FY2024/2025,Data Officer
+DQL-00110,REC-608983,Pending_Bills,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Pending,Critical,,FY2025/2026,Data Officer
+DQL-00111,REC-673074,Budget_Reallocation,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Resolved,Medium,,FY2025/2026,Data Officer
+DQL-00112,REC-137700,Monthly_Budget_Allocation,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Pending,High,2025-07-06,FY2025/2026,Data Officer
+DQL-00113,REC-793182,Expenditure_Transactions,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Pending,Low,,FY2024/2025,Data Officer
+DQL-00114,REC-864703,Budget_Reallocation,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2025-09-30,FY2024/2025,Data Officer
+DQL-00115,REC-342007,Budget_Reallocation,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2026-02-14,FY2024/2025,Data Officer
+DQL-00116,REC-941209,Approved_Annual_Budget,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Resolved,High,,FY2023/2024,Data Officer
+DQL-00117,REC-519556,Expenditure_Transactions,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2026-02-11,FY2024/2025,Data Officer
+DQL-00118,REC-604682,Monthly_Budget_Allocation,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,2026-03-13,FY2025/2026,Data Officer
+DQL-00119,REC-892675,Approved_Annual_Budget,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2026-03-02,FY2023/2024,Data Officer
+DQL-00120,REC-759239,Pending_Bills,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,In Review,High,,FY2023/2024,Data Officer
+DQL-00121,REC-803908,Expenditure_Transactions,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2026-05-01,FY2024/2025,Data Officer
+DQL-00122,REC-661044,Budget_Reallocation,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Pending,Critical,2025-10-24,FY2023/2024,Data Officer
+DQL-00123,REC-258079,Approved_Annual_Budget,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,,FY2023/2024,Data Officer
+DQL-00124,REC-480220,Pending_Bills,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Pending,High,2025-07-07,FY2023/2024,Data Officer
+DQL-00125,REC-777387,Commitments,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Resolved,High,2025-11-22,FY2023/2024,Data Officer
+DQL-00126,REC-122514,Pending_Bills,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Pending,High,2026-01-27,FY2025/2026,Data Officer
+DQL-00127,REC-257220,Expenditure_Transactions,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,In Review,Low,2025-07-30,FY2023/2024,Data Officer
+DQL-00128,REC-225236,Budget_Review_Requests,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,In Review,Medium,,FY2023/2024,Data Officer
+DQL-00129,REC-162130,Approved_Annual_Budget,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,2025-08-06,FY2023/2024,Data Officer
+DQL-00130,REC-601968,Expenditure_Transactions,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Pending,High,2025-07-28,FY2023/2024,Data Officer
+DQL-00131,REC-597160,Commitments,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Pending,Medium,2025-07-08,FY2024/2025,Data Officer
+DQL-00132,REC-679106,Pending_Bills,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,,FY2024/2025,Data Officer
+DQL-00133,REC-879864,Budget_Review_Requests,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2026-02-10,FY2023/2024,Data Officer
+DQL-00134,REC-451533,Expenditure_Transactions,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2025-09-09,FY2023/2024,Data Officer
+DQL-00135,REC-402962,Budget_Review_Requests,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,,FY2023/2024,Data Officer
+DQL-00136,REC-218922,Expenditure_Transactions,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Pending,High,2025-10-27,FY2023/2024,Data Officer
+DQL-00137,REC-228616,Expenditure_Transactions,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Resolved,High,2026-05-24,FY2025/2026,Data Officer
+DQL-00138,REC-177833,Budget_Review_Requests,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2025-11-01,FY2024/2025,Data Officer
+DQL-00139,REC-425603,Approved_Annual_Budget,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Resolved,Critical,2026-04-20,FY2025/2026,Data Officer
+DQL-00140,REC-880373,Commitments,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2026-01-16,FY2023/2024,Data Officer
+DQL-00141,REC-679448,Monthly_Budget_Allocation,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,,FY2024/2025,Data Officer
+DQL-00142,REC-828194,Commitments,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2026-02-21,FY2023/2024,Data Officer
+DQL-00143,REC-688625,Pending_Bills,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,2026-01-11,FY2023/2024,Data Officer
+DQL-00144,REC-142272,Commitments,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,,FY2024/2025,Data Officer
+DQL-00145,REC-315259,Pending_Bills,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,In Review,Medium,,FY2024/2025,Data Officer
+DQL-00146,REC-154540,Budget_Review_Requests,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2025-10-23,FY2023/2024,Data Officer
+DQL-00147,REC-667952,Pending_Bills,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,In Review,High,,FY2023/2024,Data Officer
+DQL-00148,REC-569438,Approved_Annual_Budget,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Resolved,High,,FY2023/2024,Data Officer
+DQL-00149,REC-433190,Monthly_Budget_Allocation,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,,FY2024/2025,Data Officer
+DQL-00150,REC-827053,Pending_Bills,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Pending,High,2026-02-28,FY2025/2026,Data Officer
+DQL-00151,REC-457877,Approved_Annual_Budget,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,,FY2025/2026,Data Officer
+DQL-00152,REC-663111,Approved_Annual_Budget,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,,FY2024/2025,Data Officer
+DQL-00153,REC-784741,Commitments,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Pending,High,,FY2025/2026,Data Officer
+DQL-00154,REC-685908,Budget_Review_Requests,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2025-09-26,FY2023/2024,Data Officer
+DQL-00155,REC-541685,Pending_Bills,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2026-01-11,FY2025/2026,Data Officer
+DQL-00156,REC-182510,Budget_Reallocation,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Pending,High,,FY2024/2025,Data Officer
+DQL-00157,REC-582737,Commitments,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,Resolved,Critical,2025-12-17,FY2024/2025,Data Officer
+DQL-00158,REC-236794,Expenditure_Transactions,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Pending,Critical,,FY2024/2025,Data Officer
+DQL-00159,REC-914105,Pending_Bills,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Pending,Medium,,FY2023/2024,Data Officer
+DQL-00160,REC-856563,Approved_Annual_Budget,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,,FY2023/2024,Data Officer
+DQL-00161,REC-197365,Monthly_Budget_Allocation,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2026-04-09,FY2025/2026,Data Officer
+DQL-00162,REC-291359,Budget_Review_Requests,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2026-03-27,FY2023/2024,Data Officer
+DQL-00163,REC-309545,Budget_Reallocation,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Pending,Low,,FY2024/2025,Data Officer
+DQL-00164,REC-199110,Expenditure_Transactions,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2025-07-16,FY2025/2026,Data Officer
+DQL-00165,REC-752511,Approved_Annual_Budget,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,,FY2023/2024,Data Officer
+DQL-00166,REC-500003,Monthly_Budget_Allocation,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,2025-09-24,FY2025/2026,Data Officer
+DQL-00167,REC-117260,Approved_Annual_Budget,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,,FY2025/2026,Data Officer
+DQL-00168,REC-762307,Monthly_Budget_Allocation,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,2025-12-29,FY2023/2024,Data Officer
+DQL-00169,REC-765695,Budget_Review_Requests,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2025-07-06,FY2025/2026,Data Officer
+DQL-00170,REC-369454,Commitments,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,2025-09-05,FY2025/2026,Data Officer
+DQL-00171,REC-650635,Budget_Review_Requests,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,2026-03-20,FY2024/2025,Data Officer
+DQL-00172,REC-456237,Expenditure_Transactions,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,2025-07-03,FY2025/2026,Data Officer
+DQL-00173,REC-154655,Expenditure_Transactions,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Pending,Medium,2025-09-01,FY2024/2025,Data Officer
+DQL-00174,REC-711926,Budget_Reallocation,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Pending,High,,FY2024/2025,Data Officer
+DQL-00175,REC-523860,Approved_Annual_Budget,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Pending,Medium,2025-09-25,FY2023/2024,Data Officer
+DQL-00176,REC-763703,Expenditure_Transactions,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,,FY2024/2025,Data Officer
+DQL-00177,REC-947791,Monthly_Budget_Allocation,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,In Review,Critical,,FY2025/2026,Data Officer
+DQL-00178,REC-788373,Budget_Review_Requests,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Pending,High,2025-07-15,FY2024/2025,Data Officer
+DQL-00179,REC-476150,Monthly_Budget_Allocation,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2025-09-19,FY2025/2026,Data Officer
+DQL-00180,REC-531453,Commitments,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,2026-03-21,FY2023/2024,Data Officer
+DQL-00181,REC-658875,Commitments,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Pending,Medium,2025-11-01,FY2024/2025,Data Officer
+DQL-00182,REC-294483,Budget_Reallocation,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,In Review,Critical,2026-02-21,FY2024/2025,Data Officer
+DQL-00183,REC-237059,Commitments,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,In Review,Medium,2026-02-13,FY2023/2024,Data Officer
+DQL-00184,REC-787954,Monthly_Budget_Allocation,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Resolved,Critical,,FY2023/2024,Data Officer
+DQL-00185,REC-888306,Approved_Annual_Budget,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,,FY2025/2026,Data Officer
+DQL-00186,REC-306526,Budget_Reallocation,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2025-08-19,FY2025/2026,Data Officer
+DQL-00187,REC-810131,Pending_Bills,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,In Review,Critical,,FY2025/2026,Data Officer
+DQL-00188,REC-515566,Pending_Bills,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Pending,High,2026-03-08,FY2024/2025,Data Officer
+DQL-00189,REC-645508,Budget_Reallocation,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,2026-04-23,FY2023/2024,Data Officer
+DQL-00190,REC-490083,Approved_Annual_Budget,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2025-08-16,FY2023/2024,Data Officer
+DQL-00191,REC-814598,Commitments,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,,FY2025/2026,Data Officer
+DQL-00192,REC-549627,Pending_Bills,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,In Review,Low,,FY2024/2025,Data Officer
+DQL-00193,REC-821506,Budget_Reallocation,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,2026-02-19,FY2023/2024,Data Officer
+DQL-00194,REC-349434,Pending_Bills,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Pending,High,,FY2024/2025,Data Officer
+DQL-00195,REC-732744,Approved_Annual_Budget,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Pending,Critical,,FY2023/2024,Data Officer
+DQL-00196,REC-909312,Expenditure_Transactions,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,Pending,Critical,2025-07-09,FY2023/2024,Data Officer
+DQL-00197,REC-611523,Expenditure_Transactions,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Resolved,Medium,,FY2023/2024,Data Officer
+DQL-00198,REC-570967,Budget_Review_Requests,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,2026-05-02,FY2023/2024,Data Officer
+DQL-00199,REC-899434,Budget_Reallocation,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,2025-07-29,FY2025/2026,Data Officer
+DQL-00200,REC-551863,Approved_Annual_Budget,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Pending,Medium,,FY2024/2025,Data Officer
+DQL-00201,REC-197948,Budget_Review_Requests,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Pending,High,,FY2024/2025,Data Officer
+DQL-00202,REC-264850,Pending_Bills,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,,FY2023/2024,Data Officer
+DQL-00203,REC-300139,Budget_Review_Requests,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,,FY2025/2026,Data Officer
+DQL-00204,REC-692490,Approved_Annual_Budget,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,2025-08-11,FY2025/2026,Data Officer
+DQL-00205,REC-217361,Budget_Reallocation,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Resolved,Critical,2025-08-06,FY2023/2024,Data Officer
+DQL-00206,REC-167216,Approved_Annual_Budget,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Pending,High,2025-08-15,FY2023/2024,Data Officer
+DQL-00207,REC-447292,Monthly_Budget_Allocation,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Pending,High,,FY2025/2026,Data Officer
+DQL-00208,REC-225277,Pending_Bills,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,2025-07-28,FY2025/2026,Data Officer
+DQL-00209,REC-205756,Pending_Bills,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2026-02-11,FY2023/2024,Data Officer
+DQL-00210,REC-552550,Approved_Annual_Budget,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2025-10-24,FY2023/2024,Data Officer
+DQL-00211,REC-985127,Approved_Annual_Budget,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Pending,High,2026-02-22,FY2025/2026,Data Officer
+DQL-00212,REC-725187,Monthly_Budget_Allocation,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,,FY2024/2025,Data Officer
+DQL-00213,REC-634131,Monthly_Budget_Allocation,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Resolved,Medium,,FY2024/2025,Data Officer
+DQL-00214,REC-890495,Commitments,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,,FY2024/2025,Data Officer
+DQL-00215,REC-580588,Approved_Annual_Budget,FundSourceName,Different Capitalisation,government of kenya - recurrent,Government of Kenya - Recurrent,Apply title case,Resolved,Low,,FY2025/2026,Data Officer
+DQL-00216,REC-115709,Commitments,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Resolved,High,,FY2025/2026,Data Officer
+DQL-00217,REC-399690,Pending_Bills,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Pending,High,,FY2023/2024,Data Officer
+DQL-00218,REC-112325,Monthly_Budget_Allocation,ProcessedAmount,Processed Amount Exceeds Approved,3200000 > 3000000,3000000,Cap at approved amount,Resolved,Critical,2026-04-18,FY2024/2025,Data Officer
+DQL-00219,REC-818314,Budget_Review_Requests,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,2026-04-04,FY2023/2024,Data Officer
+DQL-00220,REC-543265,Pending_Bills,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,In Review,High,2025-10-22,FY2023/2024,Data Officer
+DQL-00221,REC-215062,Pending_Bills,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Resolved,High,,FY2023/2024,Data Officer
+DQL-00222,REC-207069,Pending_Bills,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Resolved,High,2025-09-21,FY2025/2026,Data Officer
+DQL-00223,REC-822102,Pending_Bills,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,2025-09-03,FY2023/2024,Data Officer
+DQL-00224,REC-557254,Pending_Bills,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Pending,Medium,2026-04-18,FY2023/2024,Data Officer
+DQL-00225,REC-581643,Budget_Review_Requests,DonorName,Inconsistent Donor Name,world bank,World Bank,Standardise to proper noun,Resolved,Medium,2025-07-08,FY2025/2026,Data Officer
+DQL-00226,REC-162286,Approved_Annual_Budget,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Resolved,High,2025-12-26,FY2025/2026,Data Officer
+DQL-00227,REC-204790,Budget_Review_Requests,TransactionDate,Invalid Date,2024-13-01,2024-01-13,Correct transposed date,Resolved,High,2025-10-05,FY2024/2025,Data Officer
+DQL-00228,REC-824155,Commitments,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Pending,Medium,2026-02-26,FY2023/2024,Data Officer
+DQL-00229,REC-252328,Pending_Bills,RequestID,Duplicate Budget Request,RQT-000123 x2,RQT-000123-A,Rename duplicate,Resolved,Medium,,FY2025/2026,Data Officer
+DQL-00230,REC-283272,Expenditure_Transactions,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,In Review,Critical,2025-11-20,FY2024/2025,Data Officer
+DQL-00231,REC-939523,Budget_Reallocation,ApprovedByRole,Blank Approval Field,,Head of Budget,Populate from workflow,Pending,Medium,,FY2025/2026,Data Officer
+DQL-00232,REC-922176,Monthly_Budget_Allocation,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,2026-01-19,FY2025/2026,Data Officer
+DQL-00233,REC-271124,Approved_Annual_Budget,MonthlyAllocationAmount,Monthly Allocation Mismatch,Sum=1410000,1400000,Rebalance to annual total,Resolved,High,2026-04-25,FY2024/2025,Data Officer
+DQL-00234,REC-252188,Commitments,RegionCode,Inconsistent Region Name,nairobi region,RG-01,Standardise to uppercase code,Resolved,Medium,2026-03-04,FY2024/2025,Data Officer
+DQL-00235,REC-394831,Expenditure_Transactions,CostCentreCode,Missing Cost Centre Code,,CC-XXX,Replace with default Unknown CC,Pending,High,2025-11-21,FY2024/2025,Data Officer
+DQL-00236,REC-175501,Budget_Review_Requests,SupportingDocumentStatus,Missing Supporting Document,Missing,Obtained,Attach document,Resolved,High,2025-12-15,FY2024/2025,Data Officer
+DQL-00237,REC-518818,Approved_Annual_Budget,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Resolved,Critical,,FY2024/2025,Data Officer
+DQL-00238,REC-778246,Approved_Annual_Budget,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Resolved,Critical,2026-05-14,FY2024/2025,Data Officer
+DQL-00239,REC-847121,Commitments,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Resolved,High,2026-04-03,FY2024/2025,Data Officer
+DQL-00240,REC-999866,Pending_Bills,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,2025-08-02,FY2025/2026,Data Officer
+DQL-00241,REC-608270,Expenditure_Transactions,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Pending,High,2025-08-04,FY2024/2025,Data Officer
+DQL-00242,REC-203982,Expenditure_Transactions,GrossAmount,Incorrect Data Type,One million,1000000,Convert text to numeric,Resolved,Critical,,FY2023/2024,Data Officer
+DQL-00243,REC-589178,Budget_Review_Requests,NetAmount,Negative Expenditure Amount,-150000,150000,Correct sign,Resolved,Critical,2026-04-22,FY2025/2026,Data Officer
+DQL-00244,REC-466546,Budget_Reallocation,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,2025-08-17,FY2024/2025,Data Officer
+DQL-00245,REC-615425,Pending_Bills,DirectorateCode,Leading Trailing Space, DIR-02 ,DIR-02,Trim whitespace,Resolved,Low,2025-08-22,FY2025/2026,Data Officer
+DQL-00246,REC-790650,Approved_Annual_Budget,ActivityCode,Unmatched Lookup Code,ACT-999,,Remove or map to valid activity,Pending,High,,FY2023/2024,Data Officer
+DQL-00247,REC-320886,Budget_Reallocation,FinancialYear,Incorrect Financial Year,FY2024/2025,FY2025/2026,Reassign to correct FY,Pending,High,2026-02-16,FY2023/2024,Data Officer
+DQL-00248,REC-844159,Budget_Reallocation,ApprovedAnnualAmount,Formula Error,#REF!,2500000,Recalculate from source,Pending,High,,FY2025/2026,Data Officer
+DQL-00249,REC-496393,Budget_Reallocation,TransactionID,Duplicate Transaction Reference,TXN-0001234,TXN-0001234-DUP,Deduplicate and retain first occurrence,Resolved,Critical,2025-07-06,FY2023/2024,Data Officer
+DQL-00250,REC-487137,Commitments,VoteCode,Missing Vote Code,,V-9999,Replace with Unclassified vote,Resolved,High,,FY2025/2026,Data Officer

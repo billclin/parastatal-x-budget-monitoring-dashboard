@@ -1,0 +1,36 @@
+VoteCode,VoteDescription,EconomicType,EconomicClassification
+V-2110,Basic Salaries - Permanent,Recurrent,Personnel Emoluments
+V-2120,Basic Salaries - Temporary,Recurrent,Personnel Emoluments
+V-2210,Travel and Accommodation,Recurrent,Operations and Maintenance
+V-2211,Domestic Travel,Recurrent,Operations and Maintenance
+V-2212,International Travel,Recurrent,Operations and Maintenance
+V-2220,"Communication, Supplies and Services",Recurrent,Operations and Maintenance
+V-2230,Domestic Utilities,Recurrent,Operations and Maintenance
+V-2240,Rentals of Produced Assets,Recurrent,Operations and Maintenance
+V-2250,Repairs and Maintenance,Recurrent,Operations and Maintenance
+V-2310,Training Expenses,Recurrent,Operations and Maintenance
+V-2330,Advertising and Public Relations,Recurrent,Operations and Maintenance
+V-2340,"Research, Consultancy and Surveys",Recurrent,Operations and Maintenance
+V-2360,Fuel and Lubricants,Recurrent,Operations and Maintenance
+V-2380,Insurance,Recurrent,Operations and Maintenance
+V-2390,Other Operating Expenses,Recurrent,Operations and Maintenance
+V-2510,Purchase of Office Furniture,Development,Acquisition of Assets
+V-2520,Purchase of ICT Equipment,Development,Acquisition of Assets
+V-2530,Purchase of Vehicles,Development,Acquisition of Assets
+V-2540,Purchase of Specialised Equipment,Development,Acquisition of Assets
+V-3110,Construction of Buildings,Development,Capital Expenditure
+V-3120,Rehabilitation of Buildings,Development,Capital Expenditure
+V-3130,Road and Civil Works,Development,Capital Expenditure
+V-3140,Borehole and Water Works,Development,Capital Expenditure
+V-2410,Allowances,Recurrent,Personnel Emoluments
+V-2420,Leave Passage,Recurrent,Personnel Emoluments
+V-2430,Medical Insurance,Recurrent,Personnel Emoluments
+V-2440,NSSF Employer Contributions,Recurrent,Personnel Emoluments
+V-2450,Gratuity and Leave Commutation,Recurrent,Personnel Emoluments
+V-2460,Pension Contributions,Recurrent,Personnel Emoluments
+V-4110,Donor Technical Assistance,Donor,Donor Expenditure
+V-4120,Donor Capital Grants,Donor,Donor Expenditure
+V-4130,Donor Operational Grants,Donor,Donor Expenditure
+V-5110,AIA - Service Fee Revenue,AIA,Appropriations-in-Aid
+V-5120,AIA - Licensing Revenue,AIA,Appropriations-in-Aid
+V-5130,AIA - Training Revenue,AIA,Appropriations-in-Aid

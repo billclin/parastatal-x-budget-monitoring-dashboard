@@ -1,0 +1,1141 @@
+RevenueTransactionID,FinancialYear,TransactionDate,RegionCode,RevenueCentre,RevenueStream,CustomerCategory,ReceiptReference,BudgetedRevenue,ActualRevenue,Variance,CollectionChannel,ReconciliationStatus,BankingDate,DaysToBank,ResponsibleRole,ExceptionFlag,Month,FYMonthNumber
+REV-000001,FY2023/2024,2024-04-09,RG-01,CC-003,Certification Fees,International Organisation,RCP-400077,622000,440000,-182000,MPESA,Reconciled,2024-04-13,4,Revenue Manager,No,April,10
+REV-000002,FY2023/2024,2024-03-08,RG-01,CC-003,Facility Hire,Government Agency,RCP-985534,748000,861000,113000,Online Portal,Reconciled,2024-03-10,2,Revenue Manager,No,March,9
+REV-000003,FY2023/2024,2023-07-06,RG-04,CC-026,Inspection Fees,NGO,RCP-778472,633000,567000,-66000,Bank Transfer,Reconciled,2023-07-16,10,Revenue Manager,Yes,July,1
+REV-000004,FY2023/2024,2024-02-15,RG-02,CC-015,Service Fees,Individual,RCP-754289,155000,131000,-24000,Cash,Reconciled,2024-02-23,8,Revenue Manager,Yes,February,8
+REV-000005,FY2023/2024,2024-01-10,RG-03,CC-016,Certification Fees,NGO,RCP-150163,353000,312000,-41000,Online Portal,Reconciled,2024-01-14,4,Revenue Manager,No,January,7
+REV-000006,FY2023/2024,2023-12-01,RG-04,CC-017,Consultancy Income,Government Agency,RCP-989653,567000,643000,76000,Cash,Reconciled,2023-12-15,14,Revenue Manager,Yes,December,6
+REV-000007,FY2023/2024,2023-09-23,RG-03,CC-027,Training Fees,Private Company,RCP-611715,687000,571000,-116000,Bank Transfer,Reconciled,2023-10-02,9,Revenue Manager,Yes,September,3
+REV-000008,FY2023/2024,2023-09-21,RG-01,CC-011,Inspection Fees,Private Company,RCP-398256,545000,414000,-131000,Bank Transfer,Reconciled,2023-10-04,13,Revenue Manager,Yes,September,3
+REV-000009,FY2023/2024,2023-11-08,RG-01,CC-031,Licensing Fees,Private Company,RCP-487232,415000,287000,-128000,Bank Transfer,Reconciled,2023-11-12,4,Revenue Manager,No,November,5
+REV-000010,FY2023/2024,2024-02-03,RG-07,CC-020,Publication Sales,Individual,RCP-404672,671000,556000,-115000,Cheque,Reconciled,2024-02-08,5,Revenue Manager,No,February,8
+REV-000011,FY2023/2024,2024-01-02,RG-02,CC-022,Training Fees,Private Company,RCP-620694,455000,366000,-89000,Online Portal,Reconciled,2024-01-12,10,Revenue Manager,Yes,January,7
+REV-000012,FY2023/2024,2024-02-05,RG-01,CC-011,Training Fees,International Organisation,RCP-795839,433000,410000,-23000,Online Portal,Reconciled,2024-02-05,0,Revenue Manager,No,February,8
+REV-000013,FY2023/2024,2024-05-18,RG-01,CC-011,Certification Fees,Individual,RCP-742446,180000,154000,-26000,Cheque,Reconciled,2024-05-19,1,Revenue Manager,No,May,11
+REV-000014,FY2023/2024,2023-08-01,RG-03,CC-027,Service Fees,Government Agency,RCP-223735,365000,357000,-8000,Bank Transfer,Reconciled,2023-08-15,14,Revenue Manager,Yes,August,2
+REV-000015,FY2023/2024,2023-09-11,RG-08,CC-021,Facility Hire,Individual,RCP-483747,524000,451000,-73000,Bank Transfer,Reconciled,2023-09-24,13,Revenue Manager,Yes,September,3
+REV-000016,FY2023/2024,2024-05-05,RG-01,CC-031,Service Fees,Individual,RCP-518151,234000,266000,32000,Cheque,Unreconciled,2024-05-18,13,Revenue Manager,Yes,May,11
+REV-000017,FY2023/2024,2024-02-16,RG-01,CC-013,Service Fees,NGO,RCP-867548,432000,373000,-59000,Cash,Reconciled,2024-02-20,4,Revenue Manager,No,February,8
+REV-000018,FY2023/2024,2023-09-20,RG-01,CC-008,Publication Sales,NGO,RCP-430840,413000,406000,-7000,Online Portal,Reconciled,2023-09-24,4,Revenue Manager,No,September,3
+REV-000019,FY2023/2024,2024-02-18,RG-01,CC-032,Service Fees,Private Company,RCP-973571,485000,476000,-9000,MPESA,Unreconciled,2024-02-22,4,Revenue Manager,No,February,8
+REV-000020,FY2023/2024,2024-01-30,RG-03,CC-016,Service Fees,Individual,RCP-280878,585000,712000,127000,Cheque,Reconciled,2024-02-11,12,Revenue Manager,Yes,January,7
+REV-000021,FY2023/2024,2023-07-27,RG-06,CC-019,Certification Fees,NGO,RCP-787764,407000,331000,-76000,Cash,Reconciled,2023-08-05,9,Revenue Manager,Yes,July,1
+REV-000022,FY2023/2024,2023-09-08,RG-01,CC-009,Certification Fees,NGO,RCP-631965,250000,193000,-57000,MPESA,Reconciled,2023-09-21,13,Revenue Manager,Yes,September,3
+REV-000023,FY2023/2024,2023-07-07,RG-06,CC-019,Consultancy Income,Government Agency,RCP-204504,741000,489000,-252000,MPESA,Reconciled,2023-07-09,2,Revenue Manager,No,July,1
+REV-000024,FY2023/2024,2024-02-17,RG-04,CC-026,Consultancy Income,Government Agency,RCP-684047,122000,117000,-5000,Online Portal,Pending,2024-02-24,7,Revenue Manager,Yes,February,8
+REV-000025,FY2023/2024,2024-06-03,RG-01,CC-009,Inspection Fees,Government Agency,RCP-182966,194000,176000,-18000,Online Portal,Reconciled,2024-06-16,13,Revenue Manager,Yes,June,12
+REV-000026,FY2023/2024,2024-03-21,RG-05,CC-018,Facility Hire,Individual,RCP-486542,709000,595000,-114000,MPESA,Reconciled,2024-03-21,0,Revenue Manager,No,March,9
+REV-000027,FY2023/2024,2024-02-11,RG-01,CC-006,Facility Hire,NGO,RCP-673517,426000,321000,-105000,Online Portal,Reconciled,2024-02-12,1,Revenue Manager,No,February,8
+REV-000028,FY2023/2024,2024-03-08,RG-01,CC-023,Facility Hire,Government Agency,RCP-480094,413000,384000,-29000,Bank Transfer,Reconciled,2024-03-21,13,Revenue Manager,Yes,March,9
+REV-000029,FY2023/2024,2023-10-17,RG-02,CC-022,Licensing Fees,Individual,RCP-730781,590000,585000,-5000,Bank Transfer,Unreconciled,2023-10-21,4,Revenue Manager,No,October,4
+REV-000030,FY2023/2024,2024-02-24,RG-01,CC-011,Training Fees,Individual,RCP-954484,513000,292000,-221000,Cash,Reconciled,2024-02-28,4,Revenue Manager,No,February,8
+REV-000031,FY2023/2024,2024-01-05,RG-01,CC-008,Publication Sales,International Organisation,RCP-826323,364000,270000,-94000,Bank Transfer,Reconciled,2024-01-07,2,Revenue Manager,No,January,7
+REV-000032,FY2023/2024,2023-10-03,RG-02,CC-028,Publication Sales,Individual,RCP-965506,363000,307000,-56000,MPESA,Unreconciled,2023-10-08,5,Revenue Manager,No,October,4
+REV-000033,FY2023/2024,2023-10-14,RG-05,CC-018,Certification Fees,International Organisation,RCP-843699,467000,395000,-72000,Cash,Unreconciled,2023-10-20,6,Revenue Manager,Yes,October,4
+REV-000034,FY2023/2024,2024-05-01,RG-01,CC-014,Certification Fees,Government Agency,RCP-337062,752000,719000,-33000,Online Portal,Reconciled,2024-05-06,5,Revenue Manager,No,April,10
+REV-000035,FY2023/2024,2023-12-21,RG-02,CC-015,Training Fees,International Organisation,RCP-648984,495000,524000,29000,Cheque,Reconciled,2023-12-23,2,Revenue Manager,No,December,6
+REV-000036,FY2023/2024,2024-04-15,RG-01,CC-011,Certification Fees,Individual,RCP-616352,332000,200000,-132000,Cash,Reconciled,2024-04-29,14,Revenue Manager,Yes,April,10
+REV-000037,FY2023/2024,2024-03-14,RG-04,CC-026,Facility Hire,Government Agency,RCP-513434,130000,136000,6000,Cash,Reconciled,2024-03-23,9,Revenue Manager,Yes,March,9
+REV-000038,FY2023/2024,2024-02-23,RG-01,CC-008,Inspection Fees,Individual,RCP-134806,464000,374000,-90000,Cheque,Reconciled,2024-03-06,12,Revenue Manager,Yes,February,8
+REV-000039,FY2023/2024,2024-06-08,RG-02,CC-029,Facility Hire,NGO,RCP-109768,182000,172000,-10000,Online Portal,Reconciled,2024-06-16,8,Revenue Manager,Yes,June,12
+REV-000040,FY2023/2024,2024-04-12,RG-01,CC-010,Consultancy Income,NGO,RCP-240870,180000,147000,-33000,Cheque,Reconciled,2024-04-24,12,Revenue Manager,Yes,April,10
+REV-000041,FY2023/2024,2024-04-10,RG-02,CC-029,Publication Sales,Government Agency,RCP-243160,657000,643000,-14000,Cash,Pending,2024-04-19,9,Revenue Manager,Yes,April,10
+REV-000042,FY2023/2024,2023-11-23,RG-02,CC-022,Training Fees,Individual,RCP-463389,120000,126000,6000,Cash,Pending,2023-11-28,5,Revenue Manager,No,November,5
+REV-000043,FY2023/2024,2024-01-17,RG-05,CC-018,Training Fees,Private Company,RCP-727791,373000,175000,-198000,Cheque,Reconciled,2024-01-30,13,Revenue Manager,Yes,January,7
+REV-000044,FY2023/2024,2023-08-23,RG-01,CC-031,Certification Fees,Government Agency,RCP-797016,438000,333000,-105000,Cheque,Reconciled,2023-08-30,7,Revenue Manager,Yes,August,2
+REV-000045,FY2023/2024,2023-10-06,RG-04,CC-026,Inspection Fees,NGO,RCP-990066,278000,256000,-22000,Cash,Reconciled,2023-10-20,14,Revenue Manager,Yes,October,4
+REV-000046,FY2023/2024,2023-08-16,RG-02,CC-029,Licensing Fees,Individual,RCP-843909,751000,622000,-129000,MPESA,Reconciled,2023-08-16,0,Revenue Manager,No,August,2
+REV-000047,FY2023/2024,2024-02-02,RG-03,CC-016,Training Fees,Individual,RCP-443881,678000,632000,-46000,Online Portal,Reconciled,2024-02-06,4,Revenue Manager,No,February,8
+REV-000048,FY2023/2024,2023-07-24,RG-01,CC-011,Certification Fees,International Organisation,RCP-418613,769000,653000,-116000,Cash,Reconciled,2023-08-07,14,Revenue Manager,Yes,July,1
+REV-000049,FY2023/2024,2024-04-19,RG-07,CC-020,Consultancy Income,Individual,RCP-865351,725000,635000,-90000,Online Portal,Reconciled,2024-04-29,10,Revenue Manager,Yes,April,10
+REV-000050,FY2023/2024,2024-06-19,RG-07,CC-030,Consultancy Income,Government Agency,RCP-995022,639000,497000,-142000,Cheque,Reconciled,2024-06-24,5,Revenue Manager,No,June,12
+REV-000051,FY2023/2024,2023-11-14,RG-08,CC-021,Licensing Fees,Private Company,RCP-246801,125000,108000,-17000,Online Portal,Reconciled,2023-11-15,1,Revenue Manager,No,November,5
+REV-000052,FY2023/2024,2023-11-30,RG-05,CC-024,Publication Sales,NGO,RCP-410946,408000,374000,-34000,Online Portal,Reconciled,2023-12-11,11,Revenue Manager,Yes,November,5
+REV-000053,FY2023/2024,2023-12-28,RG-01,CC-013,Service Fees,International Organisation,RCP-834815,704000,474000,-230000,Bank Transfer,Reconciled,2024-01-10,13,Revenue Manager,Yes,December,6
+REV-000054,FY2023/2024,2024-02-13,RG-01,CC-031,Inspection Fees,NGO,RCP-888270,238000,229000,-9000,MPESA,Reconciled,2024-02-16,3,Revenue Manager,No,February,8
+REV-000055,FY2023/2024,2024-02-11,RG-01,CC-032,Training Fees,Private Company,RCP-749180,607000,700000,93000,Bank Transfer,Reconciled,2024-02-11,0,Revenue Manager,No,February,8
+REV-000056,FY2023/2024,2023-12-10,RG-01,CC-001,Certification Fees,Private Company,RCP-916260,154000,171000,17000,MPESA,Reconciled,2023-12-13,3,Revenue Manager,No,December,6
+REV-000057,FY2023/2024,2024-01-04,RG-01,CC-005,Licensing Fees,Individual,RCP-327736,765000,654000,-111000,MPESA,Reconciled,2024-01-15,11,Revenue Manager,Yes,January,7
+REV-000058,FY2023/2024,2023-09-22,RG-01,CC-010,Facility Hire,NGO,RCP-689267,189000,143000,-46000,Online Portal,Reconciled,2023-09-22,0,Revenue Manager,No,September,3
+REV-000059,FY2023/2024,2023-09-25,RG-01,CC-002,Consultancy Income,Individual,RCP-338472,758000,390000,-368000,MPESA,Unreconciled,2023-10-02,7,Revenue Manager,Yes,September,3
+REV-000060,FY2023/2024,2024-05-03,RG-01,CC-014,Training Fees,International Organisation,RCP-153527,231000,159000,-72000,Online Portal,Pending,2024-05-13,10,Revenue Manager,Yes,May,11
+REV-000061,FY2023/2024,2023-09-22,RG-03,CC-016,Training Fees,Individual,RCP-426364,334000,247000,-87000,Online Portal,Reconciled,2023-09-24,2,Revenue Manager,No,September,3
+REV-000062,FY2023/2024,2023-09-27,RG-01,CC-013,Facility Hire,Government Agency,RCP-758230,794000,650000,-144000,Cash,Reconciled,2023-10-04,7,Revenue Manager,Yes,September,3
+REV-000063,FY2023/2024,2023-07-09,RG-01,CC-031,Inspection Fees,International Organisation,RCP-176012,605000,509000,-96000,Cash,Reconciled,2023-07-18,9,Revenue Manager,Yes,July,1
+REV-000064,FY2023/2024,2024-03-01,RG-01,CC-005,Consultancy Income,Private Company,RCP-483235,262000,254000,-8000,Cheque,Unreconciled,2024-03-07,6,Revenue Manager,Yes,March,9
+REV-000065,FY2023/2024,2024-01-25,RG-01,CC-008,Training Fees,Private Company,RCP-533794,658000,502000,-156000,Cash,Reconciled,2024-02-06,12,Revenue Manager,Yes,January,7
+REV-000066,FY2023/2024,2023-08-05,RG-02,CC-028,Licensing Fees,Individual,RCP-795975,531000,573000,42000,MPESA,Reconciled,2023-08-11,6,Revenue Manager,Yes,August,2
+REV-000067,FY2023/2024,2024-05-21,RG-01,CC-002,Licensing Fees,Government Agency,RCP-412884,659000,628000,-31000,Bank Transfer,Reconciled,2024-05-29,8,Revenue Manager,Yes,May,11
+REV-000068,FY2023/2024,2023-09-26,RG-01,CC-002,Certification Fees,Government Agency,RCP-714291,228000,237000,9000,Cheque,Reconciled,2023-10-08,12,Revenue Manager,Yes,September,3
+REV-000069,FY2023/2024,2024-04-08,RG-01,CC-032,Inspection Fees,Government Agency,RCP-733580,593000,549000,-44000,Cash,Reconciled,2024-04-11,3,Revenue Manager,No,April,10
+REV-000070,FY2023/2024,2024-06-13,RG-01,CC-008,Consultancy Income,NGO,RCP-189892,629000,604000,-25000,MPESA,Reconciled,2024-06-16,3,Revenue Manager,No,June,12
+REV-000071,FY2023/2024,2024-01-28,RG-01,CC-007,Training Fees,Individual,RCP-313773,442000,342000,-100000,Cash,Reconciled,2024-02-01,4,Revenue Manager,No,January,7
+REV-000072,FY2023/2024,2023-09-12,RG-06,CC-019,Service Fees,NGO,RCP-882407,522000,429000,-93000,MPESA,Reconciled,2023-09-22,10,Revenue Manager,Yes,September,3
+REV-000073,FY2023/2024,2024-02-26,RG-02,CC-029,Facility Hire,Private Company,RCP-445543,653000,828000,175000,Online Portal,Reconciled,2024-02-28,2,Revenue Manager,No,February,8
+REV-000074,FY2023/2024,2023-09-29,RG-01,CC-008,Training Fees,Government Agency,RCP-137668,551000,395000,-156000,Online Portal,Reconciled,2023-10-06,7,Revenue Manager,Yes,September,3
+REV-000075,FY2023/2024,2023-07-02,RG-01,CC-013,Facility Hire,NGO,RCP-651588,582000,412000,-170000,Bank Transfer,Reconciled,2023-07-04,2,Revenue Manager,No,July,1
+REV-000076,FY2023/2024,2024-03-09,RG-01,CC-004,Inspection Fees,Government Agency,RCP-367711,549000,475000,-74000,Bank Transfer,Reconciled,2024-03-23,14,Revenue Manager,Yes,March,9
+REV-000077,FY2023/2024,2023-08-01,RG-02,CC-028,Facility Hire,Private Company,RCP-763697,799000,690000,-109000,MPESA,Reconciled,2023-08-13,12,Revenue Manager,Yes,August,2
+REV-000078,FY2023/2024,2024-05-26,RG-01,CC-013,Publication Sales,Private Company,RCP-181083,174000,169000,-5000,Cheque,Unreconciled,2024-05-28,2,Revenue Manager,No,May,11
+REV-000079,FY2023/2024,2024-03-16,RG-04,CC-026,Publication Sales,Government Agency,RCP-485455,757000,506000,-251000,Cash,Unreconciled,2024-03-16,0,Revenue Manager,No,March,9
+REV-000080,FY2023/2024,2024-05-06,RG-04,CC-026,Publication Sales,International Organisation,RCP-260440,767000,584000,-183000,MPESA,Reconciled,2024-05-09,3,Revenue Manager,No,May,11
+REV-000081,FY2023/2024,2023-10-27,RG-06,CC-019,Consultancy Income,Private Company,RCP-611853,196000,163000,-33000,Bank Transfer,Reconciled,2023-11-09,13,Revenue Manager,Yes,October,4
+REV-000082,FY2023/2024,2024-05-06,RG-01,CC-002,Training Fees,Government Agency,RCP-677236,226000,230000,4000,Online Portal,Reconciled,2024-05-06,0,Revenue Manager,No,May,11
+REV-000083,FY2023/2024,2024-03-30,RG-06,CC-019,Publication Sales,Private Company,RCP-877934,429000,314000,-115000,Cheque,Reconciled,2024-03-31,1,Revenue Manager,No,March,9
+REV-000084,FY2023/2024,2023-10-20,RG-02,CC-022,Certification Fees,Private Company,RCP-715025,537000,369000,-168000,Online Portal,Reconciled,2023-10-24,4,Revenue Manager,No,October,4
+REV-000085,FY2023/2024,2023-10-13,RG-02,CC-029,Facility Hire,Individual,RCP-429190,169000,181000,12000,Cash,Reconciled,2023-10-17,4,Revenue Manager,No,October,4
+REV-000086,FY2023/2024,2024-04-30,RG-01,CC-001,Facility Hire,Individual,RCP-239529,169000,133000,-36000,Online Portal,Reconciled,2024-05-07,7,Revenue Manager,Yes,April,10
+REV-000087,FY2023/2024,2023-11-12,RG-03,CC-016,Publication Sales,NGO,RCP-208943,165000,161000,-4000,Cash,Reconciled,2023-11-21,9,Revenue Manager,Yes,November,5
+REV-000088,FY2023/2024,2024-04-04,RG-06,CC-019,Service Fees,Private Company,RCP-271958,640000,550000,-90000,Online Portal,Reconciled,2024-04-07,3,Revenue Manager,No,April,10
+REV-000089,FY2023/2024,2023-11-10,RG-01,CC-002,Consultancy Income,Government Agency,RCP-735804,370000,430000,60000,Cash,Reconciled,2023-11-20,10,Revenue Manager,Yes,November,5
+REV-000090,FY2023/2024,2023-11-14,RG-01,CC-007,Certification Fees,International Organisation,RCP-483996,281000,267000,-14000,Bank Transfer,Pending,2023-11-22,8,Revenue Manager,Yes,November,5
+REV-000091,FY2023/2024,2024-06-06,RG-01,CC-013,Training Fees,Government Agency,RCP-918984,290000,252000,-38000,Online Portal,Reconciled,2024-06-19,13,Revenue Manager,Yes,June,12
+REV-000092,FY2023/2024,2023-10-22,RG-01,CC-031,Certification Fees,Individual,RCP-253227,599000,412000,-187000,Online Portal,Reconciled,2023-10-24,2,Revenue Manager,No,October,4
+REV-000093,FY2023/2024,2023-08-03,RG-05,CC-018,Training Fees,Government Agency,RCP-470750,522000,382000,-140000,Bank Transfer,Reconciled,2023-08-13,10,Revenue Manager,Yes,August,2
+REV-000094,FY2023/2024,2023-11-13,RG-03,CC-027,Consultancy Income,Individual,RCP-847556,668000,561000,-107000,Bank Transfer,Pending,2023-11-27,14,Revenue Manager,Yes,November,5
+REV-000095,FY2023/2024,2023-12-26,RG-07,CC-030,Consultancy Income,International Organisation,RCP-518268,632000,613000,-19000,Cash,Reconciled,2024-01-01,6,Revenue Manager,Yes,December,6
+REV-000096,FY2023/2024,2023-12-26,RG-04,CC-026,Certification Fees,International Organisation,RCP-471409,150000,117000,-33000,Bank Transfer,Reconciled,2023-12-31,5,Revenue Manager,No,December,6
+REV-000097,FY2023/2024,2024-06-09,RG-06,CC-019,Licensing Fees,Government Agency,RCP-933010,566000,513000,-53000,Bank Transfer,Unreconciled,2024-06-20,11,Revenue Manager,Yes,June,12
+REV-000098,FY2023/2024,2023-12-26,RG-08,CC-021,Training Fees,Individual,RCP-813724,233000,222000,-11000,Online Portal,Reconciled,2023-12-26,0,Revenue Manager,No,December,6
+REV-000099,FY2023/2024,2024-05-17,RG-04,CC-026,Training Fees,NGO,RCP-511218,680000,734000,54000,Cheque,Pending,2024-05-28,11,Revenue Manager,Yes,May,11
+REV-000100,FY2023/2024,2024-03-15,RG-05,CC-024,Facility Hire,International Organisation,RCP-453821,481000,473000,-8000,Cheque,Reconciled,2024-03-23,8,Revenue Manager,Yes,March,9
+REV-000101,FY2023/2024,2024-02-22,RG-02,CC-029,Facility Hire,International Organisation,RCP-269130,283000,220000,-63000,MPESA,Reconciled,2024-03-05,12,Revenue Manager,Yes,February,8
+REV-000102,FY2023/2024,2023-11-05,RG-01,CC-008,Training Fees,NGO,RCP-299655,242000,180000,-62000,MPESA,Reconciled,2023-11-13,8,Revenue Manager,Yes,November,5
+REV-000103,FY2023/2024,2024-04-28,RG-01,CC-023,Certification Fees,NGO,RCP-743437,357000,348000,-9000,Cash,Reconciled,2024-05-07,9,Revenue Manager,Yes,April,10
+REV-000104,FY2023/2024,2024-04-07,RG-05,CC-018,Training Fees,Government Agency,RCP-427483,229000,193000,-36000,Bank Transfer,Reconciled,2024-04-15,8,Revenue Manager,Yes,April,10
+REV-000105,FY2023/2024,2024-06-18,RG-06,CC-019,Consultancy Income,Individual,RCP-575005,616000,639000,23000,Cash,Reconciled,2024-06-23,5,Revenue Manager,No,June,12
+REV-000106,FY2023/2024,2023-10-01,RG-01,CC-023,Consultancy Income,Private Company,RCP-649791,209000,153000,-56000,Bank Transfer,Reconciled,2023-10-11,10,Revenue Manager,Yes,October,4
+REV-000107,FY2023/2024,2024-01-25,RG-02,CC-028,Service Fees,Government Agency,RCP-827343,669000,433000,-236000,Bank Transfer,Reconciled,2024-01-26,1,Revenue Manager,No,January,7
+REV-000108,FY2023/2024,2023-09-28,RG-04,CC-026,Facility Hire,Private Company,RCP-326319,668000,568000,-100000,Bank Transfer,Reconciled,2023-10-11,13,Revenue Manager,Yes,September,3
+REV-000109,FY2023/2024,2024-06-30,RG-05,CC-018,Service Fees,International Organisation,RCP-817731,526000,441000,-85000,Cheque,Reconciled,2024-07-01,1,Revenue Manager,No,June,12
+REV-000110,FY2023/2024,2023-10-04,RG-01,CC-011,Consultancy Income,Government Agency,RCP-846199,717000,667000,-50000,Cheque,Unreconciled,2023-10-13,9,Revenue Manager,Yes,October,4
+REV-000111,FY2023/2024,2024-02-02,RG-06,CC-019,Facility Hire,Government Agency,RCP-794733,326000,312000,-14000,Cash,Reconciled,2024-02-13,11,Revenue Manager,Yes,February,8
+REV-000112,FY2023/2024,2024-02-12,RG-03,CC-016,Publication Sales,Individual,RCP-965658,533000,466000,-67000,Bank Transfer,Reconciled,2024-02-19,7,Revenue Manager,Yes,February,8
+REV-000113,FY2023/2024,2023-11-04,RG-02,CC-015,Facility Hire,NGO,RCP-707351,282000,249000,-33000,Cheque,Reconciled,2023-11-05,1,Revenue Manager,No,November,5
+REV-000114,FY2023/2024,2023-11-19,RG-01,CC-002,Publication Sales,Government Agency,RCP-336339,239000,260000,21000,Cheque,Reconciled,2023-11-24,5,Revenue Manager,No,November,5
+REV-000115,FY2023/2024,2024-05-31,RG-01,CC-003,Facility Hire,Government Agency,RCP-877949,269000,279000,10000,Cash,Pending,2024-05-31,0,Revenue Manager,No,May,11
+REV-000116,FY2023/2024,2024-05-01,RG-07,CC-030,Facility Hire,Individual,RCP-844452,390000,365000,-25000,MPESA,Reconciled,2024-05-07,6,Revenue Manager,Yes,May,11
+REV-000117,FY2023/2024,2023-10-05,RG-01,CC-010,Facility Hire,NGO,RCP-860580,396000,409000,13000,Cash,Reconciled,2023-10-08,3,Revenue Manager,No,October,4
+REV-000118,FY2023/2024,2024-05-03,RG-03,CC-027,Facility Hire,Individual,RCP-959434,692000,640000,-52000,Cash,Reconciled,2024-05-10,7,Revenue Manager,Yes,May,11
+REV-000119,FY2023/2024,2023-07-13,RG-01,CC-007,Facility Hire,NGO,RCP-542622,654000,853000,199000,MPESA,Reconciled,2023-07-13,0,Revenue Manager,No,July,1
+REV-000120,FY2023/2024,2023-09-16,RG-06,CC-019,Publication Sales,International Organisation,RCP-852689,667000,671000,4000,Bank Transfer,Reconciled,2023-09-16,0,Revenue Manager,No,September,3
+REV-000121,FY2023/2024,2024-04-04,RG-01,CC-008,Inspection Fees,International Organisation,RCP-673495,279000,235000,-44000,Online Portal,Reconciled,2024-04-11,7,Revenue Manager,Yes,April,10
+REV-000122,FY2023/2024,2024-06-28,RG-02,CC-028,Inspection Fees,Individual,RCP-132848,550000,444000,-106000,MPESA,Reconciled,2024-07-08,10,Revenue Manager,Yes,June,12
+REV-000123,FY2023/2024,2024-06-21,RG-01,CC-014,Training Fees,Government Agency,RCP-778997,138000,143000,5000,Bank Transfer,Unreconciled,2024-06-30,9,Revenue Manager,Yes,June,12
+REV-000124,FY2023/2024,2023-09-14,RG-04,CC-025,Publication Sales,International Organisation,RCP-422738,696000,652000,-44000,Bank Transfer,Reconciled,2023-09-28,14,Revenue Manager,Yes,September,3
+REV-000125,FY2023/2024,2024-04-04,RG-01,CC-012,Publication Sales,Government Agency,RCP-770355,261000,209000,-52000,MPESA,Reconciled,2024-04-12,8,Revenue Manager,Yes,April,10
+REV-000126,FY2023/2024,2024-06-02,RG-03,CC-027,Certification Fees,International Organisation,RCP-250187,472000,368000,-104000,Cheque,Unreconciled,2024-06-04,2,Revenue Manager,No,June,12
+REV-000127,FY2023/2024,2023-10-17,RG-03,CC-027,Consultancy Income,Individual,RCP-399470,612000,574000,-38000,Online Portal,Reconciled,2023-10-20,3,Revenue Manager,No,October,4
+REV-000128,FY2023/2024,2023-08-10,RG-01,CC-007,Publication Sales,Private Company,RCP-283663,196000,110000,-86000,MPESA,Reconciled,2023-08-24,14,Revenue Manager,Yes,August,2
+REV-000129,FY2023/2024,2024-01-22,RG-07,CC-020,Certification Fees,Government Agency,RCP-269179,305000,258000,-47000,Online Portal,Reconciled,2024-02-04,13,Revenue Manager,Yes,January,7
+REV-000130,FY2023/2024,2023-11-05,RG-01,CC-031,Consultancy Income,NGO,RCP-772269,193000,175000,-18000,Online Portal,Reconciled,2023-11-15,10,Revenue Manager,Yes,November,5
+REV-000131,FY2023/2024,2023-07-04,RG-03,CC-027,Certification Fees,Government Agency,RCP-710850,590000,431000,-159000,Bank Transfer,Reconciled,2023-07-16,12,Revenue Manager,Yes,July,1
+REV-000132,FY2023/2024,2023-08-18,RG-01,CC-005,Facility Hire,International Organisation,RCP-708640,769000,841000,72000,Online Portal,Reconciled,2023-08-29,11,Revenue Manager,Yes,August,2
+REV-000133,FY2023/2024,2023-12-03,RG-04,CC-017,Service Fees,Private Company,RCP-386705,442000,419000,-23000,Cheque,Reconciled,2023-12-07,4,Revenue Manager,No,December,6
+REV-000134,FY2023/2024,2024-03-22,RG-07,CC-020,Service Fees,International Organisation,RCP-241333,462000,306000,-156000,Bank Transfer,Pending,2024-04-04,13,Revenue Manager,Yes,March,9
+REV-000135,FY2023/2024,2023-09-12,RG-08,CC-021,Training Fees,Private Company,RCP-328487,215000,214000,-1000,Online Portal,Unreconciled,2023-09-21,9,Revenue Manager,Yes,September,3
+REV-000136,FY2023/2024,2024-04-24,RG-01,CC-014,Publication Sales,NGO,RCP-270485,603000,628000,25000,Online Portal,Reconciled,2024-05-05,11,Revenue Manager,Yes,April,10
+REV-000137,FY2023/2024,2023-11-19,RG-01,CC-011,Certification Fees,Private Company,RCP-853485,314000,343000,29000,Bank Transfer,Reconciled,2023-11-23,4,Revenue Manager,No,November,5
+REV-000138,FY2023/2024,2024-01-18,RG-01,CC-023,Inspection Fees,Private Company,RCP-640356,656000,543000,-113000,Cheque,Reconciled,2024-01-26,8,Revenue Manager,Yes,January,7
+REV-000139,FY2023/2024,2023-11-09,RG-01,CC-003,Licensing Fees,Individual,RCP-562617,715000,716000,1000,Cheque,Reconciled,2023-11-11,2,Revenue Manager,No,November,5
+REV-000140,FY2023/2024,2023-07-05,RG-04,CC-017,Inspection Fees,International Organisation,RCP-108315,725000,874000,149000,Cheque,Reconciled,2023-07-06,1,Revenue Manager,No,July,1
+REV-000141,FY2023/2024,2024-03-18,RG-01,CC-006,Training Fees,International Organisation,RCP-134658,480000,561000,81000,Bank Transfer,Reconciled,2024-03-24,6,Revenue Manager,Yes,March,9
+REV-000142,FY2023/2024,2023-08-05,RG-01,CC-012,Inspection Fees,NGO,RCP-312409,394000,279000,-115000,Cash,Unreconciled,2023-08-13,8,Revenue Manager,Yes,August,2
+REV-000143,FY2023/2024,2024-05-08,RG-02,CC-029,Inspection Fees,Government Agency,RCP-172186,454000,506000,52000,Online Portal,Unreconciled,2024-05-15,7,Revenue Manager,Yes,May,11
+REV-000144,FY2023/2024,2024-02-03,RG-01,CC-003,Inspection Fees,NGO,RCP-222081,152000,157000,5000,Bank Transfer,Reconciled,2024-02-06,3,Revenue Manager,No,February,8
+REV-000145,FY2023/2024,2023-09-27,RG-06,CC-019,Service Fees,NGO,RCP-360903,702000,600000,-102000,MPESA,Reconciled,2023-10-07,10,Revenue Manager,Yes,September,3
+REV-000146,FY2023/2024,2023-10-25,RG-01,CC-031,Inspection Fees,Private Company,RCP-181161,690000,766000,76000,Bank Transfer,Reconciled,2023-11-05,11,Revenue Manager,Yes,October,4
+REV-000147,FY2023/2024,2024-06-14,RG-01,CC-032,Training Fees,Private Company,RCP-333133,514000,432000,-82000,MPESA,Reconciled,2024-06-16,2,Revenue Manager,No,June,12
+REV-000148,FY2023/2024,2023-12-10,RG-01,CC-031,Facility Hire,International Organisation,RCP-284578,558000,426000,-132000,Online Portal,Reconciled,2023-12-14,4,Revenue Manager,No,December,6
+REV-000149,FY2023/2024,2023-12-07,RG-04,CC-017,Publication Sales,Individual,RCP-596012,172000,142000,-30000,MPESA,Unreconciled,2023-12-11,4,Revenue Manager,No,December,6
+REV-000150,FY2023/2024,2023-11-20,RG-03,CC-016,Training Fees,Individual,RCP-866675,459000,347000,-112000,MPESA,Reconciled,2023-11-23,3,Revenue Manager,No,November,5
+REV-000151,FY2023/2024,2024-01-08,RG-01,CC-009,Licensing Fees,International Organisation,RCP-840636,343000,346000,3000,Cheque,Reconciled,2024-01-11,3,Revenue Manager,No,January,7
+REV-000152,FY2023/2024,2024-02-24,RG-01,CC-032,Facility Hire,Individual,RCP-859367,366000,338000,-28000,Online Portal,Reconciled,2024-02-29,5,Revenue Manager,No,February,8
+REV-000153,FY2023/2024,2023-07-10,RG-02,CC-028,Consultancy Income,NGO,RCP-582326,324000,338000,14000,Cheque,Reconciled,2023-07-14,4,Revenue Manager,No,July,1
+REV-000154,FY2023/2024,2024-03-31,RG-01,CC-005,Certification Fees,Individual,RCP-955813,656000,623000,-33000,Bank Transfer,Reconciled,2024-04-10,10,Revenue Manager,Yes,March,9
+REV-000155,FY2023/2024,2024-03-05,RG-02,CC-022,Service Fees,Government Agency,RCP-219784,164000,120000,-44000,Online Portal,Reconciled,2024-03-12,7,Revenue Manager,Yes,March,9
+REV-000156,FY2023/2024,2024-06-22,RG-08,CC-021,Publication Sales,Government Agency,RCP-338642,493000,438000,-55000,MPESA,Reconciled,2024-07-06,14,Revenue Manager,Yes,June,12
+REV-000157,FY2023/2024,2024-01-20,RG-02,CC-028,Service Fees,International Organisation,RCP-319205,497000,419000,-78000,MPESA,Reconciled,2024-02-01,12,Revenue Manager,Yes,January,7
+REV-000158,FY2023/2024,2023-12-05,RG-01,CC-002,Service Fees,NGO,RCP-668540,595000,558000,-37000,MPESA,Reconciled,2023-12-14,9,Revenue Manager,Yes,December,6
+REV-000159,FY2023/2024,2024-04-16,RG-05,CC-018,Licensing Fees,Private Company,RCP-906580,455000,419000,-36000,Bank Transfer,Reconciled,2024-04-28,12,Revenue Manager,Yes,April,10
+REV-000160,FY2023/2024,2023-10-14,RG-02,CC-022,Consultancy Income,NGO,RCP-526490,607000,700000,93000,MPESA,Reconciled,2023-10-25,11,Revenue Manager,Yes,October,4
+REV-000161,FY2023/2024,2024-06-19,RG-01,CC-010,Publication Sales,Government Agency,RCP-557998,520000,419000,-101000,Cash,Pending,2024-06-26,7,Revenue Manager,Yes,June,12
+REV-000162,FY2023/2024,2023-10-01,RG-02,CC-022,Publication Sales,Government Agency,RCP-692166,476000,430000,-46000,MPESA,Reconciled,2023-10-08,7,Revenue Manager,Yes,October,4
+REV-000163,FY2023/2024,2024-03-01,RG-03,CC-027,Inspection Fees,Private Company,RCP-623077,417000,343000,-74000,MPESA,Reconciled,2024-03-04,3,Revenue Manager,No,March,9
+REV-000164,FY2023/2024,2023-11-12,RG-01,CC-014,Licensing Fees,Private Company,RCP-685112,157000,112000,-45000,Cheque,Reconciled,2023-11-15,3,Revenue Manager,No,November,5
+REV-000165,FY2023/2024,2024-05-19,RG-01,CC-009,Licensing Fees,Individual,RCP-542186,271000,258000,-13000,Cash,Pending,2024-05-26,7,Revenue Manager,Yes,May,11
+REV-000166,FY2023/2024,2024-03-30,RG-01,CC-001,Publication Sales,Private Company,RCP-805849,362000,300000,-62000,Online Portal,Reconciled,2024-04-08,9,Revenue Manager,Yes,March,9
+REV-000167,FY2023/2024,2024-05-01,RG-01,CC-003,Consultancy Income,Private Company,RCP-262788,322000,270000,-52000,Online Portal,Reconciled,2024-05-15,14,Revenue Manager,Yes,April,10
+REV-000168,FY2023/2024,2024-06-03,RG-01,CC-006,Licensing Fees,Government Agency,RCP-266835,358000,410000,52000,Online Portal,Reconciled,2024-06-10,7,Revenue Manager,Yes,June,12
+REV-000169,FY2023/2024,2023-10-15,RG-01,CC-007,Licensing Fees,NGO,RCP-707159,697000,532000,-165000,Cheque,Reconciled,2023-10-27,12,Revenue Manager,Yes,October,4
+REV-000170,FY2023/2024,2024-04-30,RG-01,CC-005,Inspection Fees,International Organisation,RCP-921738,167000,145000,-22000,Bank Transfer,Reconciled,2024-04-30,0,Revenue Manager,No,April,10
+REV-000171,FY2023/2024,2023-11-11,RG-08,CC-021,Certification Fees,Private Company,RCP-384413,291000,228000,-63000,Cash,Reconciled,2023-11-14,3,Revenue Manager,No,November,5
+REV-000172,FY2023/2024,2023-11-25,RG-01,CC-010,Training Fees,Individual,RCP-418514,148000,141000,-7000,Cheque,Unreconciled,2023-12-02,7,Revenue Manager,Yes,November,5
+REV-000173,FY2023/2024,2023-12-28,RG-02,CC-015,Consultancy Income,Government Agency,RCP-581871,123000,105000,-18000,Online Portal,Reconciled,2024-01-11,14,Revenue Manager,Yes,December,6
+REV-000174,FY2023/2024,2024-01-19,RG-01,CC-004,Licensing Fees,International Organisation,RCP-787404,439000,276000,-163000,Cheque,Reconciled,2024-01-19,0,Revenue Manager,No,January,7
+REV-000175,FY2023/2024,2024-01-06,RG-01,CC-011,Publication Sales,Government Agency,RCP-451777,610000,582000,-28000,Cash,Reconciled,2024-01-15,9,Revenue Manager,Yes,January,7
+REV-000176,FY2023/2024,2024-01-06,RG-01,CC-032,Service Fees,NGO,RCP-750056,378000,322000,-56000,MPESA,Reconciled,2024-01-08,2,Revenue Manager,No,January,7
+REV-000177,FY2023/2024,2024-05-01,RG-01,CC-013,Inspection Fees,Individual,RCP-546488,272000,259000,-13000,MPESA,Reconciled,2024-05-04,3,Revenue Manager,No,May,11
+REV-000178,FY2023/2024,2023-12-27,RG-01,CC-009,Training Fees,International Organisation,RCP-946506,375000,286000,-89000,MPESA,Reconciled,2024-01-08,12,Revenue Manager,Yes,December,6
+REV-000179,FY2023/2024,2023-07-31,RG-01,CC-032,Consultancy Income,Individual,RCP-851685,713000,644000,-69000,Online Portal,Reconciled,2023-08-02,2,Revenue Manager,No,July,1
+REV-000180,FY2023/2024,2023-07-23,RG-01,CC-012,Certification Fees,Government Agency,RCP-307022,438000,508000,70000,Bank Transfer,Reconciled,2023-07-31,8,Revenue Manager,Yes,July,1
+REV-000181,FY2023/2024,2024-06-27,RG-04,CC-017,Publication Sales,Private Company,RCP-312960,650000,388000,-262000,Bank Transfer,Reconciled,2024-07-06,9,Revenue Manager,Yes,June,12
+REV-000182,FY2023/2024,2023-11-01,RG-01,CC-011,Facility Hire,Government Agency,RCP-699678,740000,526000,-214000,Bank Transfer,Reconciled,2023-11-12,11,Revenue Manager,Yes,November,5
+REV-000183,FY2023/2024,2023-09-16,RG-05,CC-024,Service Fees,International Organisation,RCP-704162,586000,519000,-67000,Bank Transfer,Unreconciled,2023-09-21,5,Revenue Manager,No,September,3
+REV-000184,FY2023/2024,2023-10-03,RG-01,CC-023,Publication Sales,NGO,RCP-935034,397000,306000,-91000,Cheque,Reconciled,2023-10-14,11,Revenue Manager,Yes,October,4
+REV-000185,FY2023/2024,2023-09-08,RG-01,CC-011,Certification Fees,Private Company,RCP-716673,592000,328000,-264000,Bank Transfer,Unreconciled,2023-09-17,9,Revenue Manager,Yes,September,3
+REV-000186,FY2023/2024,2023-12-20,RG-04,CC-025,Inspection Fees,NGO,RCP-765292,624000,583000,-41000,Cash,Reconciled,2023-12-24,4,Revenue Manager,No,December,6
+REV-000187,FY2023/2024,2024-01-13,RG-01,CC-007,Publication Sales,Individual,RCP-542213,619000,401000,-218000,Online Portal,Reconciled,2024-01-24,11,Revenue Manager,Yes,January,7
+REV-000188,FY2023/2024,2023-10-01,RG-03,CC-027,Consultancy Income,Government Agency,RCP-936651,668000,484000,-184000,Bank Transfer,Unreconciled,2023-10-06,5,Revenue Manager,No,October,4
+REV-000189,FY2023/2024,2024-03-01,RG-02,CC-029,Service Fees,Government Agency,RCP-271535,657000,509000,-148000,Cash,Reconciled,2024-03-08,7,Revenue Manager,Yes,February,8
+REV-000190,FY2023/2024,2024-03-16,RG-01,CC-004,Service Fees,NGO,RCP-883258,760000,444000,-316000,Cash,Reconciled,2024-03-24,8,Revenue Manager,Yes,March,9
+REV-000191,FY2023/2024,2023-09-27,RG-01,CC-007,Licensing Fees,Individual,RCP-344236,560000,571000,11000,Online Portal,Reconciled,2023-10-10,13,Revenue Manager,Yes,September,3
+REV-000192,FY2023/2024,2024-02-25,RG-01,CC-014,Certification Fees,International Organisation,RCP-537042,284000,239000,-45000,Online Portal,Unreconciled,2024-03-01,5,Revenue Manager,No,February,8
+REV-000193,FY2023/2024,2023-12-27,RG-02,CC-022,Publication Sales,Individual,RCP-492941,739000,606000,-133000,Cash,Reconciled,2024-01-09,13,Revenue Manager,Yes,December,6
+REV-000194,FY2023/2024,2024-06-03,RG-01,CC-009,Certification Fees,Government Agency,RCP-676824,715000,626000,-89000,Online Portal,Reconciled,2024-06-17,14,Revenue Manager,Yes,June,12
+REV-000195,FY2023/2024,2023-12-16,RG-05,CC-024,Licensing Fees,NGO,RCP-941116,702000,523000,-179000,Bank Transfer,Unreconciled,2023-12-22,6,Revenue Manager,Yes,December,6
+REV-000196,FY2023/2024,2023-10-01,RG-01,CC-004,Certification Fees,International Organisation,RCP-965372,465000,491000,26000,MPESA,Unreconciled,2023-10-12,11,Revenue Manager,Yes,October,4
+REV-000197,FY2023/2024,2023-07-31,RG-01,CC-014,Service Fees,Individual,RCP-767341,729000,594000,-135000,Cash,Reconciled,2023-08-06,6,Revenue Manager,Yes,July,1
+REV-000198,FY2023/2024,2023-12-11,RG-07,CC-020,Facility Hire,NGO,RCP-348118,682000,457000,-225000,MPESA,Reconciled,2023-12-11,0,Revenue Manager,No,December,6
+REV-000199,FY2023/2024,2024-06-25,RG-01,CC-013,Facility Hire,International Organisation,RCP-742345,721000,823000,102000,Online Portal,Reconciled,2024-07-06,11,Revenue Manager,Yes,June,12
+REV-000200,FY2023/2024,2023-10-23,RG-01,CC-012,Licensing Fees,NGO,RCP-548443,442000,423000,-19000,Bank Transfer,Unreconciled,2023-11-05,13,Revenue Manager,Yes,October,4
+REV-000201,FY2023/2024,2023-08-05,RG-01,CC-031,Facility Hire,International Organisation,RCP-693822,303000,243000,-60000,Online Portal,Pending,2023-08-14,9,Revenue Manager,Yes,August,2
+REV-000202,FY2023/2024,2023-08-28,RG-01,CC-014,Facility Hire,NGO,RCP-869490,113000,84000,-29000,MPESA,Unreconciled,2023-09-03,6,Revenue Manager,Yes,August,2
+REV-000203,FY2023/2024,2023-11-11,RG-03,CC-027,Inspection Fees,International Organisation,RCP-727362,312000,261000,-51000,Online Portal,Reconciled,2023-11-24,13,Revenue Manager,Yes,November,5
+REV-000204,FY2023/2024,2024-05-01,RG-02,CC-029,Training Fees,Individual,RCP-722088,423000,416000,-7000,Bank Transfer,Reconciled,2024-05-13,12,Revenue Manager,Yes,April,10
+REV-000205,FY2023/2024,2024-04-13,RG-05,CC-018,Certification Fees,Individual,RCP-595297,744000,592000,-152000,Online Portal,Reconciled,2024-04-18,5,Revenue Manager,No,April,10
+REV-000206,FY2023/2024,2023-07-02,RG-01,CC-009,Training Fees,International Organisation,RCP-403555,784000,630000,-154000,Online Portal,Reconciled,2023-07-06,4,Revenue Manager,No,July,1
+REV-000207,FY2023/2024,2023-12-21,RG-02,CC-029,Licensing Fees,Private Company,RCP-516508,312000,244000,-68000,Cash,Reconciled,2024-01-03,13,Revenue Manager,Yes,December,6
+REV-000208,FY2023/2024,2024-05-19,RG-04,CC-025,Service Fees,Individual,RCP-600861,608000,546000,-62000,Cash,Reconciled,2024-05-29,10,Revenue Manager,Yes,May,11
+REV-000209,FY2023/2024,2023-10-02,RG-01,CC-001,Certification Fees,Individual,RCP-746684,777000,681000,-96000,Bank Transfer,Reconciled,2023-10-12,10,Revenue Manager,Yes,October,4
+REV-000210,FY2023/2024,2024-06-29,RG-04,CC-026,Certification Fees,Individual,RCP-918569,252000,281000,29000,Bank Transfer,Reconciled,2024-06-29,0,Revenue Manager,No,June,12
+REV-000211,FY2023/2024,2024-02-17,RG-01,CC-013,Training Fees,Individual,RCP-948451,232000,214000,-18000,Cash,Reconciled,2024-02-23,6,Revenue Manager,Yes,February,8
+REV-000212,FY2023/2024,2023-10-01,RG-05,CC-018,Consultancy Income,Private Company,RCP-979173,451000,423000,-28000,Bank Transfer,Reconciled,2023-10-07,6,Revenue Manager,Yes,September,3
+REV-000213,FY2023/2024,2023-07-11,RG-01,CC-007,Certification Fees,NGO,RCP-243404,390000,331000,-59000,Cheque,Reconciled,2023-07-25,14,Revenue Manager,Yes,July,1
+REV-000214,FY2023/2024,2023-12-03,RG-01,CC-009,Service Fees,International Organisation,RCP-953842,552000,610000,58000,Cash,Reconciled,2023-12-06,3,Revenue Manager,No,December,6
+REV-000215,FY2023/2024,2023-07-16,RG-04,CC-017,Training Fees,NGO,RCP-323336,501000,413000,-88000,Online Portal,Reconciled,2023-07-27,11,Revenue Manager,Yes,July,1
+REV-000216,FY2023/2024,2024-02-07,RG-01,CC-006,Facility Hire,International Organisation,RCP-224835,291000,256000,-35000,Online Portal,Reconciled,2024-02-08,1,Revenue Manager,No,February,8
+REV-000217,FY2023/2024,2023-07-19,RG-03,CC-016,Consultancy Income,International Organisation,RCP-610866,191000,171000,-20000,Cash,Unreconciled,2023-07-29,10,Revenue Manager,Yes,July,1
+REV-000218,FY2023/2024,2023-12-01,RG-01,CC-012,Licensing Fees,Individual,RCP-275959,642000,610000,-32000,Cash,Unreconciled,2023-12-01,0,Revenue Manager,No,November,5
+REV-000219,FY2023/2024,2024-05-06,RG-03,CC-016,Certification Fees,Private Company,RCP-530639,620000,792000,172000,Online Portal,Reconciled,2024-05-12,6,Revenue Manager,Yes,May,11
+REV-000220,FY2023/2024,2024-06-08,RG-01,CC-009,Licensing Fees,Individual,RCP-840161,774000,619000,-155000,MPESA,Reconciled,2024-06-12,4,Revenue Manager,No,June,12
+REV-000221,FY2023/2024,2023-09-02,RG-01,CC-001,Publication Sales,Government Agency,RCP-444762,219000,123000,-96000,Online Portal,Reconciled,2023-09-04,2,Revenue Manager,No,September,3
+REV-000222,FY2023/2024,2024-06-17,RG-01,CC-004,Consultancy Income,NGO,RCP-863981,687000,509000,-178000,Bank Transfer,Reconciled,2024-06-30,13,Revenue Manager,Yes,June,12
+REV-000223,FY2023/2024,2024-06-28,RG-02,CC-022,Service Fees,NGO,RCP-255213,578000,495000,-83000,Cheque,Reconciled,2024-06-29,1,Revenue Manager,No,June,12
+REV-000224,FY2023/2024,2023-07-07,RG-01,CC-014,Service Fees,International Organisation,RCP-222882,593000,356000,-237000,Cheque,Pending,2023-07-08,1,Revenue Manager,No,July,1
+REV-000225,FY2023/2024,2024-03-19,RG-01,CC-010,Certification Fees,Individual,RCP-362519,735000,506000,-229000,MPESA,Reconciled,2024-03-31,12,Revenue Manager,Yes,March,9
+REV-000226,FY2023/2024,2024-04-25,RG-04,CC-017,Consultancy Income,NGO,RCP-346270,779000,649000,-130000,Bank Transfer,Reconciled,2024-04-27,2,Revenue Manager,No,April,10
+REV-000227,FY2023/2024,2023-07-10,RG-08,CC-021,Inspection Fees,NGO,RCP-447769,500000,302000,-198000,Bank Transfer,Pending,2023-07-19,9,Revenue Manager,Yes,July,1
+REV-000228,FY2023/2024,2023-12-21,RG-01,CC-001,Certification Fees,International Organisation,RCP-547933,376000,256000,-120000,Cheque,Reconciled,2023-12-27,6,Revenue Manager,Yes,December,6
+REV-000229,FY2023/2024,2024-05-01,RG-07,CC-030,Publication Sales,International Organisation,RCP-605476,572000,587000,15000,Online Portal,Reconciled,2024-05-05,4,Revenue Manager,No,May,11
+REV-000230,FY2023/2024,2024-05-23,RG-01,CC-005,Consultancy Income,International Organisation,RCP-765578,519000,551000,32000,MPESA,Reconciled,2024-05-30,7,Revenue Manager,Yes,May,11
+REV-000231,FY2023/2024,2024-03-30,RG-01,CC-012,Training Fees,International Organisation,RCP-223471,666000,672000,6000,Cheque,Reconciled,2024-04-10,11,Revenue Manager,Yes,March,9
+REV-000232,FY2023/2024,2023-10-04,RG-01,CC-014,Inspection Fees,Individual,RCP-267052,659000,473000,-186000,Online Portal,Reconciled,2023-10-16,12,Revenue Manager,Yes,October,4
+REV-000233,FY2023/2024,2023-11-01,RG-04,CC-025,Inspection Fees,Individual,RCP-781339,218000,261000,43000,Cash,Reconciled,2023-11-08,7,Revenue Manager,Yes,November,5
+REV-000234,FY2023/2024,2024-01-21,RG-01,CC-010,Publication Sales,International Organisation,RCP-671668,372000,299000,-73000,Online Portal,Reconciled,2024-01-22,1,Revenue Manager,No,January,7
+REV-000235,FY2023/2024,2024-04-05,RG-01,CC-004,Licensing Fees,NGO,RCP-814255,619000,769000,150000,MPESA,Reconciled,2024-04-09,4,Revenue Manager,No,April,10
+REV-000236,FY2023/2024,2023-07-25,RG-07,CC-030,Consultancy Income,Government Agency,RCP-958415,194000,159000,-35000,Bank Transfer,Reconciled,2023-08-02,8,Revenue Manager,Yes,July,1
+REV-000237,FY2023/2024,2024-05-15,RG-02,CC-029,Facility Hire,International Organisation,RCP-515392,399000,330000,-69000,Cheque,Reconciled,2024-05-16,1,Revenue Manager,No,May,11
+REV-000238,FY2023/2024,2023-12-29,RG-02,CC-028,Consultancy Income,Individual,RCP-742280,242000,172000,-70000,Bank Transfer,Reconciled,2024-01-05,7,Revenue Manager,Yes,December,6
+REV-000239,FY2023/2024,2024-06-09,RG-01,CC-031,Certification Fees,Government Agency,RCP-833353,688000,695000,7000,Bank Transfer,Reconciled,2024-06-14,5,Revenue Manager,No,June,12
+REV-000240,FY2023/2024,2024-05-09,RG-01,CC-032,Publication Sales,Individual,RCP-410260,176000,177000,1000,Bank Transfer,Reconciled,2024-05-23,14,Revenue Manager,Yes,May,11
+REV-000241,FY2023/2024,2023-07-20,RG-01,CC-009,Training Fees,Private Company,RCP-103372,303000,295000,-8000,Online Portal,Reconciled,2023-07-28,8,Revenue Manager,Yes,July,1
+REV-000242,FY2023/2024,2023-11-16,RG-07,CC-020,Facility Hire,Private Company,RCP-160330,512000,528000,16000,Cash,Reconciled,2023-11-25,9,Revenue Manager,Yes,November,5
+REV-000243,FY2023/2024,2023-07-20,RG-02,CC-028,Certification Fees,Private Company,RCP-109158,790000,666000,-124000,Bank Transfer,Reconciled,2023-07-30,10,Revenue Manager,Yes,July,1
+REV-000244,FY2023/2024,2023-08-06,RG-05,CC-018,Training Fees,Private Company,RCP-307464,614000,429000,-185000,MPESA,Reconciled,2023-08-07,1,Revenue Manager,No,August,2
+REV-000245,FY2023/2024,2023-08-03,RG-01,CC-014,Publication Sales,NGO,RCP-547076,661000,489000,-172000,Cash,Reconciled,2023-08-15,12,Revenue Manager,Yes,August,2
+REV-000246,FY2023/2024,2024-03-16,RG-01,CC-031,Licensing Fees,International Organisation,RCP-618211,116000,84000,-32000,Online Portal,Reconciled,2024-03-27,11,Revenue Manager,Yes,March,9
+REV-000247,FY2023/2024,2024-06-18,RG-04,CC-025,Facility Hire,International Organisation,RCP-303974,213000,192000,-21000,Bank Transfer,Reconciled,2024-06-18,0,Revenue Manager,No,June,12
+REV-000248,FY2023/2024,2023-10-02,RG-07,CC-020,Certification Fees,NGO,RCP-894697,437000,466000,29000,Cheque,Reconciled,2023-10-13,11,Revenue Manager,Yes,October,4
+REV-000249,FY2023/2024,2024-02-09,RG-01,CC-012,Consultancy Income,Private Company,RCP-663789,125000,132000,7000,Online Portal,Reconciled,2024-02-12,3,Revenue Manager,No,February,8
+REV-000250,FY2023/2024,2023-08-25,RG-01,CC-007,Consultancy Income,Individual,RCP-612104,341000,324000,-17000,Cash,Reconciled,2023-08-29,4,Revenue Manager,No,August,2
+REV-000251,FY2023/2024,2024-03-27,RG-04,CC-026,Licensing Fees,Private Company,RCP-521651,241000,206000,-35000,Bank Transfer,Reconciled,2024-04-09,13,Revenue Manager,Yes,March,9
+REV-000252,FY2023/2024,2023-12-04,RG-03,CC-027,Publication Sales,Government Agency,RCP-227817,688000,685000,-3000,Bank Transfer,Reconciled,2023-12-10,6,Revenue Manager,Yes,December,6
+REV-000253,FY2023/2024,2023-08-11,RG-03,CC-016,Licensing Fees,NGO,RCP-255098,663000,606000,-57000,Cheque,Pending,2023-08-25,14,Revenue Manager,Yes,August,2
+REV-000254,FY2023/2024,2023-11-12,RG-01,CC-010,Licensing Fees,Individual,RCP-327473,767000,675000,-92000,MPESA,Reconciled,2023-11-22,10,Revenue Manager,Yes,November,5
+REV-000255,FY2023/2024,2023-08-10,RG-08,CC-021,Licensing Fees,Individual,RCP-686189,255000,258000,3000,Bank Transfer,Reconciled,2023-08-22,12,Revenue Manager,Yes,August,2
+REV-000256,FY2023/2024,2024-05-10,RG-01,CC-013,Service Fees,Government Agency,RCP-123250,116000,89000,-27000,Bank Transfer,Pending,2024-05-24,14,Revenue Manager,Yes,May,11
+REV-000257,FY2023/2024,2024-01-20,RG-01,CC-011,Licensing Fees,Private Company,RCP-937976,548000,464000,-84000,Cash,Unreconciled,2024-01-27,7,Revenue Manager,Yes,January,7
+REV-000258,FY2023/2024,2023-09-22,RG-03,CC-027,Consultancy Income,International Organisation,RCP-720110,353000,292000,-61000,MPESA,Reconciled,2023-09-23,1,Revenue Manager,No,September,3
+REV-000259,FY2023/2024,2023-10-08,RG-01,CC-008,Facility Hire,International Organisation,RCP-460932,395000,428000,33000,Bank Transfer,Reconciled,2023-10-15,7,Revenue Manager,Yes,October,4
+REV-000260,FY2023/2024,2024-06-07,RG-01,CC-004,Licensing Fees,Individual,RCP-428411,206000,172000,-34000,Cheque,Reconciled,2024-06-19,12,Revenue Manager,Yes,June,12
+REV-000261,FY2023/2024,2023-11-21,RG-01,CC-008,Licensing Fees,Government Agency,RCP-258801,407000,338000,-69000,Cash,Reconciled,2023-12-05,14,Revenue Manager,Yes,November,5
+REV-000262,FY2023/2024,2024-05-01,RG-08,CC-021,Certification Fees,NGO,RCP-451158,161000,135000,-26000,Bank Transfer,Reconciled,2024-05-15,14,Revenue Manager,Yes,April,10
+REV-000263,FY2023/2024,2023-09-13,RG-04,CC-025,Publication Sales,Private Company,RCP-907348,147000,123000,-24000,Bank Transfer,Reconciled,2023-09-18,5,Revenue Manager,No,September,3
+REV-000264,FY2023/2024,2024-06-03,RG-08,CC-021,Facility Hire,International Organisation,RCP-299906,219000,222000,3000,Cash,Reconciled,2024-06-03,0,Revenue Manager,No,June,12
+REV-000265,FY2023/2024,2024-04-05,RG-01,CC-010,Inspection Fees,NGO,RCP-919303,598000,426000,-172000,Cash,Reconciled,2024-04-06,1,Revenue Manager,No,April,10
+REV-000266,FY2023/2024,2024-02-21,RG-01,CC-001,Inspection Fees,NGO,RCP-437712,240000,138000,-102000,Online Portal,Reconciled,2024-02-21,0,Revenue Manager,No,February,8
+REV-000267,FY2023/2024,2024-05-10,RG-01,CC-005,Certification Fees,NGO,RCP-703197,555000,436000,-119000,Bank Transfer,Reconciled,2024-05-20,10,Revenue Manager,Yes,May,11
+REV-000268,FY2023/2024,2024-02-14,RG-01,CC-008,Certification Fees,Government Agency,RCP-921432,449000,342000,-107000,Online Portal,Pending,2024-02-28,14,Revenue Manager,Yes,February,8
+REV-000269,FY2023/2024,2023-10-01,RG-01,CC-002,Training Fees,NGO,RCP-757851,320000,287000,-33000,Cash,Reconciled,2023-10-01,0,Revenue Manager,No,September,3
+REV-000270,FY2023/2024,2024-04-10,RG-08,CC-021,Inspection Fees,Private Company,RCP-499993,280000,231000,-49000,Bank Transfer,Reconciled,2024-04-15,5,Revenue Manager,No,April,10
+REV-000271,FY2023/2024,2024-06-03,RG-07,CC-020,Certification Fees,NGO,RCP-826760,187000,175000,-12000,Bank Transfer,Reconciled,2024-06-11,8,Revenue Manager,Yes,June,12
+REV-000272,FY2023/2024,2023-12-09,RG-01,CC-003,Facility Hire,International Organisation,RCP-948690,412000,436000,24000,Cheque,Reconciled,2023-12-22,13,Revenue Manager,Yes,December,6
+REV-000273,FY2023/2024,2024-06-18,RG-07,CC-020,Publication Sales,Individual,RCP-740743,427000,317000,-110000,Online Portal,Unreconciled,2024-06-27,9,Revenue Manager,Yes,June,12
+REV-000274,FY2023/2024,2024-06-17,RG-01,CC-031,Licensing Fees,International Organisation,RCP-214493,200000,181000,-19000,Online Portal,Reconciled,2024-06-26,9,Revenue Manager,Yes,June,12
+REV-000275,FY2023/2024,2024-03-27,RG-01,CC-005,Consultancy Income,Government Agency,RCP-564819,569000,546000,-23000,Cheque,Reconciled,2024-04-01,5,Revenue Manager,No,March,9
+REV-000276,FY2023/2024,2023-09-18,RG-03,CC-016,Publication Sales,Individual,RCP-347679,636000,494000,-142000,Online Portal,Reconciled,2023-09-29,11,Revenue Manager,Yes,September,3
+REV-000277,FY2023/2024,2024-01-13,RG-07,CC-030,Service Fees,Individual,RCP-880882,223000,212000,-11000,Cheque,Reconciled,2024-01-14,1,Revenue Manager,No,January,7
+REV-000278,FY2023/2024,2023-10-15,RG-01,CC-031,Consultancy Income,NGO,RCP-115099,342000,346000,4000,Online Portal,Unreconciled,2023-10-22,7,Revenue Manager,Yes,October,4
+REV-000279,FY2023/2024,2023-07-13,RG-01,CC-010,Licensing Fees,Government Agency,RCP-767267,284000,237000,-47000,Online Portal,Reconciled,2023-07-26,13,Revenue Manager,Yes,July,1
+REV-000280,FY2023/2024,2023-09-26,RG-01,CC-013,Service Fees,Government Agency,RCP-374898,338000,284000,-54000,Online Portal,Reconciled,2023-09-28,2,Revenue Manager,No,September,3
+REV-000281,FY2023/2024,2024-01-11,RG-01,CC-013,Inspection Fees,Individual,RCP-663270,480000,371000,-109000,Bank Transfer,Unreconciled,2024-01-15,4,Revenue Manager,No,January,7
+REV-000282,FY2023/2024,2023-09-25,RG-01,CC-014,Publication Sales,Private Company,RCP-277631,198000,209000,11000,MPESA,Reconciled,2023-10-06,11,Revenue Manager,Yes,September,3
+REV-000283,FY2023/2024,2024-01-06,RG-04,CC-025,Service Fees,International Organisation,RCP-557789,765000,889000,124000,MPESA,Reconciled,2024-01-10,4,Revenue Manager,No,January,7
+REV-000284,FY2023/2024,2023-12-06,RG-01,CC-010,Facility Hire,Individual,RCP-598830,234000,175000,-59000,Online Portal,Reconciled,2023-12-10,4,Revenue Manager,No,December,6
+REV-000285,FY2023/2024,2024-02-20,RG-07,CC-020,Licensing Fees,Government Agency,RCP-686129,440000,434000,-6000,Cash,Reconciled,2024-02-24,4,Revenue Manager,No,February,8
+REV-000286,FY2023/2024,2023-07-10,RG-04,CC-025,Publication Sales,Private Company,RCP-229948,607000,641000,34000,Online Portal,Reconciled,2023-07-22,12,Revenue Manager,Yes,July,1
+REV-000287,FY2023/2024,2024-03-05,RG-01,CC-032,Inspection Fees,Private Company,RCP-252123,745000,584000,-161000,MPESA,Reconciled,2024-03-12,7,Revenue Manager,Yes,March,9
+REV-000288,FY2023/2024,2024-04-18,RG-01,CC-004,Certification Fees,Individual,RCP-678277,580000,519000,-61000,Cash,Reconciled,2024-05-01,13,Revenue Manager,Yes,April,10
+REV-000289,FY2023/2024,2024-04-08,RG-03,CC-016,Training Fees,Private Company,RCP-901060,335000,258000,-77000,Bank Transfer,Reconciled,2024-04-12,4,Revenue Manager,No,April,10
+REV-000290,FY2023/2024,2024-05-15,RG-07,CC-030,Training Fees,International Organisation,RCP-515709,584000,500000,-84000,Online Portal,Pending,2024-05-27,12,Revenue Manager,Yes,May,11
+REV-000291,FY2023/2024,2024-02-25,RG-01,CC-014,Training Fees,Private Company,RCP-989091,671000,272000,-399000,MPESA,Reconciled,2024-03-07,11,Revenue Manager,Yes,February,8
+REV-000292,FY2023/2024,2024-05-24,RG-01,CC-003,Training Fees,Private Company,RCP-886582,797000,814000,17000,Cash,Reconciled,2024-05-27,3,Revenue Manager,No,May,11
+REV-000293,FY2023/2024,2023-11-02,RG-03,CC-016,Service Fees,Government Agency,RCP-962019,405000,364000,-41000,Cheque,Unreconciled,2023-11-16,14,Revenue Manager,Yes,November,5
+REV-000294,FY2023/2024,2024-06-11,RG-01,CC-008,Licensing Fees,NGO,RCP-940313,374000,244000,-130000,Bank Transfer,Pending,2024-06-15,4,Revenue Manager,No,June,12
+REV-000295,FY2023/2024,2023-11-06,RG-01,CC-006,Licensing Fees,Individual,RCP-839887,621000,496000,-125000,Cheque,Reconciled,2023-11-17,11,Revenue Manager,Yes,November,5
+REV-000296,FY2023/2024,2024-01-19,RG-06,CC-019,Certification Fees,NGO,RCP-867564,695000,580000,-115000,Bank Transfer,Reconciled,2024-01-22,3,Revenue Manager,No,January,7
+REV-000297,FY2023/2024,2023-07-18,RG-07,CC-030,Service Fees,NGO,RCP-707420,683000,576000,-107000,Bank Transfer,Reconciled,2023-07-31,13,Revenue Manager,Yes,July,1
+REV-000298,FY2023/2024,2024-03-19,RG-01,CC-009,Publication Sales,Private Company,RCP-210244,467000,454000,-13000,MPESA,Reconciled,2024-04-02,14,Revenue Manager,Yes,March,9
+REV-000299,FY2023/2024,2023-11-18,RG-04,CC-025,Training Fees,Government Agency,RCP-864409,366000,354000,-12000,Online Portal,Unreconciled,2023-11-23,5,Revenue Manager,No,November,5
+REV-000300,FY2023/2024,2023-09-30,RG-02,CC-028,Consultancy Income,International Organisation,RCP-955516,264000,265000,1000,MPESA,Reconciled,2023-10-08,8,Revenue Manager,Yes,September,3
+REV-000301,FY2023/2024,2024-06-19,RG-02,CC-028,Service Fees,International Organisation,RCP-553328,187000,138000,-49000,Online Portal,Reconciled,2024-06-23,4,Revenue Manager,No,June,12
+REV-000302,FY2023/2024,2024-03-14,RG-03,CC-027,Consultancy Income,Individual,RCP-811458,551000,392000,-159000,Bank Transfer,Reconciled,2024-03-19,5,Revenue Manager,No,March,9
+REV-000303,FY2023/2024,2023-08-15,RG-01,CC-004,Training Fees,Individual,RCP-692832,456000,363000,-93000,Bank Transfer,Reconciled,2023-08-29,14,Revenue Manager,Yes,August,2
+REV-000304,FY2023/2024,2023-10-25,RG-01,CC-005,Publication Sales,International Organisation,RCP-406758,231000,238000,7000,Bank Transfer,Unreconciled,2023-10-27,2,Revenue Manager,No,October,4
+REV-000305,FY2023/2024,2023-08-02,RG-01,CC-004,Inspection Fees,Government Agency,RCP-162457,327000,407000,80000,Cash,Reconciled,2023-08-04,2,Revenue Manager,No,August,2
+REV-000306,FY2023/2024,2023-12-05,RG-01,CC-031,Licensing Fees,International Organisation,RCP-420444,556000,486000,-70000,Bank Transfer,Reconciled,2023-12-11,6,Revenue Manager,Yes,December,6
+REV-000307,FY2023/2024,2023-09-25,RG-01,CC-011,Training Fees,Individual,RCP-498029,691000,562000,-129000,Cash,Reconciled,2023-09-30,5,Revenue Manager,No,September,3
+REV-000308,FY2023/2024,2023-12-17,RG-01,CC-013,Certification Fees,Individual,RCP-624024,456000,370000,-86000,Cheque,Reconciled,2023-12-22,5,Revenue Manager,No,December,6
+REV-000309,FY2023/2024,2023-11-29,RG-04,CC-026,Inspection Fees,Individual,RCP-421365,416000,397000,-19000,Bank Transfer,Reconciled,2023-12-05,6,Revenue Manager,Yes,November,5
+REV-000310,FY2023/2024,2024-03-13,RG-01,CC-008,Licensing Fees,Private Company,RCP-316148,659000,630000,-29000,MPESA,Pending,2024-03-20,7,Revenue Manager,Yes,March,9
+REV-000311,FY2023/2024,2024-05-18,RG-01,CC-009,Licensing Fees,International Organisation,RCP-480425,692000,563000,-129000,Cheque,Reconciled,2024-06-01,14,Revenue Manager,Yes,May,11
+REV-000312,FY2023/2024,2023-12-17,RG-04,CC-017,Licensing Fees,Government Agency,RCP-888562,621000,512000,-109000,MPESA,Reconciled,2023-12-25,8,Revenue Manager,Yes,December,6
+REV-000313,FY2023/2024,2024-05-23,RG-01,CC-001,Service Fees,NGO,RCP-333789,624000,645000,21000,MPESA,Pending,2024-05-29,6,Revenue Manager,Yes,May,11
+REV-000314,FY2023/2024,2024-03-11,RG-04,CC-017,Facility Hire,NGO,RCP-840877,351000,284000,-67000,Bank Transfer,Reconciled,2024-03-14,3,Revenue Manager,No,March,9
+REV-000315,FY2023/2024,2023-12-02,RG-06,CC-019,Inspection Fees,NGO,RCP-772831,553000,413000,-140000,Cheque,Reconciled,2023-12-16,14,Revenue Manager,Yes,December,6
+REV-000316,FY2023/2024,2024-04-06,RG-06,CC-019,Publication Sales,International Organisation,RCP-614466,418000,456000,38000,Online Portal,Reconciled,2024-04-10,4,Revenue Manager,No,April,10
+REV-000317,FY2023/2024,2024-06-16,RG-02,CC-022,Service Fees,Individual,RCP-143507,377000,282000,-95000,Bank Transfer,Reconciled,2024-06-24,8,Revenue Manager,Yes,June,12
+REV-000318,FY2023/2024,2023-09-21,RG-03,CC-016,Publication Sales,Private Company,RCP-984346,241000,280000,39000,Online Portal,Reconciled,2023-09-30,9,Revenue Manager,Yes,September,3
+REV-000319,FY2023/2024,2024-05-04,RG-01,CC-008,Training Fees,Private Company,RCP-400565,600000,580000,-20000,Online Portal,Reconciled,2024-05-10,6,Revenue Manager,Yes,May,11
+REV-000320,FY2023/2024,2024-03-13,RG-01,CC-014,Facility Hire,International Organisation,RCP-392708,322000,337000,15000,Cheque,Reconciled,2024-03-25,12,Revenue Manager,Yes,March,9
+REV-000321,FY2023/2024,2023-12-16,RG-01,CC-009,Service Fees,Government Agency,RCP-936162,445000,434000,-11000,MPESA,Reconciled,2023-12-27,11,Revenue Manager,Yes,December,6
+REV-000322,FY2023/2024,2023-12-14,RG-05,CC-024,Facility Hire,NGO,RCP-515447,401000,400000,-1000,Bank Transfer,Reconciled,2023-12-14,0,Revenue Manager,No,December,6
+REV-000323,FY2023/2024,2024-03-07,RG-03,CC-016,Service Fees,NGO,RCP-842475,778000,665000,-113000,Cheque,Reconciled,2024-03-08,1,Revenue Manager,No,March,9
+REV-000324,FY2023/2024,2023-09-08,RG-02,CC-028,Certification Fees,NGO,RCP-182313,129000,119000,-10000,Cheque,Reconciled,2023-09-20,12,Revenue Manager,Yes,September,3
+REV-000325,FY2023/2024,2024-04-25,RG-04,CC-017,Consultancy Income,Individual,RCP-334229,171000,171000,0,Bank Transfer,Reconciled,2024-04-30,5,Revenue Manager,No,April,10
+REV-000326,FY2023/2024,2024-03-04,RG-02,CC-028,Certification Fees,Individual,RCP-466280,204000,211000,7000,Online Portal,Reconciled,2024-03-06,2,Revenue Manager,No,March,9
+REV-000327,FY2023/2024,2024-04-09,RG-01,CC-032,Licensing Fees,International Organisation,RCP-954739,236000,187000,-49000,Cheque,Reconciled,2024-04-22,13,Revenue Manager,Yes,April,10
+REV-000328,FY2023/2024,2023-12-05,RG-01,CC-011,Facility Hire,NGO,RCP-703428,304000,291000,-13000,MPESA,Reconciled,2023-12-18,13,Revenue Manager,Yes,December,6
+REV-000329,FY2023/2024,2024-04-04,RG-01,CC-003,Training Fees,Individual,RCP-171581,255000,198000,-57000,Online Portal,Pending,2024-04-08,4,Revenue Manager,No,April,10
+REV-000330,FY2023/2024,2023-12-02,RG-01,CC-003,Facility Hire,Government Agency,RCP-452013,765000,553000,-212000,Bank Transfer,Reconciled,2023-12-04,2,Revenue Manager,No,December,6
+REV-000331,FY2023/2024,2023-07-28,RG-01,CC-009,Certification Fees,Government Agency,RCP-441142,419000,285000,-134000,Online Portal,Reconciled,2023-08-02,5,Revenue Manager,No,July,1
+REV-000332,FY2023/2024,2023-07-14,RG-01,CC-014,Consultancy Income,Private Company,RCP-640031,136000,106000,-30000,MPESA,Reconciled,2023-07-28,14,Revenue Manager,Yes,July,1
+REV-000333,FY2023/2024,2023-08-11,RG-08,CC-021,Certification Fees,International Organisation,RCP-335219,725000,659000,-66000,Cash,Reconciled,2023-08-13,2,Revenue Manager,No,August,2
+REV-000334,FY2023/2024,2023-11-29,RG-02,CC-022,Publication Sales,Government Agency,RCP-153497,224000,249000,25000,Cash,Reconciled,2023-12-12,13,Revenue Manager,Yes,November,5
+REV-000335,FY2023/2024,2023-11-22,RG-04,CC-017,Licensing Fees,NGO,RCP-738660,599000,448000,-151000,Cash,Reconciled,2023-11-24,2,Revenue Manager,No,November,5
+REV-000336,FY2023/2024,2024-03-19,RG-02,CC-029,Consultancy Income,International Organisation,RCP-478945,388000,393000,5000,MPESA,Reconciled,2024-04-02,14,Revenue Manager,Yes,March,9
+REV-000337,FY2023/2024,2023-09-08,RG-01,CC-002,Facility Hire,Private Company,RCP-316997,221000,209000,-12000,MPESA,Reconciled,2023-09-19,11,Revenue Manager,Yes,September,3
+REV-000338,FY2023/2024,2023-10-04,RG-01,CC-010,Publication Sales,Private Company,RCP-624001,498000,464000,-34000,Cheque,Unreconciled,2023-10-07,3,Revenue Manager,No,October,4
+REV-000339,FY2023/2024,2023-10-02,RG-01,CC-023,Facility Hire,Individual,RCP-931985,720000,600000,-120000,MPESA,Reconciled,2023-10-15,13,Revenue Manager,Yes,October,4
+REV-000340,FY2023/2024,2023-08-18,RG-01,CC-031,Service Fees,NGO,RCP-970208,786000,761000,-25000,Cheque,Reconciled,2023-08-23,5,Revenue Manager,No,August,2
+REV-000341,FY2023/2024,2024-05-23,RG-01,CC-002,Licensing Fees,Government Agency,RCP-906117,610000,571000,-39000,Online Portal,Reconciled,2024-05-27,4,Revenue Manager,No,May,11
+REV-000342,FY2023/2024,2024-02-24,RG-05,CC-024,Inspection Fees,Private Company,RCP-509668,289000,211000,-78000,Online Portal,Reconciled,2024-02-25,1,Revenue Manager,No,February,8
+REV-000343,FY2023/2024,2024-03-06,RG-01,CC-013,Inspection Fees,Private Company,RCP-213693,585000,479000,-106000,Cash,Pending,2024-03-20,14,Revenue Manager,Yes,March,9
+REV-000344,FY2023/2024,2023-12-24,RG-02,CC-029,Publication Sales,Individual,RCP-889947,354000,195000,-159000,Cash,Pending,2024-01-05,12,Revenue Manager,Yes,December,6
+REV-000345,FY2023/2024,2023-09-04,RG-01,CC-003,Certification Fees,Government Agency,RCP-824002,527000,638000,111000,Cash,Unreconciled,2023-09-06,2,Revenue Manager,No,September,3
+REV-000346,FY2023/2024,2024-01-05,RG-01,CC-003,Training Fees,Individual,RCP-851754,574000,402000,-172000,Online Portal,Reconciled,2024-01-14,9,Revenue Manager,Yes,January,7
+REV-000347,FY2023/2024,2023-08-17,RG-01,CC-004,Service Fees,Private Company,RCP-614386,489000,487000,-2000,MPESA,Reconciled,2023-08-17,0,Revenue Manager,No,August,2
+REV-000348,FY2023/2024,2024-04-30,RG-02,CC-028,Publication Sales,International Organisation,RCP-774119,364000,291000,-73000,Cheque,Reconciled,2024-05-07,7,Revenue Manager,Yes,April,10
+REV-000349,FY2023/2024,2024-02-22,RG-01,CC-014,Inspection Fees,Government Agency,RCP-368609,727000,513000,-214000,Online Portal,Reconciled,2024-03-06,13,Revenue Manager,Yes,February,8
+REV-000350,FY2023/2024,2023-10-08,RG-08,CC-021,Licensing Fees,Individual,RCP-790584,531000,444000,-87000,MPESA,Reconciled,2023-10-10,2,Revenue Manager,No,October,4
+REV-000351,FY2023/2024,2023-10-01,RG-05,CC-024,Certification Fees,Private Company,RCP-861766,245000,144000,-101000,Cash,Reconciled,2023-10-04,3,Revenue Manager,No,September,3
+REV-000352,FY2023/2024,2024-02-13,RG-06,CC-019,Publication Sales,NGO,RCP-662458,531000,483000,-48000,Cash,Reconciled,2024-02-20,7,Revenue Manager,Yes,February,8
+REV-000353,FY2023/2024,2024-02-04,RG-01,CC-012,Consultancy Income,Government Agency,RCP-727548,511000,505000,-6000,Cheque,Reconciled,2024-02-10,6,Revenue Manager,Yes,February,8
+REV-000354,FY2023/2024,2023-12-31,RG-01,CC-003,Licensing Fees,Government Agency,RCP-468244,556000,541000,-15000,Bank Transfer,Reconciled,2024-01-02,2,Revenue Manager,No,December,6
+REV-000355,FY2023/2024,2024-06-21,RG-01,CC-009,Training Fees,Private Company,RCP-805367,741000,585000,-156000,Online Portal,Pending,2024-06-21,0,Revenue Manager,No,June,12
+REV-000356,FY2023/2024,2024-06-23,RG-04,CC-025,Facility Hire,Private Company,RCP-355537,572000,480000,-92000,MPESA,Reconciled,2024-07-05,12,Revenue Manager,Yes,June,12
+REV-000357,FY2023/2024,2023-12-18,RG-04,CC-025,Service Fees,Government Agency,RCP-549455,747000,910000,163000,Online Portal,Reconciled,2023-12-30,12,Revenue Manager,Yes,December,6
+REV-000358,FY2023/2024,2023-10-12,RG-01,CC-004,Consultancy Income,International Organisation,RCP-209688,550000,446000,-104000,Cash,Reconciled,2023-10-21,9,Revenue Manager,Yes,October,4
+REV-000359,FY2023/2024,2023-12-01,RG-02,CC-029,Service Fees,International Organisation,RCP-939759,628000,779000,151000,MPESA,Pending,2023-12-15,14,Revenue Manager,Yes,November,5
+REV-000360,FY2023/2024,2024-01-04,RG-03,CC-027,Publication Sales,International Organisation,RCP-866054,261000,248000,-13000,Online Portal,Reconciled,2024-01-18,14,Revenue Manager,Yes,January,7
+REV-000361,FY2024/2025,2024-12-22,RG-01,CC-008,Licensing Fees,Individual,RCP-907961,696000,596000,-100000,Cheque,Reconciled,2024-12-22,0,Revenue Manager,No,December,6
+REV-000362,FY2024/2025,2025-05-08,RG-02,CC-028,Inspection Fees,Government Agency,RCP-622871,768000,937000,169000,Cheque,Reconciled,2025-05-21,13,Revenue Manager,Yes,May,11
+REV-000363,FY2024/2025,2025-05-27,RG-01,CC-007,Licensing Fees,NGO,RCP-276582,132000,106000,-26000,Bank Transfer,Reconciled,2025-06-08,12,Revenue Manager,Yes,May,11
+REV-000364,FY2024/2025,2024-11-22,RG-01,CC-005,Service Fees,International Organisation,RCP-135841,280000,228000,-52000,Online Portal,Unreconciled,2024-11-25,3,Revenue Manager,No,November,5
+REV-000365,FY2024/2025,2024-08-04,RG-01,CC-013,Training Fees,NGO,RCP-980573,225000,157000,-68000,Cheque,Reconciled,2024-08-14,10,Revenue Manager,Yes,August,2
+REV-000366,FY2024/2025,2025-04-04,RG-01,CC-013,Licensing Fees,Private Company,RCP-581962,444000,370000,-74000,Bank Transfer,Unreconciled,2025-04-17,13,Revenue Manager,Yes,April,10
+REV-000367,FY2024/2025,2024-09-06,RG-04,CC-017,Consultancy Income,Private Company,RCP-877955,199000,183000,-16000,MPESA,Reconciled,2024-09-13,7,Revenue Manager,Yes,September,3
+REV-000368,FY2024/2025,2024-12-03,RG-01,CC-023,Service Fees,NGO,RCP-373057,244000,256000,12000,MPESA,Reconciled,2024-12-03,0,Revenue Manager,No,December,6
+REV-000369,FY2024/2025,2024-08-02,RG-02,CC-015,Training Fees,Individual,RCP-910617,275000,281000,6000,Bank Transfer,Reconciled,2024-08-02,0,Revenue Manager,No,August,2
+REV-000370,FY2024/2025,2025-03-24,RG-04,CC-017,Service Fees,Individual,RCP-134591,793000,693000,-100000,Bank Transfer,Reconciled,2025-03-29,5,Revenue Manager,No,March,9
+REV-000371,FY2024/2025,2024-12-05,RG-02,CC-028,Facility Hire,NGO,RCP-803894,673000,688000,15000,Online Portal,Reconciled,2024-12-17,12,Revenue Manager,Yes,December,6
+REV-000372,FY2024/2025,2025-01-11,RG-01,CC-010,Publication Sales,International Organisation,RCP-825798,337000,320000,-17000,Cash,Unreconciled,2025-01-22,11,Revenue Manager,Yes,January,7
+REV-000373,FY2024/2025,2025-05-04,RG-03,CC-027,Licensing Fees,Individual,RCP-451528,274000,275000,1000,Cheque,Reconciled,2025-05-07,3,Revenue Manager,No,May,11
+REV-000374,FY2024/2025,2025-06-21,RG-01,CC-032,Certification Fees,NGO,RCP-295107,417000,441000,24000,Cash,Reconciled,2025-07-04,13,Revenue Manager,Yes,June,12
+REV-000375,FY2024/2025,2025-05-01,RG-02,CC-029,Facility Hire,Government Agency,RCP-116335,242000,253000,11000,Cash,Reconciled,2025-05-01,0,Revenue Manager,No,May,11
+REV-000376,FY2024/2025,2024-12-14,RG-01,CC-002,Certification Fees,Government Agency,RCP-273541,450000,358000,-92000,Cash,Unreconciled,2024-12-15,1,Revenue Manager,No,December,6
+REV-000377,FY2024/2025,2024-10-04,RG-03,CC-027,Licensing Fees,Government Agency,RCP-874132,642000,662000,20000,Online Portal,Reconciled,2024-10-09,5,Revenue Manager,No,October,4
+REV-000378,FY2024/2025,2025-06-24,RG-04,CC-017,Publication Sales,Individual,RCP-589261,125000,100000,-25000,Cash,Reconciled,2025-07-07,13,Revenue Manager,Yes,June,12
+REV-000379,FY2024/2025,2024-12-23,RG-02,CC-022,Licensing Fees,Government Agency,RCP-220871,442000,348000,-94000,Cheque,Unreconciled,2024-12-28,5,Revenue Manager,No,December,6
+REV-000380,FY2024/2025,2025-06-06,RG-01,CC-031,Licensing Fees,Individual,RCP-152991,633000,680000,47000,Cheque,Reconciled,2025-06-09,3,Revenue Manager,No,June,12
+REV-000381,FY2024/2025,2025-05-24,RG-03,CC-016,Service Fees,Individual,RCP-401184,336000,248000,-88000,Bank Transfer,Reconciled,2025-06-04,11,Revenue Manager,Yes,May,11
+REV-000382,FY2024/2025,2024-12-11,RG-04,CC-026,Inspection Fees,International Organisation,RCP-603406,264000,301000,37000,Cash,Reconciled,2024-12-22,11,Revenue Manager,Yes,December,6
+REV-000383,FY2024/2025,2024-11-07,RG-01,CC-001,Certification Fees,Individual,RCP-486902,103000,79000,-24000,Cash,Reconciled,2024-11-09,2,Revenue Manager,No,November,5
+REV-000384,FY2024/2025,2024-09-19,RG-01,CC-014,Training Fees,Government Agency,RCP-441363,415000,380000,-35000,Bank Transfer,Reconciled,2024-09-23,4,Revenue Manager,No,September,3
+REV-000385,FY2024/2025,2024-08-08,RG-01,CC-032,Service Fees,Individual,RCP-927303,697000,554000,-143000,Cash,Reconciled,2024-08-09,1,Revenue Manager,No,August,2
+REV-000386,FY2024/2025,2025-02-01,RG-01,CC-011,Facility Hire,International Organisation,RCP-775499,471000,325000,-146000,Bank Transfer,Reconciled,2025-02-04,3,Revenue Manager,No,February,8
+REV-000387,FY2024/2025,2025-03-02,RG-06,CC-019,Facility Hire,Government Agency,RCP-996621,638000,512000,-126000,Online Portal,Unreconciled,2025-03-14,12,Revenue Manager,Yes,March,9
+REV-000388,FY2024/2025,2025-03-01,RG-01,CC-014,Inspection Fees,International Organisation,RCP-774614,130000,94000,-36000,Cheque,Reconciled,2025-03-08,7,Revenue Manager,Yes,February,8
+REV-000389,FY2024/2025,2025-02-21,RG-01,CC-002,Service Fees,Private Company,RCP-455834,722000,620000,-102000,MPESA,Reconciled,2025-02-27,6,Revenue Manager,Yes,February,8
+REV-000390,FY2024/2025,2025-02-28,RG-01,CC-009,Training Fees,Private Company,RCP-286689,667000,525000,-142000,Cheque,Reconciled,2025-03-07,7,Revenue Manager,Yes,February,8
+REV-000391,FY2024/2025,2024-12-10,RG-01,CC-011,Service Fees,International Organisation,RCP-813747,535000,467000,-68000,Cheque,Reconciled,2024-12-15,5,Revenue Manager,No,December,6
+REV-000392,FY2024/2025,2024-09-26,RG-01,CC-008,Licensing Fees,Private Company,RCP-825973,105000,108000,3000,MPESA,Reconciled,2024-10-10,14,Revenue Manager,Yes,September,3
+REV-000393,FY2024/2025,2024-08-04,RG-02,CC-028,Consultancy Income,NGO,RCP-891056,370000,336000,-34000,Bank Transfer,Reconciled,2024-08-17,13,Revenue Manager,Yes,August,2
+REV-000394,FY2024/2025,2025-03-29,RG-01,CC-007,Publication Sales,Individual,RCP-654816,405000,349000,-56000,Cash,Pending,2025-04-08,10,Revenue Manager,Yes,March,9
+REV-000395,FY2024/2025,2024-08-15,RG-01,CC-023,Licensing Fees,Private Company,RCP-253517,242000,183000,-59000,Online Portal,Reconciled,2024-08-20,5,Revenue Manager,No,August,2
+REV-000396,FY2024/2025,2025-06-11,RG-01,CC-005,Training Fees,Government Agency,RCP-476249,723000,647000,-76000,Bank Transfer,Reconciled,2025-06-23,12,Revenue Manager,Yes,June,12
+REV-000397,FY2024/2025,2024-09-28,RG-01,CC-014,Publication Sales,NGO,RCP-801089,380000,382000,2000,Online Portal,Reconciled,2024-10-04,6,Revenue Manager,Yes,September,3
+REV-000398,FY2024/2025,2025-01-07,RG-05,CC-018,Certification Fees,Individual,RCP-842573,225000,229000,4000,Cash,Reconciled,2025-01-10,3,Revenue Manager,No,January,7
+REV-000399,FY2024/2025,2025-04-13,RG-02,CC-015,Certification Fees,International Organisation,RCP-669383,266000,239000,-27000,Cash,Pending,2025-04-25,12,Revenue Manager,Yes,April,10
+REV-000400,FY2024/2025,2025-04-30,RG-01,CC-023,Inspection Fees,NGO,RCP-920499,532000,612000,80000,Cheque,Reconciled,2025-04-30,0,Revenue Manager,No,April,10
+REV-000401,FY2024/2025,2025-06-04,RG-01,CC-001,Facility Hire,Private Company,RCP-150579,552000,460000,-92000,Cash,Reconciled,2025-06-07,3,Revenue Manager,No,June,12
+REV-000402,FY2024/2025,2025-05-30,RG-02,CC-015,Inspection Fees,Private Company,RCP-992704,206000,182000,-24000,Cheque,Reconciled,2025-06-04,5,Revenue Manager,No,May,11
+REV-000403,FY2024/2025,2025-01-25,RG-01,CC-011,Publication Sales,International Organisation,RCP-535987,267000,292000,25000,MPESA,Reconciled,2025-02-06,12,Revenue Manager,Yes,January,7
+REV-000404,FY2024/2025,2025-05-24,RG-05,CC-018,Licensing Fees,International Organisation,RCP-453006,129000,117000,-12000,Cheque,Reconciled,2025-06-03,10,Revenue Manager,Yes,May,11
+REV-000405,FY2024/2025,2025-03-20,RG-01,CC-005,Publication Sales,International Organisation,RCP-868377,645000,537000,-108000,MPESA,Reconciled,2025-03-25,5,Revenue Manager,No,March,9
+REV-000406,FY2024/2025,2024-09-22,RG-02,CC-028,Certification Fees,Government Agency,RCP-103985,134000,110000,-24000,Cash,Pending,2024-10-02,10,Revenue Manager,Yes,September,3
+REV-000407,FY2024/2025,2024-10-21,RG-01,CC-013,Training Fees,NGO,RCP-175097,666000,618000,-48000,Online Portal,Reconciled,2024-10-27,6,Revenue Manager,Yes,October,4
+REV-000408,FY2024/2025,2024-12-11,RG-03,CC-027,Training Fees,Private Company,RCP-330374,270000,235000,-35000,MPESA,Reconciled,2024-12-17,6,Revenue Manager,Yes,December,6
+REV-000409,FY2024/2025,2024-08-16,RG-08,CC-021,Consultancy Income,Private Company,RCP-976485,272000,228000,-44000,Online Portal,Reconciled,2024-08-22,6,Revenue Manager,Yes,August,2
+REV-000410,FY2024/2025,2024-09-25,RG-01,CC-009,Certification Fees,NGO,RCP-940494,508000,513000,5000,Cheque,Reconciled,2024-10-09,14,Revenue Manager,Yes,September,3
+REV-000411,FY2024/2025,2025-04-23,RG-05,CC-024,Training Fees,Individual,RCP-319151,767000,737000,-30000,Bank Transfer,Reconciled,2025-04-24,1,Revenue Manager,No,April,10
+REV-000412,FY2024/2025,2025-04-21,RG-01,CC-012,Licensing Fees,Private Company,RCP-939320,452000,302000,-150000,Cash,Reconciled,2025-04-29,8,Revenue Manager,Yes,April,10
+REV-000413,FY2024/2025,2024-07-30,RG-02,CC-022,Inspection Fees,Private Company,RCP-894695,348000,381000,33000,Cash,Reconciled,2024-07-30,0,Revenue Manager,No,July,1
+REV-000414,FY2024/2025,2024-12-07,RG-07,CC-030,Publication Sales,NGO,RCP-714810,418000,344000,-74000,Online Portal,Reconciled,2024-12-12,5,Revenue Manager,No,December,6
+REV-000415,FY2024/2025,2025-04-03,RG-01,CC-008,Inspection Fees,Government Agency,RCP-860238,328000,255000,-73000,Bank Transfer,Reconciled,2025-04-04,1,Revenue Manager,No,April,10
+REV-000416,FY2024/2025,2024-07-08,RG-02,CC-029,Publication Sales,Government Agency,RCP-687976,440000,311000,-129000,Bank Transfer,Reconciled,2024-07-08,0,Revenue Manager,No,July,1
+REV-000417,FY2024/2025,2024-11-04,RG-06,CC-019,Training Fees,Government Agency,RCP-719264,704000,636000,-68000,Cash,Reconciled,2024-11-05,1,Revenue Manager,No,November,5
+REV-000418,FY2024/2025,2024-11-19,RG-01,CC-002,Licensing Fees,International Organisation,RCP-735711,717000,611000,-106000,Online Portal,Reconciled,2024-12-03,14,Revenue Manager,Yes,November,5
+REV-000419,FY2024/2025,2025-01-31,RG-01,CC-010,Training Fees,Government Agency,RCP-932105,181000,117000,-64000,Cheque,Reconciled,2025-02-01,1,Revenue Manager,No,January,7
+REV-000420,FY2024/2025,2025-03-29,RG-01,CC-004,Training Fees,International Organisation,RCP-335630,461000,434000,-27000,Bank Transfer,Pending,2025-04-06,8,Revenue Manager,Yes,March,9
+REV-000421,FY2024/2025,2024-09-19,RG-02,CC-022,Inspection Fees,NGO,RCP-843261,333000,308000,-25000,Online Portal,Reconciled,2024-09-26,7,Revenue Manager,Yes,September,3
+REV-000422,FY2024/2025,2024-10-11,RG-03,CC-027,Certification Fees,NGO,RCP-232975,489000,426000,-63000,Cheque,Reconciled,2024-10-20,9,Revenue Manager,Yes,October,4
+REV-000423,FY2024/2025,2024-09-08,RG-07,CC-030,Training Fees,International Organisation,RCP-354199,772000,710000,-62000,Bank Transfer,Reconciled,2024-09-17,9,Revenue Manager,Yes,September,3
+REV-000424,FY2024/2025,2024-08-11,RG-08,CC-021,Facility Hire,International Organisation,RCP-890844,350000,392000,42000,Cheque,Reconciled,2024-08-17,6,Revenue Manager,Yes,August,2
+REV-000425,FY2024/2025,2025-02-16,RG-02,CC-028,Certification Fees,Government Agency,RCP-650098,478000,575000,97000,Cheque,Reconciled,2025-02-28,12,Revenue Manager,Yes,February,8
+REV-000426,FY2024/2025,2024-07-27,RG-01,CC-002,Facility Hire,NGO,RCP-416112,161000,136000,-25000,Bank Transfer,Reconciled,2024-08-05,9,Revenue Manager,Yes,July,1
+REV-000427,FY2024/2025,2024-08-02,RG-01,CC-011,Inspection Fees,Individual,RCP-722650,509000,383000,-126000,Cash,Unreconciled,2024-08-12,10,Revenue Manager,Yes,August,2
+REV-000428,FY2024/2025,2024-09-15,RG-01,CC-004,Inspection Fees,Individual,RCP-956658,170000,144000,-26000,Cheque,Reconciled,2024-09-22,7,Revenue Manager,Yes,September,3
+REV-000429,FY2024/2025,2025-05-19,RG-01,CC-007,Training Fees,NGO,RCP-443605,392000,290000,-102000,Online Portal,Reconciled,2025-05-30,11,Revenue Manager,Yes,May,11
+REV-000430,FY2024/2025,2024-10-01,RG-01,CC-014,Consultancy Income,NGO,RCP-354162,588000,426000,-162000,MPESA,Reconciled,2024-10-12,11,Revenue Manager,Yes,October,4
+REV-000431,FY2024/2025,2024-07-03,RG-01,CC-006,Training Fees,Government Agency,RCP-940600,650000,502000,-148000,Bank Transfer,Reconciled,2024-07-12,9,Revenue Manager,Yes,July,1
+REV-000432,FY2024/2025,2024-12-20,RG-01,CC-007,Inspection Fees,Private Company,RCP-339156,123000,125000,2000,Cheque,Reconciled,2024-12-20,0,Revenue Manager,No,December,6
+REV-000433,FY2024/2025,2024-07-27,RG-04,CC-025,Publication Sales,Private Company,RCP-292135,437000,444000,7000,Cash,Reconciled,2024-07-30,3,Revenue Manager,No,July,1
+REV-000434,FY2024/2025,2024-07-14,RG-02,CC-028,Inspection Fees,International Organisation,RCP-577725,153000,118000,-35000,Bank Transfer,Unreconciled,2024-07-19,5,Revenue Manager,No,July,1
+REV-000435,FY2024/2025,2025-01-06,RG-05,CC-024,Facility Hire,Private Company,RCP-119242,408000,376000,-32000,Cash,Reconciled,2025-01-17,11,Revenue Manager,Yes,January,7
+REV-000436,FY2024/2025,2025-05-13,RG-07,CC-020,Consultancy Income,Government Agency,RCP-243106,105000,92000,-13000,Cheque,Reconciled,2025-05-18,5,Revenue Manager,No,May,11
+REV-000437,FY2024/2025,2024-09-13,RG-01,CC-009,Licensing Fees,Private Company,RCP-754354,754000,687000,-67000,Online Portal,Reconciled,2024-09-19,6,Revenue Manager,Yes,September,3
+REV-000438,FY2024/2025,2024-07-09,RG-07,CC-030,Publication Sales,Government Agency,RCP-590164,174000,142000,-32000,Bank Transfer,Reconciled,2024-07-20,11,Revenue Manager,Yes,July,1
+REV-000439,FY2024/2025,2024-12-03,RG-03,CC-027,Service Fees,NGO,RCP-194700,637000,539000,-98000,Online Portal,Reconciled,2024-12-09,6,Revenue Manager,Yes,December,6
+REV-000440,FY2024/2025,2024-11-16,RG-04,CC-017,Training Fees,Government Agency,RCP-733549,521000,396000,-125000,Cash,Reconciled,2024-11-21,5,Revenue Manager,No,November,5
+REV-000441,FY2024/2025,2025-01-19,RG-02,CC-022,Training Fees,Individual,RCP-981203,305000,244000,-61000,Bank Transfer,Reconciled,2025-02-01,13,Revenue Manager,Yes,January,7
+REV-000442,FY2024/2025,2025-04-30,RG-05,CC-024,Service Fees,International Organisation,RCP-820603,650000,435000,-215000,Cheque,Reconciled,2025-04-30,0,Revenue Manager,No,April,10
+REV-000443,FY2024/2025,2025-01-01,RG-01,CC-006,Consultancy Income,NGO,RCP-474293,512000,491000,-21000,Online Portal,Reconciled,2025-01-06,5,Revenue Manager,No,January,7
+REV-000444,FY2024/2025,2025-04-13,RG-01,CC-012,Consultancy Income,International Organisation,RCP-170950,684000,755000,71000,Cheque,Reconciled,2025-04-13,0,Revenue Manager,No,April,10
+REV-000445,FY2024/2025,2024-11-26,RG-01,CC-003,Certification Fees,NGO,RCP-553013,783000,559000,-224000,Cash,Reconciled,2024-12-04,8,Revenue Manager,Yes,November,5
+REV-000446,FY2024/2025,2024-10-22,RG-01,CC-006,Publication Sales,Individual,RCP-106988,230000,214000,-16000,Bank Transfer,Pending,2024-10-28,6,Revenue Manager,Yes,October,4
+REV-000447,FY2024/2025,2025-03-17,RG-01,CC-031,Certification Fees,NGO,RCP-316958,782000,837000,55000,Cheque,Reconciled,2025-03-26,9,Revenue Manager,Yes,March,9
+REV-000448,FY2024/2025,2024-10-06,RG-02,CC-022,Licensing Fees,Government Agency,RCP-274864,193000,128000,-65000,Online Portal,Reconciled,2024-10-11,5,Revenue Manager,No,October,4
+REV-000449,FY2024/2025,2025-03-20,RG-03,CC-016,Consultancy Income,Government Agency,RCP-180673,288000,204000,-84000,Bank Transfer,Reconciled,2025-03-25,5,Revenue Manager,No,March,9
+REV-000450,FY2024/2025,2025-04-29,RG-01,CC-023,Inspection Fees,Individual,RCP-487675,215000,221000,6000,Cheque,Reconciled,2025-05-04,5,Revenue Manager,No,April,10
+REV-000451,FY2024/2025,2024-07-10,RG-01,CC-006,Consultancy Income,International Organisation,RCP-918442,596000,418000,-178000,Bank Transfer,Reconciled,2024-07-16,6,Revenue Manager,Yes,July,1
+REV-000452,FY2024/2025,2024-11-05,RG-01,CC-011,Certification Fees,Private Company,RCP-125524,554000,462000,-92000,Online Portal,Reconciled,2024-11-14,9,Revenue Manager,Yes,November,5
+REV-000453,FY2024/2025,2025-03-30,RG-05,CC-024,Licensing Fees,NGO,RCP-455511,566000,300000,-266000,Online Portal,Unreconciled,2025-03-31,1,Revenue Manager,No,March,9
+REV-000454,FY2024/2025,2024-08-08,RG-01,CC-006,Consultancy Income,Private Company,RCP-264446,785000,564000,-221000,MPESA,Reconciled,2024-08-09,1,Revenue Manager,No,August,2
+REV-000455,FY2024/2025,2025-06-23,RG-08,CC-021,Facility Hire,International Organisation,RCP-226934,187000,159000,-28000,Bank Transfer,Reconciled,2025-07-03,10,Revenue Manager,Yes,June,12
+REV-000456,FY2024/2025,2024-08-17,RG-07,CC-020,Inspection Fees,NGO,RCP-100349,382000,409000,27000,MPESA,Reconciled,2024-08-24,7,Revenue Manager,Yes,August,2
+REV-000457,FY2024/2025,2024-10-08,RG-01,CC-010,Inspection Fees,Government Agency,RCP-715757,339000,211000,-128000,Online Portal,Reconciled,2024-10-16,8,Revenue Manager,Yes,October,4
+REV-000458,FY2024/2025,2025-01-01,RG-04,CC-025,Inspection Fees,Private Company,RCP-615252,159000,121000,-38000,Online Portal,Reconciled,2025-01-03,2,Revenue Manager,No,January,7
+REV-000459,FY2024/2025,2024-07-05,RG-01,CC-014,Training Fees,NGO,RCP-877599,563000,501000,-62000,Online Portal,Reconciled,2024-07-06,1,Revenue Manager,No,July,1
+REV-000460,FY2024/2025,2024-10-11,RG-02,CC-022,Licensing Fees,International Organisation,RCP-991510,173000,142000,-31000,Cheque,Reconciled,2024-10-18,7,Revenue Manager,Yes,October,4
+REV-000461,FY2024/2025,2024-09-16,RG-01,CC-014,Certification Fees,NGO,RCP-479103,220000,175000,-45000,Online Portal,Reconciled,2024-09-27,11,Revenue Manager,Yes,September,3
+REV-000462,FY2024/2025,2025-02-19,RG-04,CC-017,Certification Fees,Government Agency,RCP-215396,324000,289000,-35000,Cash,Reconciled,2025-02-22,3,Revenue Manager,No,February,8
+REV-000463,FY2024/2025,2024-11-09,RG-01,CC-031,Inspection Fees,Private Company,RCP-292271,581000,703000,122000,MPESA,Reconciled,2024-11-12,3,Revenue Manager,No,November,5
+REV-000464,FY2024/2025,2025-06-19,RG-02,CC-015,Inspection Fees,Individual,RCP-217242,647000,603000,-44000,Cash,Pending,2025-07-03,14,Revenue Manager,Yes,June,12
+REV-000465,FY2024/2025,2025-02-01,RG-01,CC-013,Inspection Fees,Government Agency,RCP-135994,402000,399000,-3000,Online Portal,Reconciled,2025-02-12,11,Revenue Manager,Yes,February,8
+REV-000466,FY2024/2025,2024-12-05,RG-03,CC-016,Licensing Fees,NGO,RCP-360334,312000,231000,-81000,Bank Transfer,Reconciled,2024-12-10,5,Revenue Manager,No,December,6
+REV-000467,FY2024/2025,2025-06-09,RG-06,CC-019,Facility Hire,Government Agency,RCP-161049,788000,609000,-179000,MPESA,Reconciled,2025-06-14,5,Revenue Manager,No,June,12
+REV-000468,FY2024/2025,2024-08-19,RG-02,CC-028,Consultancy Income,Private Company,RCP-608993,471000,362000,-109000,Cash,Unreconciled,2024-08-30,11,Revenue Manager,Yes,August,2
+REV-000469,FY2024/2025,2024-12-06,RG-02,CC-015,Consultancy Income,Private Company,RCP-377859,315000,267000,-48000,Cheque,Reconciled,2024-12-16,10,Revenue Manager,Yes,December,6
+REV-000470,FY2024/2025,2025-06-07,RG-03,CC-016,Publication Sales,International Organisation,RCP-698640,235000,255000,20000,Cheque,Reconciled,2025-06-10,3,Revenue Manager,No,June,12
+REV-000471,FY2024/2025,2025-04-19,RG-01,CC-010,Inspection Fees,NGO,RCP-353625,765000,564000,-201000,Bank Transfer,Reconciled,2025-05-03,14,Revenue Manager,Yes,April,10
+REV-000472,FY2024/2025,2025-03-01,RG-01,CC-009,Inspection Fees,NGO,RCP-690684,528000,298000,-230000,Bank Transfer,Reconciled,2025-03-02,1,Revenue Manager,No,February,8
+REV-000473,FY2024/2025,2025-05-04,RG-01,CC-008,Training Fees,NGO,RCP-305480,749000,507000,-242000,Cash,Reconciled,2025-05-17,13,Revenue Manager,Yes,May,11
+REV-000474,FY2024/2025,2024-08-13,RG-02,CC-015,Licensing Fees,International Organisation,RCP-741164,760000,777000,17000,Cash,Reconciled,2024-08-25,12,Revenue Manager,Yes,August,2
+REV-000475,FY2024/2025,2025-02-01,RG-04,CC-026,Inspection Fees,NGO,RCP-498222,120000,110000,-10000,MPESA,Reconciled,2025-02-02,1,Revenue Manager,No,February,8
+REV-000476,FY2024/2025,2024-08-02,RG-01,CC-023,Consultancy Income,NGO,RCP-144976,775000,736000,-39000,Cash,Reconciled,2024-08-10,8,Revenue Manager,Yes,August,2
+REV-000477,FY2024/2025,2025-03-21,RG-01,CC-012,Inspection Fees,Private Company,RCP-742488,776000,536000,-240000,Online Portal,Reconciled,2025-03-22,1,Revenue Manager,No,March,9
+REV-000478,FY2024/2025,2024-07-08,RG-02,CC-022,Licensing Fees,NGO,RCP-500745,215000,212000,-3000,Online Portal,Reconciled,2024-07-12,4,Revenue Manager,No,July,1
+REV-000479,FY2024/2025,2024-11-14,RG-02,CC-015,Certification Fees,Individual,RCP-183623,567000,526000,-41000,Online Portal,Reconciled,2024-11-28,14,Revenue Manager,Yes,November,5
+REV-000480,FY2024/2025,2025-01-18,RG-01,CC-009,Training Fees,Government Agency,RCP-615302,191000,140000,-51000,Cash,Reconciled,2025-01-18,0,Revenue Manager,No,January,7
+REV-000481,FY2024/2025,2025-05-22,RG-01,CC-011,Service Fees,NGO,RCP-318276,152000,128000,-24000,Cheque,Pending,2025-05-28,6,Revenue Manager,Yes,May,11
+REV-000482,FY2024/2025,2024-07-25,RG-01,CC-009,Inspection Fees,Government Agency,RCP-479163,568000,521000,-47000,MPESA,Reconciled,2024-07-28,3,Revenue Manager,No,July,1
+REV-000483,FY2024/2025,2024-07-23,RG-01,CC-011,Facility Hire,Private Company,RCP-497234,318000,224000,-94000,Cheque,Reconciled,2024-08-01,9,Revenue Manager,Yes,July,1
+REV-000484,FY2024/2025,2024-12-14,RG-01,CC-031,Licensing Fees,Private Company,RCP-325096,443000,430000,-13000,Bank Transfer,Reconciled,2024-12-20,6,Revenue Manager,Yes,December,6
+REV-000485,FY2024/2025,2025-03-01,RG-04,CC-026,Service Fees,International Organisation,RCP-761604,781000,643000,-138000,Cash,Reconciled,2025-03-04,3,Revenue Manager,No,February,8
+REV-000486,FY2024/2025,2024-08-01,RG-07,CC-020,Certification Fees,Private Company,RCP-620072,248000,152000,-96000,Cheque,Reconciled,2024-08-07,6,Revenue Manager,Yes,August,2
+REV-000487,FY2024/2025,2025-03-12,RG-01,CC-007,Service Fees,Private Company,RCP-718656,649000,441000,-208000,Cheque,Reconciled,2025-03-20,8,Revenue Manager,Yes,March,9
+REV-000488,FY2024/2025,2025-03-19,RG-01,CC-004,Facility Hire,Private Company,RCP-298419,794000,654000,-140000,Cheque,Reconciled,2025-03-29,10,Revenue Manager,Yes,March,9
+REV-000489,FY2024/2025,2024-10-12,RG-06,CC-019,Service Fees,International Organisation,RCP-468456,219000,207000,-12000,Online Portal,Reconciled,2024-10-14,2,Revenue Manager,No,October,4
+REV-000490,FY2024/2025,2024-09-13,RG-02,CC-029,Licensing Fees,Individual,RCP-932067,228000,178000,-50000,Online Portal,Reconciled,2024-09-25,12,Revenue Manager,Yes,September,3
+REV-000491,FY2024/2025,2024-07-17,RG-04,CC-026,Certification Fees,Individual,RCP-489948,365000,310000,-55000,Cash,Reconciled,2024-07-25,8,Revenue Manager,Yes,July,1
+REV-000492,FY2024/2025,2024-12-25,RG-04,CC-025,Service Fees,NGO,RCP-991706,705000,648000,-57000,Bank Transfer,Reconciled,2024-12-25,0,Revenue Manager,No,December,6
+REV-000493,FY2024/2025,2025-01-11,RG-02,CC-015,Consultancy Income,Government Agency,RCP-463240,734000,470000,-264000,Cheque,Reconciled,2025-01-11,0,Revenue Manager,No,January,7
+REV-000494,FY2024/2025,2024-10-09,RG-07,CC-030,Licensing Fees,Private Company,RCP-368823,120000,118000,-2000,Cash,Reconciled,2024-10-10,1,Revenue Manager,No,October,4
+REV-000495,FY2024/2025,2025-02-17,RG-01,CC-011,Licensing Fees,Government Agency,RCP-668314,199000,150000,-49000,MPESA,Reconciled,2025-02-18,1,Revenue Manager,No,February,8
+REV-000496,FY2024/2025,2025-04-07,RG-01,CC-011,Inspection Fees,Private Company,RCP-163535,286000,215000,-71000,Bank Transfer,Reconciled,2025-04-16,9,Revenue Manager,Yes,April,10
+REV-000497,FY2024/2025,2024-08-18,RG-04,CC-026,Inspection Fees,Private Company,RCP-188066,794000,597000,-197000,Cash,Reconciled,2024-08-29,11,Revenue Manager,Yes,August,2
+REV-000498,FY2024/2025,2025-01-18,RG-05,CC-018,Publication Sales,Government Agency,RCP-132595,401000,306000,-95000,Cash,Reconciled,2025-01-31,13,Revenue Manager,Yes,January,7
+REV-000499,FY2024/2025,2025-05-28,RG-01,CC-031,Licensing Fees,Government Agency,RCP-413498,336000,309000,-27000,Cheque,Reconciled,2025-06-09,12,Revenue Manager,Yes,May,11
+REV-000500,FY2024/2025,2024-11-15,RG-01,CC-011,Facility Hire,Private Company,RCP-537051,230000,224000,-6000,MPESA,Reconciled,2024-11-16,1,Revenue Manager,No,November,5
+REV-000501,FY2024/2025,2025-04-04,RG-01,CC-010,Consultancy Income,Government Agency,RCP-591360,600000,366000,-234000,Cash,Reconciled,2025-04-11,7,Revenue Manager,Yes,April,10
+REV-000502,FY2024/2025,2024-10-15,RG-05,CC-018,Service Fees,Private Company,RCP-921778,618000,458000,-160000,Online Portal,Reconciled,2024-10-20,5,Revenue Manager,No,October,4
+REV-000503,FY2024/2025,2024-10-22,RG-03,CC-016,Licensing Fees,Individual,RCP-163377,633000,532000,-101000,MPESA,Reconciled,2024-10-28,6,Revenue Manager,Yes,October,4
+REV-000504,FY2024/2025,2024-07-02,RG-01,CC-005,Consultancy Income,NGO,RCP-991505,561000,584000,23000,Cash,Pending,2024-07-11,9,Revenue Manager,Yes,July,1
+REV-000505,FY2024/2025,2024-12-07,RG-06,CC-019,Service Fees,Government Agency,RCP-965254,485000,405000,-80000,Bank Transfer,Reconciled,2024-12-21,14,Revenue Manager,Yes,December,6
+REV-000506,FY2024/2025,2024-12-28,RG-01,CC-002,Publication Sales,Individual,RCP-669537,634000,608000,-26000,Cash,Reconciled,2024-12-29,1,Revenue Manager,No,December,6
+REV-000507,FY2024/2025,2024-09-07,RG-01,CC-008,Inspection Fees,Individual,RCP-871848,186000,155000,-31000,MPESA,Reconciled,2024-09-17,10,Revenue Manager,Yes,September,3
+REV-000508,FY2024/2025,2025-04-05,RG-02,CC-022,Licensing Fees,NGO,RCP-498954,186000,162000,-24000,MPESA,Reconciled,2025-04-11,6,Revenue Manager,Yes,April,10
+REV-000509,FY2024/2025,2024-10-06,RG-03,CC-016,Inspection Fees,Individual,RCP-149814,394000,323000,-71000,MPESA,Reconciled,2024-10-08,2,Revenue Manager,No,October,4
+REV-000510,FY2024/2025,2024-11-02,RG-07,CC-030,Service Fees,NGO,RCP-908044,563000,429000,-134000,Online Portal,Reconciled,2024-11-06,4,Revenue Manager,No,November,5
+REV-000511,FY2024/2025,2025-03-08,RG-01,CC-014,Publication Sales,Private Company,RCP-600897,199000,206000,7000,Bank Transfer,Reconciled,2025-03-17,9,Revenue Manager,Yes,March,9
+REV-000512,FY2024/2025,2024-08-29,RG-01,CC-004,Publication Sales,International Organisation,RCP-573755,335000,303000,-32000,Online Portal,Reconciled,2024-09-03,5,Revenue Manager,No,August,2
+REV-000513,FY2024/2025,2025-01-08,RG-01,CC-005,Facility Hire,NGO,RCP-824610,449000,382000,-67000,Cash,Reconciled,2025-01-21,13,Revenue Manager,Yes,January,7
+REV-000514,FY2024/2025,2025-03-06,RG-01,CC-012,Service Fees,NGO,RCP-481304,588000,474000,-114000,Bank Transfer,Reconciled,2025-03-11,5,Revenue Manager,No,March,9
+REV-000515,FY2024/2025,2024-11-29,RG-04,CC-025,Inspection Fees,Private Company,RCP-754595,706000,596000,-110000,Online Portal,Reconciled,2024-12-13,14,Revenue Manager,Yes,November,5
+REV-000516,FY2024/2025,2024-09-19,RG-01,CC-010,Consultancy Income,Individual,RCP-801085,251000,176000,-75000,Cheque,Reconciled,2024-10-02,13,Revenue Manager,Yes,September,3
+REV-000517,FY2024/2025,2025-02-14,RG-05,CC-018,Facility Hire,Individual,RCP-991558,485000,464000,-21000,Cash,Reconciled,2025-02-14,0,Revenue Manager,No,February,8
+REV-000518,FY2024/2025,2024-09-13,RG-01,CC-010,Certification Fees,Private Company,RCP-599228,308000,315000,7000,Bank Transfer,Pending,2024-09-26,13,Revenue Manager,Yes,September,3
+REV-000519,FY2024/2025,2025-01-30,RG-01,CC-007,Training Fees,Government Agency,RCP-873570,798000,685000,-113000,Cash,Reconciled,2025-02-03,4,Revenue Manager,No,January,7
+REV-000520,FY2024/2025,2024-11-22,RG-02,CC-028,Publication Sales,Government Agency,RCP-698038,640000,613000,-27000,MPESA,Reconciled,2024-11-29,7,Revenue Manager,Yes,November,5
+REV-000521,FY2024/2025,2024-07-15,RG-03,CC-027,Service Fees,Private Company,RCP-767826,146000,118000,-28000,Cheque,Reconciled,2024-07-24,9,Revenue Manager,Yes,July,1
+REV-000522,FY2024/2025,2024-12-17,RG-02,CC-028,Training Fees,Government Agency,RCP-191116,421000,379000,-42000,Online Portal,Pending,2024-12-30,13,Revenue Manager,Yes,December,6
+REV-000523,FY2024/2025,2024-10-15,RG-01,CC-012,Licensing Fees,Government Agency,RCP-234649,478000,334000,-144000,Online Portal,Reconciled,2024-10-25,10,Revenue Manager,Yes,October,4
+REV-000524,FY2024/2025,2025-04-02,RG-01,CC-009,Training Fees,International Organisation,RCP-665887,272000,194000,-78000,Online Portal,Reconciled,2025-04-07,5,Revenue Manager,No,April,10
+REV-000525,FY2024/2025,2024-07-03,RG-02,CC-015,Inspection Fees,Private Company,RCP-176905,772000,614000,-158000,Bank Transfer,Reconciled,2024-07-06,3,Revenue Manager,No,July,1
+REV-000526,FY2024/2025,2024-08-04,RG-01,CC-004,Certification Fees,Private Company,RCP-857958,170000,194000,24000,Cash,Reconciled,2024-08-16,12,Revenue Manager,Yes,August,2
+REV-000527,FY2024/2025,2025-03-25,RG-05,CC-024,Consultancy Income,Private Company,RCP-989322,519000,288000,-231000,MPESA,Reconciled,2025-03-26,1,Revenue Manager,No,March,9
+REV-000528,FY2024/2025,2024-09-20,RG-02,CC-028,Licensing Fees,Individual,RCP-115612,495000,320000,-175000,Bank Transfer,Reconciled,2024-09-24,4,Revenue Manager,No,September,3
+REV-000529,FY2024/2025,2025-05-16,RG-08,CC-021,Inspection Fees,International Organisation,RCP-851404,457000,498000,41000,Bank Transfer,Reconciled,2025-05-27,11,Revenue Manager,Yes,May,11
+REV-000530,FY2024/2025,2025-01-07,RG-01,CC-014,Publication Sales,Private Company,RCP-820787,133000,118000,-15000,Cash,Pending,2025-01-07,0,Revenue Manager,No,January,7
+REV-000531,FY2024/2025,2024-07-22,RG-01,CC-008,Licensing Fees,NGO,RCP-535466,209000,141000,-68000,Bank Transfer,Unreconciled,2024-07-24,2,Revenue Manager,No,July,1
+REV-000532,FY2024/2025,2025-01-06,RG-03,CC-027,Inspection Fees,NGO,RCP-895487,763000,735000,-28000,Cash,Reconciled,2025-01-07,1,Revenue Manager,No,January,7
+REV-000533,FY2024/2025,2025-06-17,RG-01,CC-023,Inspection Fees,NGO,RCP-617819,479000,430000,-49000,Online Portal,Reconciled,2025-06-17,0,Revenue Manager,No,June,12
+REV-000534,FY2024/2025,2025-05-12,RG-02,CC-028,Consultancy Income,NGO,RCP-512717,661000,633000,-28000,Cheque,Reconciled,2025-05-14,2,Revenue Manager,No,May,11
+REV-000535,FY2024/2025,2025-06-24,RG-02,CC-015,Consultancy Income,Individual,RCP-163036,108000,74000,-34000,MPESA,Unreconciled,2025-07-04,10,Revenue Manager,Yes,June,12
+REV-000536,FY2024/2025,2025-01-20,RG-01,CC-011,Licensing Fees,NGO,RCP-159775,355000,309000,-46000,Bank Transfer,Reconciled,2025-01-28,8,Revenue Manager,Yes,January,7
+REV-000537,FY2024/2025,2025-02-06,RG-04,CC-026,Training Fees,Private Company,RCP-834600,453000,331000,-122000,Bank Transfer,Reconciled,2025-02-06,0,Revenue Manager,No,February,8
+REV-000538,FY2024/2025,2024-08-06,RG-01,CC-001,Licensing Fees,NGO,RCP-218329,694000,624000,-70000,Cheque,Reconciled,2024-08-13,7,Revenue Manager,Yes,August,2
+REV-000539,FY2024/2025,2025-02-22,RG-04,CC-026,Service Fees,Individual,RCP-463390,163000,146000,-17000,Cash,Reconciled,2025-03-03,9,Revenue Manager,Yes,February,8
+REV-000540,FY2024/2025,2025-06-13,RG-07,CC-020,Consultancy Income,Government Agency,RCP-359861,371000,296000,-75000,Bank Transfer,Reconciled,2025-06-18,5,Revenue Manager,No,June,12
+REV-000541,FY2024/2025,2024-12-17,RG-05,CC-024,Inspection Fees,International Organisation,RCP-946118,745000,733000,-12000,Online Portal,Reconciled,2024-12-29,12,Revenue Manager,Yes,December,6
+REV-000542,FY2024/2025,2024-11-16,RG-08,CC-021,Inspection Fees,NGO,RCP-834496,424000,429000,5000,Cheque,Reconciled,2024-11-22,6,Revenue Manager,Yes,November,5
+REV-000543,FY2024/2025,2024-08-15,RG-01,CC-003,Publication Sales,NGO,RCP-167596,200000,177000,-23000,Cash,Reconciled,2024-08-29,14,Revenue Manager,Yes,August,2
+REV-000544,FY2024/2025,2024-11-06,RG-03,CC-027,Training Fees,Government Agency,RCP-939797,297000,258000,-39000,Cheque,Reconciled,2024-11-20,14,Revenue Manager,Yes,November,5
+REV-000545,FY2024/2025,2024-11-04,RG-01,CC-004,Inspection Fees,Individual,RCP-204372,530000,464000,-66000,Cheque,Pending,2024-11-09,5,Revenue Manager,No,November,5
+REV-000546,FY2024/2025,2025-01-02,RG-05,CC-024,Training Fees,International Organisation,RCP-264629,189000,175000,-14000,Bank Transfer,Reconciled,2025-01-08,6,Revenue Manager,Yes,January,7
+REV-000547,FY2024/2025,2025-04-02,RG-01,CC-007,Certification Fees,Government Agency,RCP-596905,324000,252000,-72000,Bank Transfer,Reconciled,2025-04-03,1,Revenue Manager,No,April,10
+REV-000548,FY2024/2025,2024-07-11,RG-02,CC-015,Facility Hire,NGO,RCP-801522,180000,179000,-1000,Cheque,Reconciled,2024-07-20,9,Revenue Manager,Yes,July,1
+REV-000549,FY2024/2025,2024-11-08,RG-02,CC-029,Licensing Fees,International Organisation,RCP-189989,520000,440000,-80000,Online Portal,Unreconciled,2024-11-20,12,Revenue Manager,Yes,November,5
+REV-000550,FY2024/2025,2025-06-06,RG-02,CC-028,Consultancy Income,Government Agency,RCP-211800,139000,104000,-35000,Cheque,Reconciled,2025-06-19,13,Revenue Manager,Yes,June,12
+REV-000551,FY2024/2025,2025-02-09,RG-03,CC-016,Consultancy Income,Individual,RCP-563087,267000,251000,-16000,Cheque,Reconciled,2025-02-13,4,Revenue Manager,No,February,8
+REV-000552,FY2024/2025,2024-09-05,RG-01,CC-001,Service Fees,Individual,RCP-968046,398000,347000,-51000,Online Portal,Reconciled,2024-09-10,5,Revenue Manager,No,September,3
+REV-000553,FY2024/2025,2024-07-08,RG-01,CC-008,Training Fees,Government Agency,RCP-219880,166000,157000,-9000,Cheque,Reconciled,2024-07-11,3,Revenue Manager,No,July,1
+REV-000554,FY2024/2025,2025-01-18,RG-02,CC-015,Licensing Fees,Individual,RCP-510177,313000,284000,-29000,Online Portal,Unreconciled,2025-01-23,5,Revenue Manager,No,January,7
+REV-000555,FY2024/2025,2024-09-15,RG-01,CC-031,Consultancy Income,Individual,RCP-378328,784000,825000,41000,Online Portal,Reconciled,2024-09-23,8,Revenue Manager,Yes,September,3
+REV-000556,FY2024/2025,2025-01-22,RG-01,CC-032,Facility Hire,Individual,RCP-768572,329000,252000,-77000,Bank Transfer,Reconciled,2025-01-28,6,Revenue Manager,Yes,January,7
+REV-000557,FY2024/2025,2025-06-05,RG-04,CC-026,Inspection Fees,Government Agency,RCP-456032,502000,315000,-187000,Cash,Reconciled,2025-06-15,10,Revenue Manager,Yes,June,12
+REV-000558,FY2024/2025,2025-04-21,RG-01,CC-004,Consultancy Income,Private Company,RCP-505187,231000,164000,-67000,MPESA,Reconciled,2025-04-29,8,Revenue Manager,Yes,April,10
+REV-000559,FY2024/2025,2025-05-22,RG-03,CC-027,Training Fees,Private Company,RCP-387125,465000,350000,-115000,Online Portal,Pending,2025-06-03,12,Revenue Manager,Yes,May,11
+REV-000560,FY2024/2025,2024-11-17,RG-07,CC-020,Licensing Fees,International Organisation,RCP-755648,591000,631000,40000,Online Portal,Reconciled,2024-11-25,8,Revenue Manager,Yes,November,5
+REV-000561,FY2024/2025,2024-12-13,RG-04,CC-025,Training Fees,Private Company,RCP-328934,435000,340000,-95000,Cheque,Reconciled,2024-12-18,5,Revenue Manager,No,December,6
+REV-000562,FY2024/2025,2024-09-07,RG-03,CC-016,Certification Fees,International Organisation,RCP-169778,745000,555000,-190000,Online Portal,Reconciled,2024-09-18,11,Revenue Manager,Yes,September,3
+REV-000563,FY2024/2025,2025-05-05,RG-01,CC-004,Licensing Fees,International Organisation,RCP-151159,562000,639000,77000,Online Portal,Reconciled,2025-05-05,0,Revenue Manager,No,May,11
+REV-000564,FY2024/2025,2024-12-11,RG-07,CC-030,Consultancy Income,International Organisation,RCP-828153,363000,327000,-36000,Cheque,Unreconciled,2024-12-14,3,Revenue Manager,No,December,6
+REV-000565,FY2024/2025,2025-05-30,RG-02,CC-028,Facility Hire,NGO,RCP-785154,460000,418000,-42000,MPESA,Reconciled,2025-06-13,14,Revenue Manager,Yes,May,11
+REV-000566,FY2024/2025,2024-12-23,RG-01,CC-013,Consultancy Income,Government Agency,RCP-970928,281000,225000,-56000,Online Portal,Reconciled,2024-12-24,1,Revenue Manager,No,December,6
+REV-000567,FY2024/2025,2025-02-02,RG-01,CC-023,Inspection Fees,Government Agency,RCP-814316,604000,453000,-151000,Cheque,Reconciled,2025-02-11,9,Revenue Manager,Yes,February,8
+REV-000568,FY2024/2025,2024-10-12,RG-02,CC-022,Service Fees,International Organisation,RCP-416446,485000,392000,-93000,Online Portal,Reconciled,2024-10-20,8,Revenue Manager,Yes,October,4
+REV-000569,FY2024/2025,2025-03-23,RG-01,CC-010,Licensing Fees,Individual,RCP-287238,430000,465000,35000,Cash,Reconciled,2025-03-28,5,Revenue Manager,No,March,9
+REV-000570,FY2024/2025,2025-05-01,RG-02,CC-015,Facility Hire,Private Company,RCP-528828,367000,355000,-12000,Bank Transfer,Pending,2025-05-03,2,Revenue Manager,No,April,10
+REV-000571,FY2024/2025,2024-10-10,RG-01,CC-002,Consultancy Income,International Organisation,RCP-211453,506000,381000,-125000,Cash,Reconciled,2024-10-16,6,Revenue Manager,Yes,October,4
+REV-000572,FY2024/2025,2024-09-12,RG-01,CC-010,Publication Sales,Government Agency,RCP-211934,162000,153000,-9000,Cheque,Reconciled,2024-09-17,5,Revenue Manager,No,September,3
+REV-000573,FY2024/2025,2025-02-20,RG-01,CC-006,Consultancy Income,Government Agency,RCP-164909,546000,478000,-68000,Bank Transfer,Reconciled,2025-03-01,9,Revenue Manager,Yes,February,8
+REV-000574,FY2024/2025,2024-08-16,RG-01,CC-010,Service Fees,Individual,RCP-166263,597000,510000,-87000,MPESA,Reconciled,2024-08-26,10,Revenue Manager,Yes,August,2
+REV-000575,FY2024/2025,2024-08-12,RG-06,CC-019,Publication Sales,International Organisation,RCP-965899,418000,363000,-55000,Cash,Reconciled,2024-08-26,14,Revenue Manager,Yes,August,2
+REV-000576,FY2024/2025,2024-07-23,RG-03,CC-027,Service Fees,International Organisation,RCP-565753,556000,423000,-133000,MPESA,Reconciled,2024-08-05,13,Revenue Manager,Yes,July,1
+REV-000577,FY2024/2025,2025-05-02,RG-01,CC-002,Inspection Fees,Private Company,RCP-974658,360000,380000,20000,Cheque,Reconciled,2025-05-12,10,Revenue Manager,Yes,May,11
+REV-000578,FY2024/2025,2025-01-23,RG-02,CC-029,Training Fees,Private Company,RCP-639008,156000,139000,-17000,Cash,Pending,2025-02-04,12,Revenue Manager,Yes,January,7
+REV-000579,FY2024/2025,2024-09-19,RG-01,CC-004,Training Fees,International Organisation,RCP-738937,557000,616000,59000,Bank Transfer,Reconciled,2024-10-01,12,Revenue Manager,Yes,September,3
+REV-000580,FY2024/2025,2025-01-20,RG-04,CC-017,Training Fees,NGO,RCP-434077,620000,528000,-92000,MPESA,Reconciled,2025-01-26,6,Revenue Manager,Yes,January,7
+REV-000581,FY2024/2025,2024-10-15,RG-01,CC-008,Consultancy Income,NGO,RCP-776517,441000,299000,-142000,MPESA,Reconciled,2024-10-24,9,Revenue Manager,Yes,October,4
+REV-000582,FY2024/2025,2025-04-28,RG-01,CC-007,Publication Sales,International Organisation,RCP-923278,171000,173000,2000,MPESA,Unreconciled,2025-04-28,0,Revenue Manager,No,April,10
+REV-000583,FY2024/2025,2024-10-21,RG-05,CC-018,Consultancy Income,Private Company,RCP-444508,707000,725000,18000,MPESA,Unreconciled,2024-10-30,9,Revenue Manager,Yes,October,4
+REV-000584,FY2024/2025,2025-03-10,RG-01,CC-002,Publication Sales,NGO,RCP-968072,547000,534000,-13000,Online Portal,Reconciled,2025-03-10,0,Revenue Manager,No,March,9
+REV-000585,FY2024/2025,2025-03-23,RG-01,CC-006,Consultancy Income,Government Agency,RCP-998824,120000,113000,-7000,Cash,Reconciled,2025-04-04,12,Revenue Manager,Yes,March,9
+REV-000586,FY2024/2025,2025-06-01,RG-01,CC-011,Licensing Fees,Individual,RCP-916647,672000,559000,-113000,Online Portal,Reconciled,2025-06-08,7,Revenue Manager,Yes,June,12
+REV-000587,FY2024/2025,2024-11-14,RG-01,CC-008,Consultancy Income,Government Agency,RCP-390978,654000,479000,-175000,Cash,Unreconciled,2024-11-16,2,Revenue Manager,No,November,5
+REV-000588,FY2024/2025,2025-04-04,RG-01,CC-012,Facility Hire,Individual,RCP-966658,456000,491000,35000,MPESA,Reconciled,2025-04-14,10,Revenue Manager,Yes,April,10
+REV-000589,FY2024/2025,2024-08-24,RG-04,CC-025,Inspection Fees,Private Company,RCP-945218,725000,787000,62000,Bank Transfer,Reconciled,2024-09-04,11,Revenue Manager,Yes,August,2
+REV-000590,FY2024/2025,2025-02-23,RG-03,CC-027,Service Fees,NGO,RCP-686073,165000,136000,-29000,Bank Transfer,Reconciled,2025-03-08,13,Revenue Manager,Yes,February,8
+REV-000591,FY2024/2025,2024-09-12,RG-01,CC-012,Publication Sales,NGO,RCP-375939,750000,665000,-85000,Bank Transfer,Reconciled,2024-09-14,2,Revenue Manager,No,September,3
+REV-000592,FY2024/2025,2025-04-12,RG-01,CC-005,Publication Sales,Government Agency,RCP-727665,667000,540000,-127000,Bank Transfer,Reconciled,2025-04-25,13,Revenue Manager,Yes,April,10
+REV-000593,FY2024/2025,2024-09-13,RG-01,CC-032,Publication Sales,Individual,RCP-611522,362000,380000,18000,Cheque,Unreconciled,2024-09-19,6,Revenue Manager,Yes,September,3
+REV-000594,FY2024/2025,2024-09-30,RG-07,CC-020,Consultancy Income,Individual,RCP-595862,277000,265000,-12000,Online Portal,Reconciled,2024-10-07,7,Revenue Manager,Yes,September,3
+REV-000595,FY2024/2025,2025-04-29,RG-02,CC-028,Licensing Fees,Private Company,RCP-244807,346000,246000,-100000,Cash,Reconciled,2025-04-30,1,Revenue Manager,No,April,10
+REV-000596,FY2024/2025,2024-12-19,RG-01,CC-002,Inspection Fees,International Organisation,RCP-801574,477000,418000,-59000,Bank Transfer,Pending,2024-12-30,11,Revenue Manager,Yes,December,6
+REV-000597,FY2024/2025,2024-12-04,RG-02,CC-015,Inspection Fees,Private Company,RCP-586256,687000,807000,120000,MPESA,Pending,2024-12-13,9,Revenue Manager,Yes,December,6
+REV-000598,FY2024/2025,2025-02-25,RG-01,CC-012,Consultancy Income,NGO,RCP-851326,415000,370000,-45000,MPESA,Reconciled,2025-02-26,1,Revenue Manager,No,February,8
+REV-000599,FY2024/2025,2024-12-21,RG-08,CC-021,Facility Hire,Private Company,RCP-804006,705000,619000,-86000,Cheque,Reconciled,2025-01-02,12,Revenue Manager,Yes,December,6
+REV-000600,FY2024/2025,2025-02-16,RG-02,CC-022,Inspection Fees,Government Agency,RCP-697333,720000,587000,-133000,Cheque,Unreconciled,2025-02-21,5,Revenue Manager,No,February,8
+REV-000601,FY2024/2025,2024-12-15,RG-04,CC-025,Consultancy Income,Government Agency,RCP-491389,189000,145000,-44000,MPESA,Pending,2024-12-19,4,Revenue Manager,No,December,6
+REV-000602,FY2024/2025,2024-07-26,RG-04,CC-017,Training Fees,Private Company,RCP-404481,261000,227000,-34000,MPESA,Pending,2024-08-01,6,Revenue Manager,Yes,July,1
+REV-000603,FY2024/2025,2024-12-22,RG-04,CC-025,Training Fees,NGO,RCP-506387,460000,499000,39000,Bank Transfer,Reconciled,2025-01-04,13,Revenue Manager,Yes,December,6
+REV-000604,FY2024/2025,2025-04-02,RG-01,CC-004,Certification Fees,Government Agency,RCP-738898,429000,380000,-49000,Bank Transfer,Reconciled,2025-04-05,3,Revenue Manager,No,April,10
+REV-000605,FY2024/2025,2025-03-04,RG-07,CC-030,Inspection Fees,International Organisation,RCP-352904,433000,405000,-28000,Online Portal,Reconciled,2025-03-17,13,Revenue Manager,Yes,March,9
+REV-000606,FY2024/2025,2024-11-19,RG-01,CC-031,Certification Fees,Individual,RCP-565449,199000,184000,-15000,MPESA,Reconciled,2024-11-21,2,Revenue Manager,No,November,5
+REV-000607,FY2024/2025,2024-09-27,RG-01,CC-008,Facility Hire,Individual,RCP-926203,714000,389000,-325000,Online Portal,Reconciled,2024-10-05,8,Revenue Manager,Yes,September,3
+REV-000608,FY2024/2025,2024-07-30,RG-02,CC-029,Consultancy Income,NGO,RCP-920293,309000,369000,60000,Cheque,Reconciled,2024-08-02,3,Revenue Manager,No,July,1
+REV-000609,FY2024/2025,2025-01-20,RG-03,CC-027,Training Fees,Private Company,RCP-886636,436000,432000,-4000,MPESA,Reconciled,2025-01-26,6,Revenue Manager,Yes,January,7
+REV-000610,FY2024/2025,2024-11-15,RG-01,CC-005,Certification Fees,Private Company,RCP-750570,106000,103000,-3000,Cash,Reconciled,2024-11-22,7,Revenue Manager,Yes,November,5
+REV-000611,FY2024/2025,2025-03-13,RG-02,CC-029,Consultancy Income,Government Agency,RCP-125063,642000,621000,-21000,MPESA,Reconciled,2025-03-13,0,Revenue Manager,No,March,9
+REV-000612,FY2024/2025,2024-11-13,RG-01,CC-004,Service Fees,NGO,RCP-772182,709000,629000,-80000,MPESA,Reconciled,2024-11-15,2,Revenue Manager,No,November,5
+REV-000613,FY2024/2025,2024-09-15,RG-03,CC-027,Certification Fees,International Organisation,RCP-535553,147000,111000,-36000,Online Portal,Reconciled,2024-09-24,9,Revenue Manager,Yes,September,3
+REV-000614,FY2024/2025,2024-11-24,RG-04,CC-017,Facility Hire,Government Agency,RCP-185363,747000,789000,42000,Cash,Reconciled,2024-11-29,5,Revenue Manager,No,November,5
+REV-000615,FY2024/2025,2024-08-25,RG-01,CC-009,Consultancy Income,Private Company,RCP-815495,667000,558000,-109000,Cheque,Reconciled,2024-08-26,1,Revenue Manager,No,August,2
+REV-000616,FY2024/2025,2025-01-19,RG-02,CC-022,Training Fees,Government Agency,RCP-564662,304000,276000,-28000,MPESA,Reconciled,2025-01-21,2,Revenue Manager,No,January,7
+REV-000617,FY2024/2025,2025-04-17,RG-02,CC-022,Facility Hire,International Organisation,RCP-773760,219000,203000,-16000,Cheque,Reconciled,2025-04-27,10,Revenue Manager,Yes,April,10
+REV-000618,FY2024/2025,2024-09-09,RG-01,CC-013,Certification Fees,Government Agency,RCP-981268,300000,233000,-67000,Cash,Reconciled,2024-09-12,3,Revenue Manager,No,September,3
+REV-000619,FY2024/2025,2024-12-16,RG-04,CC-025,Facility Hire,Government Agency,RCP-308242,227000,141000,-86000,MPESA,Unreconciled,2024-12-25,9,Revenue Manager,Yes,December,6
+REV-000620,FY2024/2025,2025-03-30,RG-06,CC-019,Facility Hire,NGO,RCP-309649,302000,231000,-71000,MPESA,Reconciled,2025-04-10,11,Revenue Manager,Yes,March,9
+REV-000621,FY2024/2025,2024-12-15,RG-03,CC-027,Service Fees,International Organisation,RCP-534956,151000,128000,-23000,Online Portal,Reconciled,2024-12-21,6,Revenue Manager,Yes,December,6
+REV-000622,FY2024/2025,2025-01-17,RG-02,CC-029,Licensing Fees,NGO,RCP-251869,677000,657000,-20000,Bank Transfer,Reconciled,2025-01-18,1,Revenue Manager,No,January,7
+REV-000623,FY2024/2025,2025-05-15,RG-02,CC-029,Consultancy Income,Individual,RCP-470601,609000,572000,-37000,Cash,Reconciled,2025-05-27,12,Revenue Manager,Yes,May,11
+REV-000624,FY2024/2025,2025-04-03,RG-03,CC-027,Service Fees,International Organisation,RCP-403085,184000,132000,-52000,Cash,Reconciled,2025-04-12,9,Revenue Manager,Yes,April,10
+REV-000625,FY2024/2025,2025-06-05,RG-01,CC-009,Licensing Fees,International Organisation,RCP-257954,603000,535000,-68000,MPESA,Pending,2025-06-16,11,Revenue Manager,Yes,June,12
+REV-000626,FY2024/2025,2025-03-17,RG-07,CC-020,Training Fees,International Organisation,RCP-553539,202000,165000,-37000,MPESA,Reconciled,2025-03-20,3,Revenue Manager,No,March,9
+REV-000627,FY2024/2025,2025-05-06,RG-01,CC-009,Certification Fees,NGO,RCP-556143,453000,339000,-114000,Cash,Reconciled,2025-05-10,4,Revenue Manager,No,May,11
+REV-000628,FY2024/2025,2024-12-29,RG-01,CC-009,Training Fees,Government Agency,RCP-978512,728000,838000,110000,Online Portal,Reconciled,2025-01-04,6,Revenue Manager,Yes,December,6
+REV-000629,FY2024/2025,2024-10-17,RG-01,CC-001,Certification Fees,NGO,RCP-952531,673000,563000,-110000,Bank Transfer,Reconciled,2024-10-17,0,Revenue Manager,No,October,4
+REV-000630,FY2024/2025,2025-02-14,RG-05,CC-024,Consultancy Income,Private Company,RCP-792768,477000,372000,-105000,Bank Transfer,Unreconciled,2025-02-21,7,Revenue Manager,Yes,February,8
+REV-000631,FY2024/2025,2025-03-28,RG-02,CC-015,Training Fees,NGO,RCP-982721,236000,197000,-39000,MPESA,Reconciled,2025-04-08,11,Revenue Manager,Yes,March,9
+REV-000632,FY2024/2025,2024-12-26,RG-01,CC-008,Licensing Fees,NGO,RCP-245921,227000,178000,-49000,Online Portal,Reconciled,2024-12-31,5,Revenue Manager,No,December,6
+REV-000633,FY2024/2025,2024-08-27,RG-02,CC-022,Licensing Fees,International Organisation,RCP-775542,793000,457000,-336000,Bank Transfer,Reconciled,2024-09-06,10,Revenue Manager,Yes,August,2
+REV-000634,FY2024/2025,2025-01-19,RG-04,CC-017,Certification Fees,International Organisation,RCP-789482,703000,630000,-73000,Cash,Reconciled,2025-02-01,13,Revenue Manager,Yes,January,7
+REV-000635,FY2024/2025,2025-04-23,RG-01,CC-003,Inspection Fees,International Organisation,RCP-373541,348000,299000,-49000,Cash,Reconciled,2025-04-27,4,Revenue Manager,No,April,10
+REV-000636,FY2024/2025,2025-01-05,RG-02,CC-022,Licensing Fees,International Organisation,RCP-406806,388000,274000,-114000,Bank Transfer,Reconciled,2025-01-18,13,Revenue Manager,Yes,January,7
+REV-000637,FY2024/2025,2024-09-29,RG-03,CC-027,Publication Sales,Individual,RCP-857489,644000,555000,-89000,Cheque,Reconciled,2024-10-04,5,Revenue Manager,No,September,3
+REV-000638,FY2024/2025,2025-03-11,RG-01,CC-003,Licensing Fees,Individual,RCP-747785,138000,114000,-24000,Cash,Reconciled,2025-03-23,12,Revenue Manager,Yes,March,9
+REV-000639,FY2024/2025,2024-10-07,RG-01,CC-003,Inspection Fees,Government Agency,RCP-406513,717000,460000,-257000,MPESA,Reconciled,2024-10-12,5,Revenue Manager,No,October,4
+REV-000640,FY2024/2025,2024-07-13,RG-01,CC-014,Licensing Fees,Private Company,RCP-578171,331000,304000,-27000,Cash,Reconciled,2024-07-18,5,Revenue Manager,No,July,1
+REV-000641,FY2024/2025,2024-11-05,RG-03,CC-027,Licensing Fees,International Organisation,RCP-756244,227000,186000,-41000,Cheque,Reconciled,2024-11-14,9,Revenue Manager,Yes,November,5
+REV-000642,FY2024/2025,2025-03-10,RG-01,CC-005,Inspection Fees,Government Agency,RCP-543932,350000,289000,-61000,Cheque,Reconciled,2025-03-13,3,Revenue Manager,No,March,9
+REV-000643,FY2024/2025,2024-11-03,RG-08,CC-021,Inspection Fees,International Organisation,RCP-932376,367000,268000,-99000,Online Portal,Unreconciled,2024-11-04,1,Revenue Manager,No,November,5
+REV-000644,FY2024/2025,2025-02-21,RG-01,CC-003,Consultancy Income,Private Company,RCP-568818,257000,188000,-69000,MPESA,Reconciled,2025-02-24,3,Revenue Manager,No,February,8
+REV-000645,FY2024/2025,2025-06-28,RG-01,CC-009,Training Fees,Private Company,RCP-983327,683000,589000,-94000,Cheque,Reconciled,2025-07-05,7,Revenue Manager,Yes,June,12
+REV-000646,FY2024/2025,2024-12-03,RG-01,CC-012,Training Fees,Government Agency,RCP-445208,137000,92000,-45000,Online Portal,Reconciled,2024-12-11,8,Revenue Manager,Yes,December,6
+REV-000647,FY2024/2025,2024-09-26,RG-06,CC-019,Certification Fees,Private Company,RCP-521233,139000,132000,-7000,Bank Transfer,Pending,2024-10-03,7,Revenue Manager,Yes,September,3
+REV-000648,FY2024/2025,2024-08-29,RG-01,CC-013,Inspection Fees,Individual,RCP-167910,384000,344000,-40000,Cheque,Reconciled,2024-08-31,2,Revenue Manager,No,August,2
+REV-000649,FY2024/2025,2025-01-26,RG-02,CC-029,Licensing Fees,Individual,RCP-332658,329000,260000,-69000,Cash,Reconciled,2025-02-08,13,Revenue Manager,Yes,January,7
+REV-000650,FY2024/2025,2024-12-14,RG-01,CC-013,Certification Fees,NGO,RCP-271546,137000,132000,-5000,Bank Transfer,Reconciled,2024-12-26,12,Revenue Manager,Yes,December,6
+REV-000651,FY2024/2025,2025-06-21,RG-03,CC-016,Consultancy Income,International Organisation,RCP-340086,168000,203000,35000,Cheque,Reconciled,2025-06-25,4,Revenue Manager,No,June,12
+REV-000652,FY2024/2025,2024-07-23,RG-01,CC-032,Facility Hire,NGO,RCP-785212,515000,437000,-78000,Online Portal,Reconciled,2024-07-28,5,Revenue Manager,No,July,1
+REV-000653,FY2024/2025,2025-04-17,RG-01,CC-008,Certification Fees,Individual,RCP-209756,297000,230000,-67000,Cheque,Reconciled,2025-04-28,11,Revenue Manager,Yes,April,10
+REV-000654,FY2024/2025,2025-03-09,RG-02,CC-015,Licensing Fees,NGO,RCP-927390,387000,347000,-40000,Bank Transfer,Reconciled,2025-03-12,3,Revenue Manager,No,March,9
+REV-000655,FY2024/2025,2025-03-02,RG-01,CC-004,Consultancy Income,Private Company,RCP-500856,687000,625000,-62000,Cheque,Pending,2025-03-05,3,Revenue Manager,No,February,8
+REV-000656,FY2024/2025,2024-10-20,RG-07,CC-030,Publication Sales,NGO,RCP-606100,449000,360000,-89000,MPESA,Reconciled,2024-10-22,2,Revenue Manager,No,October,4
+REV-000657,FY2024/2025,2024-10-10,RG-01,CC-014,Certification Fees,International Organisation,RCP-847968,483000,392000,-91000,Cash,Pending,2024-10-18,8,Revenue Manager,Yes,October,4
+REV-000658,FY2024/2025,2025-04-01,RG-01,CC-008,Inspection Fees,International Organisation,RCP-690241,188000,150000,-38000,Bank Transfer,Reconciled,2025-04-04,3,Revenue Manager,No,April,10
+REV-000659,FY2024/2025,2024-09-17,RG-01,CC-012,Training Fees,NGO,RCP-232654,242000,286000,44000,Cash,Pending,2024-10-01,14,Revenue Manager,Yes,September,3
+REV-000660,FY2024/2025,2024-09-03,RG-06,CC-019,Certification Fees,Individual,RCP-825658,300000,301000,1000,MPESA,Reconciled,2024-09-13,10,Revenue Manager,Yes,September,3
+REV-000661,FY2024/2025,2025-04-12,RG-01,CC-006,Facility Hire,Individual,RCP-388701,305000,269000,-36000,Online Portal,Reconciled,2025-04-16,4,Revenue Manager,No,April,10
+REV-000662,FY2024/2025,2024-11-18,RG-04,CC-025,Publication Sales,Government Agency,RCP-293561,557000,557000,0,Bank Transfer,Unreconciled,2024-12-02,14,Revenue Manager,Yes,November,5
+REV-000663,FY2024/2025,2024-10-26,RG-02,CC-022,Consultancy Income,Government Agency,RCP-549160,483000,474000,-9000,Online Portal,Reconciled,2024-11-07,12,Revenue Manager,Yes,October,4
+REV-000664,FY2024/2025,2025-04-02,RG-01,CC-023,Inspection Fees,International Organisation,RCP-437735,299000,252000,-47000,Cheque,Reconciled,2025-04-15,13,Revenue Manager,Yes,April,10
+REV-000665,FY2024/2025,2024-10-25,RG-01,CC-010,Facility Hire,NGO,RCP-971581,403000,460000,57000,Bank Transfer,Reconciled,2024-11-06,12,Revenue Manager,Yes,October,4
+REV-000666,FY2024/2025,2025-05-17,RG-01,CC-003,Inspection Fees,Government Agency,RCP-632160,187000,213000,26000,Cheque,Reconciled,2025-05-17,0,Revenue Manager,No,May,11
+REV-000667,FY2024/2025,2024-11-04,RG-03,CC-016,Certification Fees,Government Agency,RCP-620788,633000,514000,-119000,Online Portal,Reconciled,2024-11-15,11,Revenue Manager,Yes,November,5
+REV-000668,FY2024/2025,2024-12-14,RG-05,CC-024,Certification Fees,Individual,RCP-281549,648000,627000,-21000,MPESA,Reconciled,2024-12-19,5,Revenue Manager,No,December,6
+REV-000669,FY2024/2025,2025-05-26,RG-05,CC-018,Publication Sales,Private Company,RCP-521225,561000,665000,104000,MPESA,Reconciled,2025-05-31,5,Revenue Manager,No,May,11
+REV-000670,FY2024/2025,2025-05-03,RG-01,CC-005,Facility Hire,NGO,RCP-900172,796000,570000,-226000,Bank Transfer,Reconciled,2025-05-14,11,Revenue Manager,Yes,May,11
+REV-000671,FY2024/2025,2024-09-30,RG-04,CC-025,Publication Sales,Government Agency,RCP-963358,429000,342000,-87000,Online Portal,Reconciled,2024-10-08,8,Revenue Manager,Yes,September,3
+REV-000672,FY2024/2025,2024-12-26,RG-04,CC-026,Inspection Fees,Individual,RCP-425211,256000,216000,-40000,MPESA,Reconciled,2025-01-04,9,Revenue Manager,Yes,December,6
+REV-000673,FY2024/2025,2024-07-25,RG-01,CC-012,Facility Hire,Government Agency,RCP-985907,784000,752000,-32000,Bank Transfer,Reconciled,2024-08-03,9,Revenue Manager,Yes,July,1
+REV-000674,FY2024/2025,2024-11-06,RG-02,CC-015,Certification Fees,NGO,RCP-313407,223000,186000,-37000,Cheque,Reconciled,2024-11-13,7,Revenue Manager,Yes,November,5
+REV-000675,FY2024/2025,2024-09-08,RG-01,CC-006,Inspection Fees,International Organisation,RCP-175531,350000,305000,-45000,MPESA,Pending,2024-09-16,8,Revenue Manager,Yes,September,3
+REV-000676,FY2024/2025,2024-08-25,RG-01,CC-008,Publication Sales,Government Agency,RCP-826084,785000,728000,-57000,Online Portal,Reconciled,2024-09-04,10,Revenue Manager,Yes,August,2
+REV-000677,FY2024/2025,2025-02-10,RG-01,CC-011,Certification Fees,Individual,RCP-275019,685000,656000,-29000,Cash,Reconciled,2025-02-24,14,Revenue Manager,Yes,February,8
+REV-000678,FY2024/2025,2025-02-05,RG-05,CC-024,Training Fees,Private Company,RCP-487749,700000,696000,-4000,Cash,Pending,2025-02-15,10,Revenue Manager,Yes,February,8
+REV-000679,FY2024/2025,2024-09-19,RG-01,CC-005,Facility Hire,NGO,RCP-298869,772000,702000,-70000,Bank Transfer,Unreconciled,2024-09-26,7,Revenue Manager,Yes,September,3
+REV-000680,FY2024/2025,2025-03-16,RG-02,CC-028,Inspection Fees,Private Company,RCP-193581,351000,283000,-68000,Bank Transfer,Reconciled,2025-03-19,3,Revenue Manager,No,March,9
+REV-000681,FY2024/2025,2024-12-14,RG-02,CC-022,Training Fees,NGO,RCP-913881,367000,344000,-23000,Online Portal,Reconciled,2024-12-22,8,Revenue Manager,Yes,December,6
+REV-000682,FY2024/2025,2024-09-07,RG-01,CC-011,Licensing Fees,NGO,RCP-700816,587000,566000,-21000,Cash,Reconciled,2024-09-13,6,Revenue Manager,Yes,September,3
+REV-000683,FY2024/2025,2025-02-24,RG-01,CC-012,Certification Fees,Individual,RCP-754069,450000,411000,-39000,Bank Transfer,Reconciled,2025-03-01,5,Revenue Manager,No,February,8
+REV-000684,FY2024/2025,2025-01-13,RG-05,CC-018,Inspection Fees,NGO,RCP-978789,625000,488000,-137000,Cash,Reconciled,2025-01-21,8,Revenue Manager,Yes,January,7
+REV-000685,FY2024/2025,2025-04-16,RG-01,CC-012,Facility Hire,International Organisation,RCP-509400,499000,541000,42000,Online Portal,Reconciled,2025-04-27,11,Revenue Manager,Yes,April,10
+REV-000686,FY2024/2025,2025-02-27,RG-01,CC-031,Licensing Fees,International Organisation,RCP-838800,175000,169000,-6000,Cheque,Pending,2025-02-27,0,Revenue Manager,No,February,8
+REV-000687,FY2024/2025,2024-12-05,RG-08,CC-021,Inspection Fees,Government Agency,RCP-636343,706000,743000,37000,Online Portal,Reconciled,2024-12-11,6,Revenue Manager,Yes,December,6
+REV-000688,FY2024/2025,2024-11-05,RG-06,CC-019,Training Fees,Individual,RCP-404028,544000,559000,15000,Cheque,Reconciled,2024-11-13,8,Revenue Manager,Yes,November,5
+REV-000689,FY2024/2025,2024-12-23,RG-01,CC-031,Training Fees,Government Agency,RCP-205721,342000,325000,-17000,Online Portal,Reconciled,2025-01-06,14,Revenue Manager,Yes,December,6
+REV-000690,FY2024/2025,2024-12-28,RG-04,CC-025,Inspection Fees,NGO,RCP-107742,154000,97000,-57000,Online Portal,Reconciled,2025-01-02,5,Revenue Manager,No,December,6
+REV-000691,FY2024/2025,2024-09-09,RG-01,CC-001,Facility Hire,International Organisation,RCP-636462,194000,199000,5000,MPESA,Reconciled,2024-09-09,0,Revenue Manager,No,September,3
+REV-000692,FY2024/2025,2025-03-14,RG-01,CC-014,Consultancy Income,NGO,RCP-149666,224000,189000,-35000,Cheque,Reconciled,2025-03-25,11,Revenue Manager,Yes,March,9
+REV-000693,FY2024/2025,2025-03-05,RG-07,CC-020,Certification Fees,Government Agency,RCP-890302,253000,231000,-22000,Cheque,Reconciled,2025-03-10,5,Revenue Manager,No,March,9
+REV-000694,FY2024/2025,2024-11-16,RG-04,CC-026,Certification Fees,Individual,RCP-817547,455000,330000,-125000,Cheque,Reconciled,2024-11-22,6,Revenue Manager,Yes,November,5
+REV-000695,FY2024/2025,2025-06-10,RG-01,CC-007,Consultancy Income,Private Company,RCP-362658,210000,112000,-98000,Cash,Reconciled,2025-06-20,10,Revenue Manager,Yes,June,12
+REV-000696,FY2024/2025,2024-08-02,RG-01,CC-010,Licensing Fees,Individual,RCP-191085,231000,253000,22000,Online Portal,Reconciled,2024-08-11,9,Revenue Manager,Yes,August,2
+REV-000697,FY2024/2025,2024-08-20,RG-01,CC-010,Publication Sales,International Organisation,RCP-835024,350000,352000,2000,MPESA,Reconciled,2024-08-20,0,Revenue Manager,No,August,2
+REV-000698,FY2024/2025,2025-03-07,RG-01,CC-008,Service Fees,Private Company,RCP-715785,693000,844000,151000,MPESA,Reconciled,2025-03-08,1,Revenue Manager,No,March,9
+REV-000699,FY2024/2025,2025-02-25,RG-03,CC-027,Consultancy Income,NGO,RCP-315392,156000,180000,24000,MPESA,Reconciled,2025-02-28,3,Revenue Manager,No,February,8
+REV-000700,FY2024/2025,2024-11-14,RG-01,CC-001,Certification Fees,Private Company,RCP-276537,642000,562000,-80000,MPESA,Reconciled,2024-11-18,4,Revenue Manager,No,November,5
+REV-000701,FY2024/2025,2025-06-21,RG-02,CC-015,Facility Hire,Individual,RCP-975060,592000,607000,15000,Bank Transfer,Unreconciled,2025-07-04,13,Revenue Manager,Yes,June,12
+REV-000702,FY2024/2025,2025-04-29,RG-01,CC-011,Training Fees,International Organisation,RCP-595812,695000,455000,-240000,Cheque,Reconciled,2025-05-12,13,Revenue Manager,Yes,April,10
+REV-000703,FY2024/2025,2024-08-20,RG-01,CC-012,Inspection Fees,Individual,RCP-573564,177000,169000,-8000,Bank Transfer,Reconciled,2024-08-20,0,Revenue Manager,No,August,2
+REV-000704,FY2024/2025,2025-02-21,RG-01,CC-002,Certification Fees,Government Agency,RCP-800291,286000,311000,25000,Online Portal,Reconciled,2025-02-22,1,Revenue Manager,No,February,8
+REV-000705,FY2024/2025,2024-07-07,RG-01,CC-032,Licensing Fees,NGO,RCP-353206,678000,406000,-272000,Cheque,Pending,2024-07-15,8,Revenue Manager,Yes,July,1
+REV-000706,FY2024/2025,2024-11-15,RG-02,CC-028,Licensing Fees,NGO,RCP-154161,120000,76000,-44000,Bank Transfer,Reconciled,2024-11-21,6,Revenue Manager,Yes,November,5
+REV-000707,FY2024/2025,2025-06-29,RG-01,CC-001,Licensing Fees,Government Agency,RCP-790600,177000,188000,11000,Cheque,Reconciled,2025-06-29,0,Revenue Manager,No,June,12
+REV-000708,FY2024/2025,2025-05-30,RG-01,CC-005,Publication Sales,Government Agency,RCP-825915,472000,463000,-9000,Bank Transfer,Reconciled,2025-06-03,4,Revenue Manager,No,May,11
+REV-000709,FY2024/2025,2024-08-15,RG-01,CC-005,Facility Hire,Individual,RCP-460624,571000,565000,-6000,Online Portal,Reconciled,2024-08-16,1,Revenue Manager,No,August,2
+REV-000710,FY2024/2025,2024-10-16,RG-08,CC-021,Licensing Fees,NGO,RCP-990606,600000,453000,-147000,MPESA,Pending,2024-10-21,5,Revenue Manager,No,October,4
+REV-000711,FY2024/2025,2024-12-24,RG-01,CC-004,Inspection Fees,Government Agency,RCP-102259,336000,368000,32000,Cheque,Pending,2024-12-29,5,Revenue Manager,No,December,6
+REV-000712,FY2024/2025,2024-09-25,RG-03,CC-027,Publication Sales,Government Agency,RCP-887970,547000,444000,-103000,Cheque,Reconciled,2024-10-09,14,Revenue Manager,Yes,September,3
+REV-000713,FY2024/2025,2025-03-10,RG-07,CC-020,Publication Sales,Private Company,RCP-285079,168000,121000,-47000,Cash,Reconciled,2025-03-19,9,Revenue Manager,Yes,March,9
+REV-000714,FY2024/2025,2025-05-02,RG-01,CC-002,Training Fees,Government Agency,RCP-454864,712000,587000,-125000,Cash,Reconciled,2025-05-04,2,Revenue Manager,No,May,11
+REV-000715,FY2024/2025,2025-06-15,RG-01,CC-032,Service Fees,Private Company,RCP-620132,537000,418000,-119000,Bank Transfer,Reconciled,2025-06-27,12,Revenue Manager,Yes,June,12
+REV-000716,FY2024/2025,2025-03-25,RG-07,CC-020,Inspection Fees,Private Company,RCP-953294,159000,130000,-29000,MPESA,Reconciled,2025-03-28,3,Revenue Manager,No,March,9
+REV-000717,FY2024/2025,2025-02-02,RG-01,CC-032,Training Fees,International Organisation,RCP-122950,663000,640000,-23000,Online Portal,Reconciled,2025-02-02,0,Revenue Manager,No,February,8
+REV-000718,FY2024/2025,2025-05-27,RG-01,CC-003,Consultancy Income,Government Agency,RCP-673870,462000,331000,-131000,MPESA,Reconciled,2025-05-30,3,Revenue Manager,No,May,11
+REV-000719,FY2024/2025,2024-08-24,RG-01,CC-002,Publication Sales,NGO,RCP-640664,512000,433000,-79000,Online Portal,Unreconciled,2024-08-25,1,Revenue Manager,No,August,2
+REV-000720,FY2024/2025,2025-02-09,RG-07,CC-020,Consultancy Income,Private Company,RCP-205385,490000,354000,-136000,MPESA,Reconciled,2025-02-20,11,Revenue Manager,Yes,February,8
+REV-000721,FY2025/2026,2025-08-19,RG-01,CC-013,Service Fees,NGO,RCP-988329,208000,201000,-7000,Cheque,Reconciled,2025-08-19,0,Revenue Manager,No,August,2
+REV-000722,FY2025/2026,2025-11-13,RG-03,CC-027,Facility Hire,Private Company,RCP-640620,451000,374000,-77000,Bank Transfer,Pending,2025-11-17,4,Revenue Manager,No,November,5
+REV-000723,FY2025/2026,2026-02-02,RG-03,CC-027,Licensing Fees,Private Company,RCP-407202,499000,452000,-47000,Cash,Reconciled,2026-02-07,5,Revenue Manager,No,February,8
+REV-000724,FY2025/2026,2026-05-29,RG-07,CC-020,Certification Fees,NGO,RCP-718466,128000,120000,-8000,Cash,Unreconciled,2026-06-07,9,Revenue Manager,Yes,May,11
+REV-000725,FY2025/2026,2026-01-11,RG-06,CC-019,Licensing Fees,International Organisation,RCP-172338,271000,175000,-96000,Online Portal,Reconciled,2026-01-11,0,Revenue Manager,No,January,7
+REV-000726,FY2025/2026,2025-12-01,RG-05,CC-018,Facility Hire,NGO,RCP-373541,621000,530000,-91000,Cash,Reconciled,2025-12-01,0,Revenue Manager,No,December,6
+REV-000727,FY2025/2026,2025-12-25,RG-03,CC-016,Training Fees,International Organisation,RCP-775431,187000,163000,-24000,MPESA,Reconciled,2025-12-28,3,Revenue Manager,No,December,6
+REV-000728,FY2025/2026,2025-11-05,RG-03,CC-027,Consultancy Income,Private Company,RCP-362574,165000,166000,1000,Cash,Unreconciled,2025-11-14,9,Revenue Manager,Yes,November,5
+REV-000729,FY2025/2026,2025-12-19,RG-02,CC-028,Service Fees,International Organisation,RCP-631751,576000,563000,-13000,Cheque,Reconciled,2025-12-28,9,Revenue Manager,Yes,December,6
+REV-000730,FY2025/2026,2026-05-31,RG-05,CC-018,Certification Fees,International Organisation,RCP-922231,701000,721000,20000,Cheque,Reconciled,2026-05-31,0,Revenue Manager,No,May,11
+REV-000731,FY2025/2026,2026-01-12,RG-08,CC-021,Certification Fees,Private Company,RCP-762288,203000,195000,-8000,MPESA,Reconciled,2026-01-21,9,Revenue Manager,Yes,January,7
+REV-000732,FY2025/2026,2025-08-23,RG-04,CC-026,Consultancy Income,NGO,RCP-419343,785000,561000,-224000,Cheque,Unreconciled,2025-08-31,8,Revenue Manager,Yes,August,2
+REV-000733,FY2025/2026,2026-01-03,RG-05,CC-024,Service Fees,Private Company,RCP-202531,291000,231000,-60000,MPESA,Reconciled,2026-01-14,11,Revenue Manager,Yes,January,7
+REV-000734,FY2025/2026,2026-02-24,RG-01,CC-004,Publication Sales,NGO,RCP-494810,180000,202000,22000,Bank Transfer,Reconciled,2026-03-08,12,Revenue Manager,Yes,February,8
+REV-000735,FY2025/2026,2025-11-26,RG-04,CC-017,Certification Fees,Government Agency,RCP-735444,227000,200000,-27000,Online Portal,Reconciled,2025-11-28,2,Revenue Manager,No,November,5
+REV-000736,FY2025/2026,2025-12-01,RG-06,CC-019,Publication Sales,Individual,RCP-653818,456000,430000,-26000,MPESA,Reconciled,2025-12-15,14,Revenue Manager,Yes,November,5
+REV-000737,FY2025/2026,2025-08-02,RG-01,CC-009,Consultancy Income,International Organisation,RCP-384092,661000,736000,75000,Bank Transfer,Reconciled,2025-08-11,9,Revenue Manager,Yes,August,2
+REV-000738,FY2025/2026,2026-01-31,RG-01,CC-005,Facility Hire,NGO,RCP-142005,279000,201000,-78000,Online Portal,Reconciled,2026-02-11,11,Revenue Manager,Yes,January,7
+REV-000739,FY2025/2026,2025-08-11,RG-04,CC-025,Publication Sales,Individual,RCP-863657,273000,186000,-87000,Cash,Reconciled,2025-08-24,13,Revenue Manager,Yes,August,2
+REV-000740,FY2025/2026,2025-10-02,RG-01,CC-009,Certification Fees,Private Company,RCP-704268,310000,287000,-23000,MPESA,Reconciled,2025-10-07,5,Revenue Manager,No,October,4
+REV-000741,FY2025/2026,2026-03-07,RG-01,CC-009,Training Fees,International Organisation,RCP-292931,165000,124000,-41000,MPESA,Unreconciled,2026-03-21,14,Revenue Manager,Yes,March,9
+REV-000742,FY2025/2026,2026-05-06,RG-01,CC-004,Certification Fees,NGO,RCP-967664,254000,195000,-59000,Cheque,Reconciled,2026-05-09,3,Revenue Manager,No,May,11
+REV-000743,FY2025/2026,2025-09-11,RG-01,CC-002,Publication Sales,Individual,RCP-495346,273000,277000,4000,MPESA,Reconciled,2025-09-24,13,Revenue Manager,Yes,September,3
+REV-000744,FY2025/2026,2026-03-10,RG-07,CC-030,Certification Fees,Private Company,RCP-157069,449000,296000,-153000,Bank Transfer,Reconciled,2026-03-21,11,Revenue Manager,Yes,March,9
+REV-000745,FY2025/2026,2025-12-29,RG-04,CC-025,Training Fees,Individual,RCP-867697,296000,262000,-34000,MPESA,Reconciled,2025-12-30,1,Revenue Manager,No,December,6
+REV-000746,FY2025/2026,2026-01-14,RG-01,CC-002,Service Fees,Government Agency,RCP-371766,464000,575000,111000,Cheque,Reconciled,2026-01-21,7,Revenue Manager,Yes,January,7
+REV-000747,FY2025/2026,2025-07-22,RG-01,CC-014,Certification Fees,International Organisation,RCP-655713,535000,316000,-219000,Cash,Reconciled,2025-07-26,4,Revenue Manager,No,July,1
+REV-000748,FY2025/2026,2026-03-03,RG-02,CC-028,Training Fees,International Organisation,RCP-989433,534000,611000,77000,Online Portal,Reconciled,2026-03-08,5,Revenue Manager,No,March,9
+REV-000749,FY2025/2026,2025-09-15,RG-04,CC-026,Service Fees,Private Company,RCP-548377,145000,123000,-22000,Cheque,Reconciled,2025-09-26,11,Revenue Manager,Yes,September,3
+REV-000750,FY2025/2026,2025-11-25,RG-01,CC-006,Licensing Fees,Private Company,RCP-685141,461000,513000,52000,Online Portal,Reconciled,2025-12-02,7,Revenue Manager,Yes,November,5
+REV-000751,FY2025/2026,2025-07-24,RG-01,CC-006,Inspection Fees,International Organisation,RCP-765296,254000,201000,-53000,Cheque,Pending,2025-07-29,5,Revenue Manager,No,July,1
+REV-000752,FY2025/2026,2026-04-21,RG-01,CC-004,Facility Hire,Individual,RCP-795150,105000,101000,-4000,Cash,Reconciled,2026-04-26,5,Revenue Manager,No,April,10
+REV-000753,FY2025/2026,2026-03-17,RG-07,CC-020,Facility Hire,Private Company,RCP-661013,378000,330000,-48000,Cash,Reconciled,2026-03-22,5,Revenue Manager,No,March,9
+REV-000754,FY2025/2026,2026-02-06,RG-01,CC-032,Certification Fees,Government Agency,RCP-507324,318000,232000,-86000,Cheque,Reconciled,2026-02-07,1,Revenue Manager,No,February,8
+REV-000755,FY2025/2026,2026-05-07,RG-05,CC-018,Training Fees,International Organisation,RCP-864298,349000,394000,45000,Cheque,Reconciled,2026-05-10,3,Revenue Manager,No,May,11
+REV-000756,FY2025/2026,2026-03-28,RG-01,CC-010,Certification Fees,Individual,RCP-305394,437000,368000,-69000,Cash,Reconciled,2026-03-29,1,Revenue Manager,No,March,9
+REV-000757,FY2025/2026,2025-12-19,RG-05,CC-018,Consultancy Income,Government Agency,RCP-947579,546000,363000,-183000,Cash,Reconciled,2025-12-19,0,Revenue Manager,No,December,6
+REV-000758,FY2025/2026,2026-01-08,RG-02,CC-029,Certification Fees,NGO,RCP-464672,686000,348000,-338000,Online Portal,Reconciled,2026-01-09,1,Revenue Manager,No,January,7
+REV-000759,FY2025/2026,2026-04-15,RG-06,CC-019,Service Fees,NGO,RCP-423666,634000,522000,-112000,Online Portal,Reconciled,2026-04-20,5,Revenue Manager,No,April,10
+REV-000760,FY2025/2026,2025-08-12,RG-01,CC-003,Consultancy Income,Private Company,RCP-120789,558000,376000,-182000,Cheque,Unreconciled,2025-08-22,10,Revenue Manager,Yes,August,2
+REV-000761,FY2025/2026,2026-01-25,RG-08,CC-021,Inspection Fees,International Organisation,RCP-259406,560000,510000,-50000,Cash,Reconciled,2026-02-04,10,Revenue Manager,Yes,January,7
+REV-000762,FY2025/2026,2025-08-20,RG-01,CC-012,Consultancy Income,NGO,RCP-433342,367000,264000,-103000,MPESA,Pending,2025-08-25,5,Revenue Manager,No,August,2
+REV-000763,FY2025/2026,2025-10-05,RG-01,CC-007,Consultancy Income,NGO,RCP-403354,381000,258000,-123000,Cash,Reconciled,2025-10-15,10,Revenue Manager,Yes,October,4
+REV-000764,FY2025/2026,2026-01-24,RG-07,CC-020,Certification Fees,International Organisation,RCP-182633,437000,315000,-122000,Online Portal,Unreconciled,2026-02-05,12,Revenue Manager,Yes,January,7
+REV-000765,FY2025/2026,2026-03-14,RG-02,CC-015,Licensing Fees,Individual,RCP-827531,663000,659000,-4000,Online Portal,Reconciled,2026-03-17,3,Revenue Manager,No,March,9
+REV-000766,FY2025/2026,2026-02-26,RG-01,CC-023,Publication Sales,Private Company,RCP-251252,695000,451000,-244000,Bank Transfer,Reconciled,2026-03-08,10,Revenue Manager,Yes,February,8
+REV-000767,FY2025/2026,2026-01-26,RG-05,CC-018,Certification Fees,Individual,RCP-227013,103000,92000,-11000,Cash,Reconciled,2026-01-29,3,Revenue Manager,No,January,7
+REV-000768,FY2025/2026,2025-11-23,RG-01,CC-009,Consultancy Income,Private Company,RCP-654335,450000,373000,-77000,Online Portal,Pending,2025-11-24,1,Revenue Manager,No,November,5
+REV-000769,FY2025/2026,2025-08-16,RG-01,CC-002,Inspection Fees,International Organisation,RCP-799911,615000,491000,-124000,Cash,Reconciled,2025-08-25,9,Revenue Manager,Yes,August,2
+REV-000770,FY2025/2026,2025-07-27,RG-01,CC-032,Licensing Fees,International Organisation,RCP-747405,587000,664000,77000,MPESA,Unreconciled,2025-07-29,2,Revenue Manager,No,July,1
+REV-000771,FY2025/2026,2026-03-17,RG-01,CC-011,Consultancy Income,International Organisation,RCP-858281,669000,589000,-80000,Cash,Reconciled,2026-03-24,7,Revenue Manager,Yes,March,9
+REV-000772,FY2025/2026,2025-08-27,RG-02,CC-029,Inspection Fees,Government Agency,RCP-899666,774000,779000,5000,Online Portal,Reconciled,2025-09-03,7,Revenue Manager,Yes,August,2
+REV-000773,FY2025/2026,2026-04-16,RG-01,CC-003,Licensing Fees,Government Agency,RCP-702391,482000,452000,-30000,Cheque,Reconciled,2026-04-28,12,Revenue Manager,Yes,April,10
+REV-000774,FY2025/2026,2025-08-30,RG-01,CC-005,Certification Fees,Government Agency,RCP-767107,443000,496000,53000,Cheque,Pending,2025-09-02,3,Revenue Manager,No,August,2
+REV-000775,FY2025/2026,2025-12-23,RG-01,CC-002,Inspection Fees,Government Agency,RCP-114526,223000,125000,-98000,Bank Transfer,Reconciled,2026-01-01,9,Revenue Manager,Yes,December,6
+REV-000776,FY2025/2026,2025-12-17,RG-04,CC-026,Consultancy Income,Private Company,RCP-597469,741000,687000,-54000,Bank Transfer,Reconciled,2025-12-31,14,Revenue Manager,Yes,December,6
+REV-000777,FY2025/2026,2026-05-21,RG-01,CC-013,Facility Hire,NGO,RCP-487521,341000,397000,56000,Online Portal,Reconciled,2026-05-22,1,Revenue Manager,No,May,11
+REV-000778,FY2025/2026,2026-05-01,RG-01,CC-004,Certification Fees,Government Agency,RCP-933390,519000,472000,-47000,Cheque,Reconciled,2026-05-15,14,Revenue Manager,Yes,May,11
+REV-000779,FY2025/2026,2025-08-07,RG-01,CC-012,Inspection Fees,Private Company,RCP-131424,659000,582000,-77000,MPESA,Reconciled,2025-08-09,2,Revenue Manager,No,August,2
+REV-000780,FY2025/2026,2025-12-16,RG-01,CC-010,Service Fees,Individual,RCP-999412,201000,150000,-51000,Cheque,Pending,2025-12-16,0,Revenue Manager,No,December,6
+REV-000781,FY2025/2026,2025-10-25,RG-01,CC-005,Facility Hire,Individual,RCP-738914,330000,193000,-137000,Bank Transfer,Unreconciled,2025-10-30,5,Revenue Manager,No,October,4
+REV-000782,FY2025/2026,2025-11-14,RG-01,CC-003,Consultancy Income,NGO,RCP-822097,447000,491000,44000,Online Portal,Reconciled,2025-11-25,11,Revenue Manager,Yes,November,5
+REV-000783,FY2025/2026,2025-12-13,RG-01,CC-006,Inspection Fees,International Organisation,RCP-821544,200000,213000,13000,MPESA,Reconciled,2025-12-26,13,Revenue Manager,Yes,December,6
+REV-000784,FY2025/2026,2026-03-01,RG-01,CC-002,Publication Sales,International Organisation,RCP-171592,531000,439000,-92000,MPESA,Unreconciled,2026-03-01,0,Revenue Manager,No,March,9
+REV-000785,FY2025/2026,2025-12-30,RG-07,CC-020,Publication Sales,Private Company,RCP-555303,275000,234000,-41000,Cash,Reconciled,2026-01-06,7,Revenue Manager,Yes,December,6
+REV-000786,FY2025/2026,2026-03-17,RG-07,CC-020,Training Fees,International Organisation,RCP-623321,797000,756000,-41000,Cheque,Pending,2026-03-24,7,Revenue Manager,Yes,March,9
+REV-000787,FY2025/2026,2025-08-01,RG-04,CC-026,Licensing Fees,Individual,RCP-939348,240000,224000,-16000,Cash,Unreconciled,2025-08-03,2,Revenue Manager,No,August,2
+REV-000788,FY2025/2026,2025-09-20,RG-07,CC-020,Consultancy Income,Government Agency,RCP-668674,323000,312000,-11000,Online Portal,Unreconciled,2025-09-30,10,Revenue Manager,Yes,September,3
+REV-000789,FY2025/2026,2026-01-30,RG-07,CC-020,Inspection Fees,Individual,RCP-901351,222000,180000,-42000,MPESA,Reconciled,2026-02-13,14,Revenue Manager,Yes,January,7
+REV-000790,FY2025/2026,2025-09-25,RG-01,CC-014,Inspection Fees,Government Agency,RCP-584469,241000,263000,22000,MPESA,Reconciled,2025-10-03,8,Revenue Manager,Yes,September,3
+REV-000791,FY2025/2026,2025-09-25,RG-07,CC-020,Facility Hire,Government Agency,RCP-524603,466000,397000,-69000,Online Portal,Reconciled,2025-10-05,10,Revenue Manager,Yes,September,3
+REV-000792,FY2025/2026,2026-04-12,RG-01,CC-031,Facility Hire,Individual,RCP-635985,368000,315000,-53000,MPESA,Reconciled,2026-04-13,1,Revenue Manager,No,April,10
+REV-000793,FY2025/2026,2025-08-10,RG-01,CC-001,Certification Fees,Government Agency,RCP-819191,302000,281000,-21000,MPESA,Reconciled,2025-08-23,13,Revenue Manager,Yes,August,2
+REV-000794,FY2025/2026,2025-07-23,RG-05,CC-024,Facility Hire,NGO,RCP-632436,713000,657000,-56000,Online Portal,Reconciled,2025-08-03,11,Revenue Manager,Yes,July,1
+REV-000795,FY2025/2026,2025-08-17,RG-01,CC-004,Consultancy Income,Private Company,RCP-657689,356000,295000,-61000,Cheque,Reconciled,2025-08-31,14,Revenue Manager,Yes,August,2
+REV-000796,FY2025/2026,2025-07-25,RG-01,CC-011,Consultancy Income,Government Agency,RCP-813500,633000,672000,39000,Online Portal,Reconciled,2025-07-31,6,Revenue Manager,Yes,July,1
+REV-000797,FY2025/2026,2025-12-21,RG-05,CC-018,Service Fees,International Organisation,RCP-162294,376000,283000,-93000,Cash,Reconciled,2025-12-31,10,Revenue Manager,Yes,December,6
+REV-000798,FY2025/2026,2025-11-04,RG-04,CC-017,Publication Sales,Individual,RCP-986143,144000,139000,-5000,Bank Transfer,Reconciled,2025-11-11,7,Revenue Manager,Yes,November,5
+REV-000799,FY2025/2026,2026-05-16,RG-07,CC-030,Facility Hire,International Organisation,RCP-965202,142000,116000,-26000,Bank Transfer,Reconciled,2026-05-20,4,Revenue Manager,No,May,11
+REV-000800,FY2025/2026,2025-12-19,RG-01,CC-014,Service Fees,Individual,RCP-978514,623000,692000,69000,Online Portal,Reconciled,2025-12-21,2,Revenue Manager,No,December,6
+REV-000801,FY2025/2026,2026-03-02,RG-02,CC-015,Licensing Fees,International Organisation,RCP-311141,607000,591000,-16000,Bank Transfer,Reconciled,2026-03-02,0,Revenue Manager,No,February,8
+REV-000802,FY2025/2026,2025-10-15,RG-01,CC-005,Certification Fees,International Organisation,RCP-556108,107000,82000,-25000,Bank Transfer,Reconciled,2025-10-16,1,Revenue Manager,No,October,4
+REV-000803,FY2025/2026,2025-09-15,RG-03,CC-016,Consultancy Income,International Organisation,RCP-183458,676000,753000,77000,MPESA,Reconciled,2025-09-19,4,Revenue Manager,No,September,3
+REV-000804,FY2025/2026,2026-02-05,RG-04,CC-026,Consultancy Income,Government Agency,RCP-383443,303000,103000,-200000,Online Portal,Unreconciled,2026-02-11,6,Revenue Manager,Yes,February,8
+REV-000805,FY2025/2026,2026-03-14,RG-01,CC-014,Consultancy Income,Individual,RCP-973573,287000,283000,-4000,Bank Transfer,Reconciled,2026-03-21,7,Revenue Manager,Yes,March,9
+REV-000806,FY2025/2026,2025-12-01,RG-01,CC-031,Inspection Fees,Government Agency,RCP-971135,494000,487000,-7000,MPESA,Reconciled,2025-12-13,12,Revenue Manager,Yes,November,5
+REV-000807,FY2025/2026,2026-04-04,RG-05,CC-018,Inspection Fees,Government Agency,RCP-742097,120000,92000,-28000,Cash,Reconciled,2026-04-11,7,Revenue Manager,Yes,April,10
+REV-000808,FY2025/2026,2026-05-21,RG-08,CC-021,Facility Hire,Private Company,RCP-602584,667000,491000,-176000,MPESA,Reconciled,2026-05-23,2,Revenue Manager,No,May,11
+REV-000809,FY2025/2026,2026-04-01,RG-01,CC-007,Inspection Fees,International Organisation,RCP-930354,180000,116000,-64000,Cash,Reconciled,2026-04-11,10,Revenue Manager,Yes,April,10
+REV-000810,FY2025/2026,2026-01-23,RG-01,CC-009,Publication Sales,NGO,RCP-652039,513000,305000,-208000,Online Portal,Reconciled,2026-01-31,8,Revenue Manager,Yes,January,7
+REV-000811,FY2025/2026,2026-02-18,RG-02,CC-015,Publication Sales,Individual,RCP-466263,367000,276000,-91000,Online Portal,Reconciled,2026-02-20,2,Revenue Manager,No,February,8
+REV-000812,FY2025/2026,2025-09-24,RG-06,CC-019,Publication Sales,Government Agency,RCP-685188,362000,419000,57000,Cheque,Pending,2025-10-08,14,Revenue Manager,Yes,September,3
+REV-000813,FY2025/2026,2025-09-09,RG-01,CC-023,Certification Fees,Individual,RCP-366446,681000,518000,-163000,Cash,Reconciled,2025-09-15,6,Revenue Manager,Yes,September,3
+REV-000814,FY2025/2026,2025-11-12,RG-01,CC-031,Certification Fees,Private Company,RCP-152658,242000,201000,-41000,Bank Transfer,Reconciled,2025-11-23,11,Revenue Manager,Yes,November,5
+REV-000815,FY2025/2026,2026-03-22,RG-03,CC-016,Service Fees,International Organisation,RCP-550103,679000,449000,-230000,Bank Transfer,Reconciled,2026-03-27,5,Revenue Manager,No,March,9
+REV-000816,FY2025/2026,2026-05-18,RG-01,CC-001,Publication Sales,International Organisation,RCP-759281,701000,700000,-1000,Cheque,Pending,2026-05-20,2,Revenue Manager,No,May,11
+REV-000817,FY2025/2026,2025-08-24,RG-01,CC-012,Publication Sales,International Organisation,RCP-275302,253000,242000,-11000,MPESA,Reconciled,2025-08-25,1,Revenue Manager,No,August,2
+REV-000818,FY2025/2026,2025-12-18,RG-02,CC-029,Licensing Fees,Individual,RCP-443019,129000,135000,6000,Cheque,Reconciled,2025-12-19,1,Revenue Manager,No,December,6
+REV-000819,FY2025/2026,2026-04-21,RG-02,CC-028,Inspection Fees,Government Agency,RCP-343109,349000,225000,-124000,Cheque,Reconciled,2026-04-28,7,Revenue Manager,Yes,April,10
+REV-000820,FY2025/2026,2025-08-23,RG-04,CC-025,Publication Sales,Government Agency,RCP-768555,426000,389000,-37000,Cheque,Reconciled,2025-08-23,0,Revenue Manager,No,August,2
+REV-000821,FY2025/2026,2026-04-21,RG-02,CC-015,Facility Hire,Private Company,RCP-829728,576000,571000,-5000,Cheque,Pending,2026-04-30,9,Revenue Manager,Yes,April,10
+REV-000822,FY2025/2026,2026-02-19,RG-07,CC-030,Service Fees,Individual,RCP-470335,201000,235000,34000,Cash,Reconciled,2026-02-25,6,Revenue Manager,Yes,February,8
+REV-000823,FY2025/2026,2025-10-21,RG-01,CC-007,Consultancy Income,International Organisation,RCP-914111,646000,733000,87000,Cash,Reconciled,2025-10-22,1,Revenue Manager,No,October,4
+REV-000824,FY2025/2026,2026-02-27,RG-01,CC-010,Training Fees,Private Company,RCP-731953,650000,461000,-189000,Cheque,Reconciled,2026-03-13,14,Revenue Manager,Yes,February,8
+REV-000825,FY2025/2026,2025-07-10,RG-01,CC-032,Publication Sales,Government Agency,RCP-394360,484000,400000,-84000,Cheque,Reconciled,2025-07-14,4,Revenue Manager,No,July,1
+REV-000826,FY2025/2026,2026-01-28,RG-01,CC-001,Consultancy Income,Government Agency,RCP-761196,199000,214000,15000,MPESA,Reconciled,2026-02-10,13,Revenue Manager,Yes,January,7
+REV-000827,FY2025/2026,2026-05-06,RG-08,CC-021,Facility Hire,Individual,RCP-840336,333000,265000,-68000,Cheque,Unreconciled,2026-05-20,14,Revenue Manager,Yes,May,11
+REV-000828,FY2025/2026,2025-09-19,RG-02,CC-029,Licensing Fees,Private Company,RCP-543050,141000,115000,-26000,Cash,Reconciled,2025-09-30,11,Revenue Manager,Yes,September,3
+REV-000829,FY2025/2026,2026-03-11,RG-05,CC-018,Publication Sales,Government Agency,RCP-528711,189000,180000,-9000,Online Portal,Pending,2026-03-24,13,Revenue Manager,Yes,March,9
+REV-000830,FY2025/2026,2025-09-21,RG-05,CC-018,Publication Sales,Government Agency,RCP-978305,373000,360000,-13000,Online Portal,Reconciled,2025-10-05,14,Revenue Manager,Yes,September,3
+REV-000831,FY2025/2026,2026-05-11,RG-01,CC-005,Certification Fees,International Organisation,RCP-591162,404000,336000,-68000,Online Portal,Reconciled,2026-05-11,0,Revenue Manager,No,May,11
+REV-000832,FY2025/2026,2026-01-09,RG-01,CC-007,Consultancy Income,Individual,RCP-782730,603000,670000,67000,MPESA,Reconciled,2026-01-13,4,Revenue Manager,No,January,7
+REV-000833,FY2025/2026,2026-01-09,RG-01,CC-003,Service Fees,Government Agency,RCP-340659,721000,906000,185000,MPESA,Reconciled,2026-01-09,0,Revenue Manager,No,January,7
+REV-000834,FY2025/2026,2025-11-17,RG-01,CC-008,Publication Sales,Government Agency,RCP-965840,336000,291000,-45000,Bank Transfer,Reconciled,2025-11-22,5,Revenue Manager,No,November,5
+REV-000835,FY2025/2026,2026-01-14,RG-05,CC-024,Service Fees,Government Agency,RCP-490077,470000,477000,7000,Cheque,Reconciled,2026-01-26,12,Revenue Manager,Yes,January,7
+REV-000836,FY2025/2026,2025-11-30,RG-01,CC-003,Licensing Fees,Government Agency,RCP-638652,798000,756000,-42000,Cheque,Pending,2025-12-09,9,Revenue Manager,Yes,November,5
+REV-000837,FY2025/2026,2026-04-04,RG-02,CC-015,Service Fees,NGO,RCP-544351,333000,275000,-58000,Cash,Reconciled,2026-04-18,14,Revenue Manager,Yes,April,10
+REV-000838,FY2025/2026,2026-03-03,RG-02,CC-028,Licensing Fees,Individual,RCP-576910,541000,443000,-98000,Cheque,Pending,2026-03-05,2,Revenue Manager,No,March,9
+REV-000839,FY2025/2026,2025-11-17,RG-01,CC-032,Inspection Fees,International Organisation,RCP-881132,170000,171000,1000,Cheque,Reconciled,2025-11-23,6,Revenue Manager,Yes,November,5
+REV-000840,FY2025/2026,2025-11-03,RG-05,CC-018,Facility Hire,NGO,RCP-380372,554000,501000,-53000,Bank Transfer,Reconciled,2025-11-13,10,Revenue Manager,Yes,November,5
+REV-000841,FY2025/2026,2025-07-22,RG-01,CC-005,Publication Sales,International Organisation,RCP-294174,691000,439000,-252000,Cash,Reconciled,2025-07-23,1,Revenue Manager,No,July,1
+REV-000842,FY2025/2026,2025-11-26,RG-02,CC-028,Service Fees,Government Agency,RCP-244960,679000,611000,-68000,Online Portal,Reconciled,2025-11-27,1,Revenue Manager,No,November,5
+REV-000843,FY2025/2026,2026-02-25,RG-03,CC-027,Consultancy Income,Private Company,RCP-663827,235000,202000,-33000,Online Portal,Reconciled,2026-03-05,8,Revenue Manager,Yes,February,8
+REV-000844,FY2025/2026,2026-02-08,RG-02,CC-015,Training Fees,Government Agency,RCP-973660,785000,987000,202000,Bank Transfer,Reconciled,2026-02-09,1,Revenue Manager,No,February,8
+REV-000845,FY2025/2026,2025-07-29,RG-01,CC-007,Training Fees,NGO,RCP-720378,337000,298000,-39000,Cash,Reconciled,2025-07-30,1,Revenue Manager,No,July,1
+REV-000846,FY2025/2026,2026-02-24,RG-06,CC-019,Consultancy Income,Individual,RCP-217180,523000,649000,126000,Bank Transfer,Reconciled,2026-03-04,8,Revenue Manager,Yes,February,8
+REV-000847,FY2025/2026,2025-10-16,RG-01,CC-003,Consultancy Income,Individual,RCP-219502,423000,408000,-15000,Cheque,Pending,2025-10-17,1,Revenue Manager,No,October,4
+REV-000848,FY2025/2026,2025-10-10,RG-01,CC-023,Inspection Fees,NGO,RCP-111371,294000,178000,-116000,Cheque,Reconciled,2025-10-23,13,Revenue Manager,Yes,October,4
+REV-000849,FY2025/2026,2025-07-21,RG-02,CC-022,Facility Hire,Private Company,RCP-867798,182000,155000,-27000,Cheque,Unreconciled,2025-08-02,12,Revenue Manager,Yes,July,1
+REV-000850,FY2025/2026,2025-10-14,RG-01,CC-032,Inspection Fees,Government Agency,RCP-591536,106000,69000,-37000,MPESA,Reconciled,2025-10-28,14,Revenue Manager,Yes,October,4
+REV-000851,FY2025/2026,2026-01-18,RG-01,CC-005,Licensing Fees,International Organisation,RCP-782831,181000,182000,1000,MPESA,Reconciled,2026-01-21,3,Revenue Manager,No,January,7
+REV-000852,FY2025/2026,2026-03-17,RG-06,CC-019,Inspection Fees,Private Company,RCP-434643,113000,94000,-19000,Cash,Reconciled,2026-03-27,10,Revenue Manager,Yes,March,9
+REV-000853,FY2025/2026,2025-12-01,RG-01,CC-009,Training Fees,Government Agency,RCP-677372,579000,513000,-66000,Cash,Reconciled,2025-12-02,1,Revenue Manager,No,November,5
+REV-000854,FY2025/2026,2025-11-07,RG-01,CC-011,Consultancy Income,NGO,RCP-373485,259000,157000,-102000,MPESA,Reconciled,2025-11-15,8,Revenue Manager,Yes,November,5
+REV-000855,FY2025/2026,2026-02-19,RG-04,CC-017,Publication Sales,NGO,RCP-234185,545000,557000,12000,MPESA,Reconciled,2026-03-05,14,Revenue Manager,Yes,February,8
+REV-000856,FY2025/2026,2025-08-14,RG-05,CC-018,Consultancy Income,Government Agency,RCP-701670,381000,293000,-88000,Bank Transfer,Reconciled,2025-08-22,8,Revenue Manager,Yes,August,2
+REV-000857,FY2025/2026,2025-12-04,RG-02,CC-028,Service Fees,Government Agency,RCP-742805,540000,509000,-31000,Online Portal,Unreconciled,2025-12-13,9,Revenue Manager,Yes,December,6
+REV-000858,FY2025/2026,2026-04-29,RG-01,CC-023,Certification Fees,Individual,RCP-306424,269000,260000,-9000,Cheque,Reconciled,2026-05-06,7,Revenue Manager,Yes,April,10
+REV-000859,FY2025/2026,2025-10-03,RG-01,CC-008,Inspection Fees,Individual,RCP-918296,648000,682000,34000,Online Portal,Reconciled,2025-10-05,2,Revenue Manager,No,October,4
+REV-000860,FY2025/2026,2026-05-22,RG-07,CC-020,Consultancy Income,International Organisation,RCP-763133,125000,116000,-9000,Bank Transfer,Reconciled,2026-06-05,14,Revenue Manager,Yes,May,11
+REV-000861,FY2025/2026,2025-08-20,RG-08,CC-021,Training Fees,Private Company,RCP-902629,674000,642000,-32000,Online Portal,Reconciled,2025-09-01,12,Revenue Manager,Yes,August,2
+REV-000862,FY2025/2026,2025-07-25,RG-01,CC-012,Inspection Fees,Private Company,RCP-104114,658000,499000,-159000,Bank Transfer,Reconciled,2025-08-07,13,Revenue Manager,Yes,July,1
+REV-000863,FY2025/2026,2025-08-26,RG-01,CC-011,Consultancy Income,Individual,RCP-535432,543000,564000,21000,Online Portal,Reconciled,2025-08-27,1,Revenue Manager,No,August,2
+REV-000864,FY2025/2026,2026-05-30,RG-02,CC-022,Consultancy Income,International Organisation,RCP-429263,185000,174000,-11000,Cheque,Reconciled,2026-06-06,7,Revenue Manager,Yes,May,11
+REV-000865,FY2025/2026,2026-01-01,RG-01,CC-010,Licensing Fees,Individual,RCP-598165,148000,136000,-12000,Bank Transfer,Reconciled,2026-01-07,6,Revenue Manager,Yes,January,7
+REV-000866,FY2025/2026,2025-11-15,RG-01,CC-003,Service Fees,Private Company,RCP-700360,778000,831000,53000,Cheque,Unreconciled,2025-11-16,1,Revenue Manager,No,November,5
+REV-000867,FY2025/2026,2026-02-04,RG-02,CC-029,Licensing Fees,NGO,RCP-970637,706000,573000,-133000,Cheque,Reconciled,2026-02-09,5,Revenue Manager,No,February,8
+REV-000868,FY2025/2026,2025-09-18,RG-02,CC-029,Consultancy Income,NGO,RCP-950056,529000,493000,-36000,Online Portal,Unreconciled,2025-09-30,12,Revenue Manager,Yes,September,3
+REV-000869,FY2025/2026,2026-03-22,RG-02,CC-015,Service Fees,Individual,RCP-381292,262000,176000,-86000,Bank Transfer,Reconciled,2026-04-03,12,Revenue Manager,Yes,March,9
+REV-000870,FY2025/2026,2025-10-14,RG-04,CC-017,Certification Fees,Government Agency,RCP-522173,176000,164000,-12000,Cash,Pending,2025-10-15,1,Revenue Manager,No,October,4
+REV-000871,FY2025/2026,2025-09-25,RG-02,CC-028,Training Fees,International Organisation,RCP-591387,544000,332000,-212000,Online Portal,Reconciled,2025-09-29,4,Revenue Manager,No,September,3
+REV-000872,FY2025/2026,2026-05-27,RG-04,CC-025,Publication Sales,Individual,RCP-570320,269000,251000,-18000,Bank Transfer,Reconciled,2026-06-09,13,Revenue Manager,Yes,May,11
+REV-000873,FY2025/2026,2025-07-16,RG-01,CC-003,Facility Hire,International Organisation,RCP-775185,196000,145000,-51000,Bank Transfer,Reconciled,2025-07-25,9,Revenue Manager,Yes,July,1
+REV-000874,FY2025/2026,2025-10-09,RG-03,CC-027,Inspection Fees,NGO,RCP-122485,768000,652000,-116000,Bank Transfer,Reconciled,2025-10-11,2,Revenue Manager,No,October,4
+REV-000875,FY2025/2026,2025-12-01,RG-01,CC-014,Inspection Fees,Individual,RCP-699641,166000,122000,-44000,Cheque,Reconciled,2025-12-03,2,Revenue Manager,No,November,5
+REV-000876,FY2025/2026,2025-08-07,RG-04,CC-026,Training Fees,Government Agency,RCP-284326,144000,131000,-13000,Online Portal,Reconciled,2025-08-12,5,Revenue Manager,No,August,2
+REV-000877,FY2025/2026,2025-08-19,RG-01,CC-013,Inspection Fees,Individual,RCP-613728,210000,242000,32000,Online Portal,Reconciled,2025-08-30,11,Revenue Manager,Yes,August,2
+REV-000878,FY2025/2026,2026-02-19,RG-02,CC-022,Training Fees,International Organisation,RCP-380092,204000,150000,-54000,Online Portal,Reconciled,2026-02-25,6,Revenue Manager,Yes,February,8
+REV-000879,FY2025/2026,2025-10-13,RG-05,CC-024,Consultancy Income,Private Company,RCP-570008,747000,468000,-279000,MPESA,Unreconciled,2025-10-24,11,Revenue Manager,Yes,October,4
+REV-000880,FY2025/2026,2025-09-29,RG-01,CC-011,Service Fees,International Organisation,RCP-560689,373000,276000,-97000,Bank Transfer,Reconciled,2025-10-05,6,Revenue Manager,Yes,September,3
+REV-000881,FY2025/2026,2025-11-10,RG-01,CC-012,Certification Fees,Individual,RCP-612820,307000,214000,-93000,Cash,Reconciled,2025-11-24,14,Revenue Manager,Yes,November,5
+REV-000882,FY2025/2026,2025-08-09,RG-07,CC-030,Certification Fees,Government Agency,RCP-464818,253000,213000,-40000,MPESA,Reconciled,2025-08-19,10,Revenue Manager,Yes,August,2
+REV-000883,FY2025/2026,2025-11-01,RG-04,CC-017,Consultancy Income,Individual,RCP-492057,695000,602000,-93000,Cheque,Reconciled,2025-11-13,12,Revenue Manager,Yes,November,5
+REV-000884,FY2025/2026,2026-04-21,RG-01,CC-013,Service Fees,Private Company,RCP-765544,200000,188000,-12000,MPESA,Reconciled,2026-04-30,9,Revenue Manager,Yes,April,10
+REV-000885,FY2025/2026,2026-01-07,RG-02,CC-028,Service Fees,International Organisation,RCP-372349,163000,145000,-18000,MPESA,Reconciled,2026-01-18,11,Revenue Manager,Yes,January,7
+REV-000886,FY2025/2026,2025-10-16,RG-01,CC-010,Certification Fees,Private Company,RCP-495847,346000,273000,-73000,MPESA,Pending,2025-10-27,11,Revenue Manager,Yes,October,4
+REV-000887,FY2025/2026,2025-10-02,RG-01,CC-014,Certification Fees,Government Agency,RCP-664134,716000,386000,-330000,Cash,Reconciled,2025-10-14,12,Revenue Manager,Yes,October,4
+REV-000888,FY2025/2026,2025-08-25,RG-01,CC-011,Facility Hire,NGO,RCP-937261,148000,116000,-32000,Bank Transfer,Reconciled,2025-09-01,7,Revenue Manager,Yes,August,2
+REV-000889,FY2025/2026,2025-09-10,RG-08,CC-021,Training Fees,Private Company,RCP-993888,513000,414000,-99000,Cheque,Reconciled,2025-09-18,8,Revenue Manager,Yes,September,3
+REV-000890,FY2025/2026,2026-04-13,RG-02,CC-015,Publication Sales,Private Company,RCP-221505,185000,198000,13000,Online Portal,Pending,2026-04-23,10,Revenue Manager,Yes,April,10
+REV-000891,FY2025/2026,2026-05-17,RG-01,CC-031,Service Fees,Individual,RCP-690297,426000,381000,-45000,Online Portal,Reconciled,2026-05-29,12,Revenue Manager,Yes,May,11
+REV-000892,FY2025/2026,2025-11-08,RG-01,CC-014,Service Fees,NGO,RCP-219120,514000,439000,-75000,MPESA,Reconciled,2025-11-18,10,Revenue Manager,Yes,November,5
+REV-000893,FY2025/2026,2026-02-22,RG-01,CC-004,Publication Sales,Private Company,RCP-742502,457000,389000,-68000,Bank Transfer,Reconciled,2026-02-26,4,Revenue Manager,No,February,8
+REV-000894,FY2025/2026,2025-10-01,RG-02,CC-028,Training Fees,Government Agency,RCP-199982,136000,142000,6000,Bank Transfer,Pending,2025-10-08,7,Revenue Manager,Yes,September,3
+REV-000895,FY2025/2026,2026-01-11,RG-01,CC-007,Publication Sales,International Organisation,RCP-766880,661000,601000,-60000,Cheque,Reconciled,2026-01-20,9,Revenue Manager,Yes,January,7
+REV-000896,FY2025/2026,2025-10-20,RG-01,CC-023,Licensing Fees,Private Company,RCP-924633,600000,627000,27000,Bank Transfer,Reconciled,2025-10-25,5,Revenue Manager,No,October,4
+REV-000897,FY2025/2026,2025-10-12,RG-01,CC-031,Licensing Fees,Private Company,RCP-974477,544000,598000,54000,Bank Transfer,Reconciled,2025-10-25,13,Revenue Manager,Yes,October,4
+REV-000898,FY2025/2026,2025-08-27,RG-01,CC-009,Certification Fees,International Organisation,RCP-193372,343000,292000,-51000,Cash,Pending,2025-09-01,5,Revenue Manager,No,August,2
+REV-000899,FY2025/2026,2025-12-08,RG-01,CC-023,Publication Sales,Individual,RCP-796516,416000,342000,-74000,Cash,Reconciled,2025-12-21,13,Revenue Manager,Yes,December,6
+REV-000900,FY2025/2026,2026-01-04,RG-01,CC-014,Inspection Fees,International Organisation,RCP-965948,237000,250000,13000,Bank Transfer,Reconciled,2026-01-11,7,Revenue Manager,Yes,January,7
+REV-000901,FY2025/2026,2025-07-10,RG-04,CC-026,Facility Hire,Private Company,RCP-183048,756000,600000,-156000,Bank Transfer,Reconciled,2025-07-15,5,Revenue Manager,No,July,1
+REV-000902,FY2025/2026,2025-09-27,RG-01,CC-004,Inspection Fees,NGO,RCP-460852,571000,528000,-43000,MPESA,Reconciled,2025-10-06,9,Revenue Manager,Yes,September,3
+REV-000903,FY2025/2026,2026-05-24,RG-02,CC-015,Service Fees,Government Agency,RCP-535310,591000,654000,63000,Online Portal,Reconciled,2026-06-05,12,Revenue Manager,Yes,May,11
+REV-000904,FY2025/2026,2026-03-16,RG-01,CC-012,Certification Fees,Individual,RCP-884534,416000,262000,-154000,Cheque,Reconciled,2026-03-28,12,Revenue Manager,Yes,March,9
+REV-000905,FY2025/2026,2025-12-01,RG-01,CC-001,Inspection Fees,Private Company,RCP-673494,799000,648000,-151000,Cash,Reconciled,2025-12-11,10,Revenue Manager,Yes,December,6
+REV-000906,FY2025/2026,2026-01-22,RG-02,CC-028,Training Fees,International Organisation,RCP-183729,536000,534000,-2000,Bank Transfer,Unreconciled,2026-02-01,10,Revenue Manager,Yes,January,7
+REV-000907,FY2025/2026,2026-03-03,RG-08,CC-021,Consultancy Income,NGO,RCP-992291,161000,133000,-28000,Cash,Pending,2026-03-15,12,Revenue Manager,Yes,March,9
+REV-000908,FY2025/2026,2026-02-10,RG-01,CC-003,Certification Fees,Government Agency,RCP-452944,132000,124000,-8000,Cash,Reconciled,2026-02-15,5,Revenue Manager,No,February,8
+REV-000909,FY2025/2026,2025-09-09,RG-01,CC-002,Licensing Fees,International Organisation,RCP-731995,635000,675000,40000,Cash,Reconciled,2025-09-09,0,Revenue Manager,No,September,3
+REV-000910,FY2025/2026,2026-05-05,RG-06,CC-019,Training Fees,International Organisation,RCP-733764,717000,676000,-41000,Bank Transfer,Reconciled,2026-05-08,3,Revenue Manager,No,May,11
+REV-000911,FY2025/2026,2025-10-02,RG-01,CC-007,Facility Hire,Private Company,RCP-701604,561000,478000,-83000,Cash,Reconciled,2025-10-10,8,Revenue Manager,Yes,October,4
+REV-000912,FY2025/2026,2025-10-08,RG-01,CC-012,Facility Hire,Government Agency,RCP-599669,232000,159000,-73000,Bank Transfer,Reconciled,2025-10-19,11,Revenue Manager,Yes,October,4
+REV-000913,FY2025/2026,2025-09-22,RG-04,CC-017,Facility Hire,Individual,RCP-568311,236000,206000,-30000,Bank Transfer,Reconciled,2025-10-04,12,Revenue Manager,Yes,September,3
+REV-000914,FY2025/2026,2025-11-29,RG-01,CC-023,Training Fees,NGO,RCP-808709,716000,494000,-222000,Cash,Pending,2025-11-30,1,Revenue Manager,No,November,5
+REV-000915,FY2025/2026,2026-03-09,RG-01,CC-008,Publication Sales,Individual,RCP-221757,352000,221000,-131000,Cheque,Reconciled,2026-03-11,2,Revenue Manager,No,March,9
+REV-000916,FY2025/2026,2026-03-16,RG-02,CC-022,Licensing Fees,Private Company,RCP-522930,674000,728000,54000,Online Portal,Unreconciled,2026-03-25,9,Revenue Manager,Yes,March,9
+REV-000917,FY2025/2026,2025-11-09,RG-08,CC-021,Certification Fees,International Organisation,RCP-468008,187000,155000,-32000,Cheque,Reconciled,2025-11-13,4,Revenue Manager,No,November,5
+REV-000918,FY2025/2026,2026-04-03,RG-01,CC-002,Training Fees,Individual,RCP-159562,751000,712000,-39000,Cheque,Pending,2026-04-15,12,Revenue Manager,Yes,April,10
+REV-000919,FY2025/2026,2026-05-30,RG-01,CC-002,Service Fees,Private Company,RCP-153621,421000,292000,-129000,Bank Transfer,Reconciled,2026-06-13,14,Revenue Manager,Yes,May,11
+REV-000920,FY2025/2026,2026-03-31,RG-01,CC-032,Publication Sales,Individual,RCP-834533,786000,608000,-178000,MPESA,Reconciled,2026-04-04,4,Revenue Manager,No,March,9
+REV-000921,FY2025/2026,2026-01-18,RG-02,CC-028,Publication Sales,Private Company,RCP-366146,765000,563000,-202000,Bank Transfer,Reconciled,2026-01-30,12,Revenue Manager,Yes,January,7
+REV-000922,FY2025/2026,2025-12-30,RG-01,CC-009,Service Fees,Private Company,RCP-855890,639000,533000,-106000,MPESA,Reconciled,2026-01-04,5,Revenue Manager,No,December,6
+REV-000923,FY2025/2026,2025-10-26,RG-05,CC-018,Service Fees,Individual,RCP-253777,199000,157000,-42000,Bank Transfer,Reconciled,2025-11-08,13,Revenue Manager,Yes,October,4
+REV-000924,FY2025/2026,2025-07-30,RG-05,CC-018,Inspection Fees,International Organisation,RCP-194975,771000,774000,3000,Bank Transfer,Reconciled,2025-07-30,0,Revenue Manager,No,July,1
+REV-000925,FY2025/2026,2026-01-23,RG-04,CC-017,Licensing Fees,Individual,RCP-965077,201000,147000,-54000,Online Portal,Pending,2026-02-04,12,Revenue Manager,Yes,January,7
+REV-000926,FY2025/2026,2026-02-22,RG-03,CC-027,Consultancy Income,International Organisation,RCP-774614,451000,357000,-94000,Bank Transfer,Reconciled,2026-03-02,8,Revenue Manager,Yes,February,8
+REV-000927,FY2025/2026,2025-08-07,RG-04,CC-026,Certification Fees,International Organisation,RCP-515013,497000,439000,-58000,Bank Transfer,Pending,2025-08-19,12,Revenue Manager,Yes,August,2
+REV-000928,FY2025/2026,2025-08-09,RG-01,CC-031,Service Fees,Government Agency,RCP-821608,772000,722000,-50000,Online Portal,Reconciled,2025-08-21,12,Revenue Manager,Yes,August,2
+REV-000929,FY2025/2026,2026-03-04,RG-01,CC-005,Facility Hire,NGO,RCP-858970,510000,505000,-5000,MPESA,Pending,2026-03-09,5,Revenue Manager,No,March,9
+REV-000930,FY2025/2026,2026-03-08,RG-02,CC-028,Publication Sales,Government Agency,RCP-494650,412000,351000,-61000,Cash,Unreconciled,2026-03-09,1,Revenue Manager,No,March,9
+REV-000931,FY2025/2026,2025-11-17,RG-01,CC-013,Inspection Fees,Individual,RCP-221626,748000,492000,-256000,Bank Transfer,Pending,2025-11-17,0,Revenue Manager,No,November,5
+REV-000932,FY2025/2026,2026-04-04,RG-01,CC-008,Certification Fees,International Organisation,RCP-840869,446000,387000,-59000,MPESA,Reconciled,2026-04-07,3,Revenue Manager,No,April,10
+REV-000933,FY2025/2026,2025-11-01,RG-07,CC-020,Training Fees,Private Company,RCP-559096,257000,199000,-58000,Online Portal,Reconciled,2025-11-04,3,Revenue Manager,No,November,5
+REV-000934,FY2025/2026,2025-09-25,RG-01,CC-014,Training Fees,NGO,RCP-433903,148000,113000,-35000,Online Portal,Reconciled,2025-09-28,3,Revenue Manager,No,September,3
+REV-000935,FY2025/2026,2025-11-16,RG-01,CC-001,Service Fees,Individual,RCP-736085,383000,245000,-138000,Cash,Reconciled,2025-11-16,0,Revenue Manager,No,November,5
+REV-000936,FY2025/2026,2025-12-27,RG-03,CC-016,Consultancy Income,International Organisation,RCP-706077,342000,270000,-72000,Cash,Reconciled,2026-01-04,8,Revenue Manager,Yes,December,6
+REV-000937,FY2025/2026,2025-07-04,RG-01,CC-001,Certification Fees,Private Company,RCP-453447,209000,178000,-31000,Cash,Reconciled,2025-07-13,9,Revenue Manager,Yes,July,1
+REV-000938,FY2025/2026,2026-05-21,RG-07,CC-020,Training Fees,International Organisation,RCP-291845,197000,178000,-19000,MPESA,Unreconciled,2026-06-01,11,Revenue Manager,Yes,May,11
+REV-000939,FY2025/2026,2025-07-26,RG-04,CC-026,Training Fees,Private Company,RCP-127389,185000,159000,-26000,MPESA,Reconciled,2025-07-29,3,Revenue Manager,No,July,1
+REV-000940,FY2025/2026,2025-11-15,RG-01,CC-009,Consultancy Income,International Organisation,RCP-720049,791000,812000,21000,Bank Transfer,Reconciled,2025-11-29,14,Revenue Manager,Yes,November,5
+REV-000941,FY2025/2026,2025-11-21,RG-02,CC-028,Publication Sales,International Organisation,RCP-281858,439000,382000,-57000,Bank Transfer,Reconciled,2025-11-26,5,Revenue Manager,No,November,5
+REV-000942,FY2025/2026,2025-10-23,RG-01,CC-001,Publication Sales,International Organisation,RCP-355225,760000,627000,-133000,Cash,Unreconciled,2025-10-30,7,Revenue Manager,Yes,October,4
+REV-000943,FY2025/2026,2025-12-02,RG-03,CC-016,Publication Sales,Private Company,RCP-692026,782000,799000,17000,Bank Transfer,Pending,2025-12-06,4,Revenue Manager,No,December,6
+REV-000944,FY2025/2026,2026-04-10,RG-01,CC-004,Service Fees,Individual,RCP-885254,379000,237000,-142000,Cheque,Reconciled,2026-04-11,1,Revenue Manager,No,April,10
+REV-000945,FY2025/2026,2026-03-17,RG-01,CC-012,Consultancy Income,Private Company,RCP-511558,558000,591000,33000,Cheque,Reconciled,2026-03-26,9,Revenue Manager,Yes,March,9
+REV-000946,FY2025/2026,2025-08-25,RG-01,CC-004,Inspection Fees,Private Company,RCP-846836,423000,438000,15000,Online Portal,Reconciled,2025-08-28,3,Revenue Manager,No,August,2
+REV-000947,FY2025/2026,2026-03-10,RG-01,CC-010,Training Fees,NGO,RCP-545039,448000,523000,75000,MPESA,Reconciled,2026-03-19,9,Revenue Manager,Yes,March,9
+REV-000948,FY2025/2026,2025-09-15,RG-02,CC-022,Facility Hire,NGO,RCP-865478,346000,275000,-71000,Cheque,Unreconciled,2025-09-17,2,Revenue Manager,No,September,3
+REV-000949,FY2025/2026,2026-03-19,RG-01,CC-023,Inspection Fees,Private Company,RCP-500682,469000,434000,-35000,Cash,Unreconciled,2026-03-31,12,Revenue Manager,Yes,March,9
+REV-000950,FY2025/2026,2026-04-18,RG-02,CC-015,Facility Hire,International Organisation,RCP-947117,765000,590000,-175000,Cheque,Reconciled,2026-04-22,4,Revenue Manager,No,April,10
+REV-000951,FY2025/2026,2025-07-19,RG-01,CC-013,Certification Fees,Government Agency,RCP-133083,228000,188000,-40000,Online Portal,Reconciled,2025-07-22,3,Revenue Manager,No,July,1
+REV-000952,FY2025/2026,2025-07-10,RG-01,CC-032,Training Fees,Private Company,RCP-348474,639000,388000,-251000,Bank Transfer,Reconciled,2025-07-21,11,Revenue Manager,Yes,July,1
+REV-000953,FY2025/2026,2025-09-03,RG-01,CC-011,Publication Sales,NGO,RCP-311429,102000,95000,-7000,Cheque,Reconciled,2025-09-09,6,Revenue Manager,Yes,September,3
+REV-000954,FY2025/2026,2026-04-19,RG-01,CC-031,Licensing Fees,Private Company,RCP-621486,579000,351000,-228000,Online Portal,Pending,2026-04-24,5,Revenue Manager,No,April,10
+REV-000955,FY2025/2026,2025-10-19,RG-02,CC-028,Training Fees,NGO,RCP-326842,418000,380000,-38000,Bank Transfer,Unreconciled,2025-10-29,10,Revenue Manager,Yes,October,4
+REV-000956,FY2025/2026,2026-05-19,RG-02,CC-015,Licensing Fees,NGO,RCP-499209,555000,613000,58000,Bank Transfer,Reconciled,2026-05-23,4,Revenue Manager,No,May,11
+REV-000957,FY2025/2026,2025-12-03,RG-01,CC-014,Certification Fees,International Organisation,RCP-107243,447000,382000,-65000,Cash,Unreconciled,2025-12-10,7,Revenue Manager,Yes,December,6
+REV-000958,FY2025/2026,2026-04-10,RG-01,CC-005,Consultancy Income,Private Company,RCP-281961,379000,435000,56000,Cash,Pending,2026-04-22,12,Revenue Manager,Yes,April,10
+REV-000959,FY2025/2026,2025-12-25,RG-01,CC-013,Publication Sales,Private Company,RCP-216868,268000,273000,5000,Cheque,Reconciled,2026-01-03,9,Revenue Manager,Yes,December,6
+REV-000960,FY2025/2026,2025-07-16,RG-01,CC-002,Service Fees,Government Agency,RCP-270008,103000,96000,-7000,Cheque,Reconciled,2025-07-25,9,Revenue Manager,Yes,July,1
+REV-000961,FY2025/2026,2026-03-07,RG-01,CC-004,Publication Sales,Private Company,RCP-967585,170000,179000,9000,Online Portal,Reconciled,2026-03-15,8,Revenue Manager,Yes,March,9
+REV-000962,FY2025/2026,2026-03-13,RG-06,CC-019,Certification Fees,NGO,RCP-422156,576000,539000,-37000,Bank Transfer,Reconciled,2026-03-15,2,Revenue Manager,No,March,9
+REV-000963,FY2025/2026,2026-04-30,RG-01,CC-013,Service Fees,Private Company,RCP-491512,685000,519000,-166000,MPESA,Reconciled,2026-05-09,9,Revenue Manager,Yes,April,10
+REV-000964,FY2025/2026,2025-07-25,RG-01,CC-003,Service Fees,NGO,RCP-770261,785000,550000,-235000,MPESA,Reconciled,2025-07-29,4,Revenue Manager,No,July,1
+REV-000965,FY2025/2026,2025-09-12,RG-06,CC-019,Consultancy Income,International Organisation,RCP-608807,684000,660000,-24000,Cash,Reconciled,2025-09-18,6,Revenue Manager,Yes,September,3
+REV-000966,FY2025/2026,2025-12-02,RG-01,CC-003,Service Fees,International Organisation,RCP-230486,459000,323000,-136000,Cheque,Reconciled,2025-12-13,11,Revenue Manager,Yes,December,6
+REV-000967,FY2025/2026,2025-08-11,RG-03,CC-027,Inspection Fees,Individual,RCP-355785,678000,486000,-192000,Cash,Reconciled,2025-08-20,9,Revenue Manager,Yes,August,2
+REV-000968,FY2025/2026,2025-07-29,RG-05,CC-018,Publication Sales,Individual,RCP-981588,444000,345000,-99000,Cheque,Reconciled,2025-08-05,7,Revenue Manager,Yes,July,1
+REV-000969,FY2025/2026,2026-03-14,RG-01,CC-006,Consultancy Income,NGO,RCP-793670,624000,537000,-87000,Cash,Pending,2026-03-17,3,Revenue Manager,No,March,9
+REV-000970,FY2025/2026,2026-05-09,RG-02,CC-015,Licensing Fees,Private Company,RCP-943083,337000,204000,-133000,MPESA,Reconciled,2026-05-18,9,Revenue Manager,Yes,May,11
+REV-000971,FY2025/2026,2026-02-21,RG-06,CC-019,Facility Hire,International Organisation,RCP-389481,337000,279000,-58000,Online Portal,Reconciled,2026-02-26,5,Revenue Manager,No,February,8
+REV-000972,FY2025/2026,2025-12-11,RG-04,CC-025,Publication Sales,Government Agency,RCP-913528,432000,388000,-44000,Bank Transfer,Reconciled,2025-12-19,8,Revenue Manager,Yes,December,6
+REV-000973,FY2025/2026,2025-10-19,RG-01,CC-009,Certification Fees,International Organisation,RCP-378171,107000,81000,-26000,Cheque,Reconciled,2025-11-02,14,Revenue Manager,Yes,October,4
+REV-000974,FY2025/2026,2026-01-04,RG-08,CC-021,Facility Hire,International Organisation,RCP-977820,545000,623000,78000,Cash,Reconciled,2026-01-07,3,Revenue Manager,No,January,7
+REV-000975,FY2025/2026,2025-09-17,RG-01,CC-004,Certification Fees,Individual,RCP-182679,333000,311000,-22000,Bank Transfer,Reconciled,2025-09-24,7,Revenue Manager,Yes,September,3
+REV-000976,FY2025/2026,2026-05-08,RG-04,CC-025,Licensing Fees,Individual,RCP-336229,767000,616000,-151000,Bank Transfer,Reconciled,2026-05-14,6,Revenue Manager,Yes,May,11
+REV-000977,FY2025/2026,2025-07-03,RG-01,CC-013,Certification Fees,Government Agency,RCP-969448,370000,260000,-110000,MPESA,Reconciled,2025-07-04,1,Revenue Manager,No,July,1
+REV-000978,FY2025/2026,2026-03-29,RG-04,CC-025,Publication Sales,Private Company,RCP-162537,532000,435000,-97000,Online Portal,Reconciled,2026-04-06,8,Revenue Manager,Yes,March,9
+REV-000979,FY2025/2026,2025-08-04,RG-01,CC-001,Facility Hire,Private Company,RCP-837804,624000,534000,-90000,Cheque,Pending,2025-08-18,14,Revenue Manager,Yes,August,2
+REV-000980,FY2025/2026,2026-02-20,RG-04,CC-026,Training Fees,NGO,RCP-888033,522000,593000,71000,Cheque,Reconciled,2026-02-21,1,Revenue Manager,No,February,8
+REV-000981,FY2025/2026,2025-07-08,RG-06,CC-019,Service Fees,Government Agency,RCP-903877,534000,430000,-104000,Cheque,Reconciled,2025-07-16,8,Revenue Manager,Yes,July,1
+REV-000982,FY2025/2026,2025-11-25,RG-02,CC-028,Service Fees,Individual,RCP-298590,122000,91000,-31000,MPESA,Reconciled,2025-12-04,9,Revenue Manager,Yes,November,5
+REV-000983,FY2025/2026,2025-12-06,RG-02,CC-022,Consultancy Income,Individual,RCP-883168,196000,179000,-17000,Bank Transfer,Reconciled,2025-12-09,3,Revenue Manager,No,December,6
+REV-000984,FY2025/2026,2026-02-08,RG-01,CC-014,Publication Sales,Individual,RCP-710223,271000,248000,-23000,Cash,Reconciled,2026-02-08,0,Revenue Manager,No,February,8
+REV-000985,FY2025/2026,2026-01-23,RG-06,CC-019,Facility Hire,Government Agency,RCP-235573,707000,596000,-111000,Cash,Reconciled,2026-02-05,13,Revenue Manager,Yes,January,7
+REV-000986,FY2025/2026,2025-12-15,RG-01,CC-014,Publication Sales,Individual,RCP-680875,128000,109000,-19000,Online Portal,Reconciled,2025-12-20,5,Revenue Manager,No,December,6
+REV-000987,FY2025/2026,2025-07-07,RG-01,CC-003,Service Fees,NGO,RCP-907325,422000,425000,3000,Bank Transfer,Pending,2025-07-13,6,Revenue Manager,Yes,July,1
+REV-000988,FY2025/2026,2026-04-02,RG-01,CC-031,Licensing Fees,Private Company,RCP-937499,276000,143000,-133000,Bank Transfer,Reconciled,2026-04-08,6,Revenue Manager,Yes,April,10
+REV-000989,FY2025/2026,2026-03-25,RG-02,CC-028,Licensing Fees,NGO,RCP-583145,629000,606000,-23000,Cheque,Reconciled,2026-04-02,8,Revenue Manager,Yes,March,9
+REV-000990,FY2025/2026,2025-08-09,RG-01,CC-008,Certification Fees,NGO,RCP-118898,342000,226000,-116000,Online Portal,Reconciled,2025-08-12,3,Revenue Manager,No,August,2
+REV-000991,FY2025/2026,2026-01-29,RG-01,CC-013,Facility Hire,Individual,RCP-188963,302000,266000,-36000,Cheque,Reconciled,2026-02-09,11,Revenue Manager,Yes,January,7
+REV-000992,FY2025/2026,2025-12-26,RG-04,CC-026,Licensing Fees,Private Company,RCP-684010,564000,628000,64000,Cheque,Reconciled,2025-12-31,5,Revenue Manager,No,December,6
+REV-000993,FY2025/2026,2026-02-03,RG-01,CC-012,Publication Sales,NGO,RCP-305040,287000,253000,-34000,Cheque,Reconciled,2026-02-12,9,Revenue Manager,Yes,February,8
+REV-000994,FY2025/2026,2026-01-28,RG-01,CC-032,Training Fees,Individual,RCP-285334,595000,408000,-187000,Online Portal,Pending,2026-01-30,2,Revenue Manager,No,January,7
+REV-000995,FY2025/2026,2026-02-01,RG-04,CC-025,Service Fees,NGO,RCP-934634,118000,93000,-25000,Bank Transfer,Reconciled,2026-02-03,2,Revenue Manager,No,February,8
+REV-000996,FY2025/2026,2026-02-09,RG-01,CC-031,Certification Fees,Individual,RCP-703028,116000,126000,10000,Cash,Reconciled,2026-02-12,3,Revenue Manager,No,February,8
+REV-000997,FY2025/2026,2025-10-11,RG-08,CC-021,Publication Sales,Individual,RCP-588404,164000,137000,-27000,Online Portal,Reconciled,2025-10-15,4,Revenue Manager,No,October,4
+REV-000998,FY2025/2026,2026-02-23,RG-04,CC-017,Certification Fees,Government Agency,RCP-743845,172000,195000,23000,Bank Transfer,Pending,2026-02-27,4,Revenue Manager,No,February,8
+REV-000999,FY2025/2026,2026-05-21,RG-01,CC-031,Facility Hire,Government Agency,RCP-732021,530000,469000,-61000,MPESA,Reconciled,2026-05-26,5,Revenue Manager,No,May,11
+REV-001000,FY2025/2026,2025-11-03,RG-01,CC-011,Consultancy Income,International Organisation,RCP-285352,542000,382000,-160000,Bank Transfer,Reconciled,2025-11-15,12,Revenue Manager,Yes,November,5
+REV-001001,FY2025/2026,2025-11-10,RG-01,CC-010,Certification Fees,NGO,RCP-209476,210000,188000,-22000,Cash,Unreconciled,2025-11-20,10,Revenue Manager,Yes,November,5
+REV-001002,FY2025/2026,2025-07-05,RG-01,CC-013,Publication Sales,Private Company,RCP-372201,660000,433000,-227000,Bank Transfer,Unreconciled,2025-07-19,14,Revenue Manager,Yes,July,1
+REV-001003,FY2025/2026,2026-01-15,RG-01,CC-011,Publication Sales,NGO,RCP-364324,367000,345000,-22000,Bank Transfer,Reconciled,2026-01-25,10,Revenue Manager,Yes,January,7
+REV-001004,FY2025/2026,2025-09-21,RG-03,CC-027,Inspection Fees,Government Agency,RCP-438492,172000,168000,-4000,MPESA,Pending,2025-10-04,13,Revenue Manager,Yes,September,3
+REV-001005,FY2025/2026,2026-03-03,RG-01,CC-031,Training Fees,International Organisation,RCP-446613,584000,513000,-71000,Cash,Reconciled,2026-03-11,8,Revenue Manager,Yes,March,9
+REV-001006,FY2025/2026,2025-12-03,RG-02,CC-028,Certification Fees,Government Agency,RCP-571443,162000,156000,-6000,Cheque,Reconciled,2025-12-10,7,Revenue Manager,Yes,December,6
+REV-001007,FY2025/2026,2026-03-19,RG-01,CC-004,Consultancy Income,Individual,RCP-110835,576000,476000,-100000,Cash,Reconciled,2026-03-19,0,Revenue Manager,No,March,9
+REV-001008,FY2025/2026,2025-09-25,RG-01,CC-023,Training Fees,NGO,RCP-829455,722000,793000,71000,Cheque,Reconciled,2025-09-30,5,Revenue Manager,No,September,3
+REV-001009,FY2025/2026,2025-11-18,RG-01,CC-023,Licensing Fees,International Organisation,RCP-571712,254000,148000,-106000,Cash,Reconciled,2025-11-28,10,Revenue Manager,Yes,November,5
+REV-001010,FY2025/2026,2025-11-20,RG-01,CC-010,Certification Fees,Government Agency,RCP-462125,346000,262000,-84000,Cash,Reconciled,2025-11-25,5,Revenue Manager,No,November,5
+REV-001011,FY2025/2026,2026-02-20,RG-01,CC-012,Publication Sales,NGO,RCP-868513,535000,550000,15000,Cash,Unreconciled,2026-02-24,4,Revenue Manager,No,February,8
+REV-001012,FY2025/2026,2025-11-28,RG-04,CC-017,Licensing Fees,Individual,RCP-750595,504000,439000,-65000,MPESA,Reconciled,2025-12-12,14,Revenue Manager,Yes,November,5
+REV-001013,FY2025/2026,2025-08-03,RG-01,CC-008,Service Fees,Individual,RCP-641968,222000,204000,-18000,Bank Transfer,Reconciled,2025-08-15,12,Revenue Manager,Yes,August,2
+REV-001014,FY2025/2026,2026-04-03,RG-01,CC-011,Certification Fees,Government Agency,RCP-921106,657000,683000,26000,Cheque,Reconciled,2026-04-08,5,Revenue Manager,No,April,10
+REV-001015,FY2025/2026,2026-04-08,RG-07,CC-020,Consultancy Income,NGO,RCP-843558,473000,355000,-118000,Bank Transfer,Pending,2026-04-16,8,Revenue Manager,Yes,April,10
+REV-001016,FY2025/2026,2025-11-09,RG-01,CC-031,Facility Hire,International Organisation,RCP-336570,129000,112000,-17000,MPESA,Reconciled,2025-11-21,12,Revenue Manager,Yes,November,5
+REV-001017,FY2025/2026,2025-07-30,RG-07,CC-020,Facility Hire,Private Company,RCP-717038,794000,564000,-230000,Cheque,Pending,2025-08-10,11,Revenue Manager,Yes,July,1
+REV-001018,FY2025/2026,2026-03-17,RG-02,CC-029,Licensing Fees,Individual,RCP-639904,332000,351000,19000,Cash,Pending,2026-03-23,6,Revenue Manager,Yes,March,9
+REV-001019,FY2025/2026,2026-05-04,RG-01,CC-032,Consultancy Income,Government Agency,RCP-604768,276000,274000,-2000,Cash,Pending,2026-05-06,2,Revenue Manager,No,May,11
+REV-001020,FY2025/2026,2025-07-31,RG-01,CC-002,Certification Fees,International Organisation,RCP-535184,592000,551000,-41000,Cheque,Reconciled,2025-08-08,8,Revenue Manager,Yes,July,1
+REV-001021,FY2025/2026,2025-08-16,RG-01,CC-011,Consultancy Income,International Organisation,RCP-560474,315000,295000,-20000,MPESA,Reconciled,2025-08-28,12,Revenue Manager,Yes,August,2
+REV-001022,FY2025/2026,2025-08-22,RG-01,CC-002,Licensing Fees,Government Agency,RCP-424489,146000,172000,26000,MPESA,Reconciled,2025-09-02,11,Revenue Manager,Yes,August,2
+REV-001023,FY2025/2026,2025-07-01,RG-04,CC-026,Consultancy Income,Private Company,RCP-896330,590000,563000,-27000,Cash,Reconciled,2025-07-08,7,Revenue Manager,Yes,July,1
+REV-001024,FY2025/2026,2026-04-07,RG-04,CC-017,Facility Hire,Government Agency,RCP-841944,141000,114000,-27000,MPESA,Reconciled,2026-04-14,7,Revenue Manager,Yes,April,10
+REV-001025,FY2025/2026,2025-12-20,RG-01,CC-014,Service Fees,International Organisation,RCP-771150,725000,714000,-11000,Cheque,Reconciled,2025-12-22,2,Revenue Manager,No,December,6
+REV-001026,FY2025/2026,2025-10-11,RG-01,CC-008,Training Fees,Government Agency,RCP-261618,378000,439000,61000,Bank Transfer,Unreconciled,2025-10-14,3,Revenue Manager,No,October,4
+REV-001027,FY2025/2026,2026-05-09,RG-01,CC-008,Licensing Fees,Private Company,RCP-178451,560000,528000,-32000,Online Portal,Pending,2026-05-13,4,Revenue Manager,No,May,11
+REV-001028,FY2025/2026,2026-05-24,RG-06,CC-019,Training Fees,NGO,RCP-444577,711000,769000,58000,Online Portal,Pending,2026-05-29,5,Revenue Manager,No,May,11
+REV-001029,FY2025/2026,2026-01-03,RG-08,CC-021,Licensing Fees,International Organisation,RCP-762680,682000,578000,-104000,Cash,Reconciled,2026-01-04,1,Revenue Manager,No,January,7
+REV-001030,FY2025/2026,2026-01-16,RG-01,CC-005,Publication Sales,Individual,RCP-692033,322000,332000,10000,Cheque,Reconciled,2026-01-19,3,Revenue Manager,No,January,7
+REV-001031,FY2025/2026,2026-04-14,RG-01,CC-014,Inspection Fees,Government Agency,RCP-264036,248000,237000,-11000,Online Portal,Reconciled,2026-04-24,10,Revenue Manager,Yes,April,10
+REV-001032,FY2025/2026,2025-12-01,RG-01,CC-007,Certification Fees,International Organisation,RCP-958301,557000,462000,-95000,Bank Transfer,Reconciled,2025-12-02,1,Revenue Manager,No,December,6
+REV-001033,FY2025/2026,2026-04-07,RG-01,CC-005,Training Fees,Government Agency,RCP-131865,196000,142000,-54000,MPESA,Reconciled,2026-04-07,0,Revenue Manager,No,April,10
+REV-001034,FY2025/2026,2025-11-13,RG-01,CC-003,Licensing Fees,NGO,RCP-604479,470000,417000,-53000,Cash,Reconciled,2025-11-27,14,Revenue Manager,Yes,November,5
+REV-001035,FY2025/2026,2026-03-08,RG-01,CC-006,Training Fees,Government Agency,RCP-277255,518000,363000,-155000,Cheque,Reconciled,2026-03-12,4,Revenue Manager,No,March,9
+REV-001036,FY2025/2026,2025-07-24,RG-01,CC-010,Publication Sales,Private Company,RCP-958085,237000,198000,-39000,MPESA,Reconciled,2025-07-26,2,Revenue Manager,No,July,1
+REV-001037,FY2025/2026,2025-10-13,RG-01,CC-010,Licensing Fees,Individual,RCP-389731,795000,697000,-98000,Bank Transfer,Pending,2025-10-16,3,Revenue Manager,No,October,4
+REV-001038,FY2025/2026,2026-03-30,RG-01,CC-011,Certification Fees,Government Agency,RCP-308357,173000,146000,-27000,Cash,Reconciled,2026-04-11,12,Revenue Manager,Yes,March,9
+REV-001039,FY2025/2026,2026-04-08,RG-07,CC-020,Inspection Fees,NGO,RCP-365906,430000,366000,-64000,MPESA,Reconciled,2026-04-17,9,Revenue Manager,Yes,April,10
+REV-001040,FY2025/2026,2026-01-11,RG-02,CC-029,Service Fees,Individual,RCP-727659,266000,253000,-13000,MPESA,Reconciled,2026-01-20,9,Revenue Manager,Yes,January,7
+REV-001041,FY2025/2026,2026-04-14,RG-04,CC-026,Certification Fees,Private Company,RCP-591599,515000,407000,-108000,Cash,Pending,2026-04-17,3,Revenue Manager,No,April,10
+REV-001042,FY2025/2026,2025-12-28,RG-05,CC-024,Licensing Fees,Private Company,RCP-592665,298000,230000,-68000,Cheque,Reconciled,2026-01-02,5,Revenue Manager,No,December,6
+REV-001043,FY2025/2026,2026-02-28,RG-01,CC-012,Facility Hire,Private Company,RCP-851576,351000,302000,-49000,Cash,Reconciled,2026-02-28,0,Revenue Manager,No,February,8
+REV-001044,FY2025/2026,2026-04-20,RG-02,CC-028,Publication Sales,Government Agency,RCP-409691,728000,713000,-15000,Online Portal,Reconciled,2026-04-28,8,Revenue Manager,Yes,April,10
+REV-001045,FY2025/2026,2026-03-26,RG-01,CC-014,Publication Sales,Government Agency,RCP-906874,459000,501000,42000,Cheque,Reconciled,2026-03-27,1,Revenue Manager,No,March,9
+REV-001046,FY2025/2026,2026-03-21,RG-04,CC-026,Consultancy Income,Private Company,RCP-238385,601000,594000,-7000,Cheque,Reconciled,2026-04-04,14,Revenue Manager,Yes,March,9
+REV-001047,FY2025/2026,2026-02-25,RG-06,CC-019,Licensing Fees,Private Company,RCP-872829,174000,177000,3000,Online Portal,Reconciled,2026-02-25,0,Revenue Manager,No,February,8
+REV-001048,FY2025/2026,2025-12-27,RG-01,CC-031,Facility Hire,NGO,RCP-952681,715000,758000,43000,Cheque,Reconciled,2026-01-01,5,Revenue Manager,No,December,6
+REV-001049,FY2025/2026,2025-08-28,RG-05,CC-024,Publication Sales,Private Company,RCP-351300,384000,358000,-26000,Cheque,Reconciled,2025-08-31,3,Revenue Manager,No,August,2
+REV-001050,FY2025/2026,2026-05-20,RG-01,CC-004,Service Fees,Government Agency,RCP-215214,604000,559000,-45000,Cheque,Reconciled,2026-05-23,3,Revenue Manager,No,May,11
+REV-001051,FY2025/2026,2025-08-19,RG-04,CC-026,Service Fees,International Organisation,RCP-739308,575000,491000,-84000,Cash,Reconciled,2025-08-22,3,Revenue Manager,No,August,2
+REV-001052,FY2025/2026,2026-02-24,RG-01,CC-032,Training Fees,Private Company,RCP-651142,557000,550000,-7000,Cash,Reconciled,2026-02-25,1,Revenue Manager,No,February,8
+REV-001053,FY2025/2026,2025-12-08,RG-01,CC-032,Service Fees,Government Agency,RCP-996771,213000,241000,28000,Cash,Unreconciled,2025-12-12,4,Revenue Manager,No,December,6
+REV-001054,FY2025/2026,2025-10-19,RG-02,CC-022,Training Fees,NGO,RCP-888348,142000,185000,43000,Cash,Reconciled,2025-10-23,4,Revenue Manager,No,October,4
+REV-001055,FY2025/2026,2025-07-17,RG-02,CC-015,Certification Fees,Individual,RCP-880006,716000,878000,162000,Cheque,Reconciled,2025-07-23,6,Revenue Manager,Yes,July,1
+REV-001056,FY2025/2026,2026-04-14,RG-05,CC-018,Facility Hire,Government Agency,RCP-938269,725000,692000,-33000,MPESA,Reconciled,2026-04-26,12,Revenue Manager,Yes,April,10
+REV-001057,FY2025/2026,2025-08-25,RG-02,CC-022,Facility Hire,Government Agency,RCP-733012,451000,556000,105000,Bank Transfer,Reconciled,2025-09-05,11,Revenue Manager,Yes,August,2
+REV-001058,FY2025/2026,2026-01-20,RG-07,CC-020,Facility Hire,Individual,RCP-958161,716000,739000,23000,Cash,Pending,2026-01-24,4,Revenue Manager,No,January,7
+REV-001059,FY2025/2026,2025-12-07,RG-03,CC-016,Consultancy Income,Private Company,RCP-870353,396000,386000,-10000,Cash,Reconciled,2025-12-17,10,Revenue Manager,Yes,December,6
+REV-001060,FY2025/2026,2025-08-13,RG-01,CC-031,Facility Hire,Private Company,RCP-699754,123000,103000,-20000,MPESA,Reconciled,2025-08-24,11,Revenue Manager,Yes,August,2
+REV-001061,FY2025/2026,2025-11-06,RG-02,CC-029,Consultancy Income,International Organisation,RCP-233849,317000,199000,-118000,Bank Transfer,Reconciled,2025-11-09,3,Revenue Manager,No,November,5
+REV-001062,FY2025/2026,2025-07-12,RG-01,CC-011,Certification Fees,Private Company,RCP-325617,703000,584000,-119000,MPESA,Reconciled,2025-07-12,0,Revenue Manager,No,July,1
+REV-001063,FY2025/2026,2025-08-04,RG-01,CC-003,Facility Hire,Private Company,RCP-914739,108000,99000,-9000,Cash,Reconciled,2025-08-08,4,Revenue Manager,No,August,2
+REV-001064,FY2025/2026,2026-02-18,RG-05,CC-024,Licensing Fees,Government Agency,RCP-935608,307000,326000,19000,Cheque,Reconciled,2026-02-21,3,Revenue Manager,No,February,8
+REV-001065,FY2025/2026,2026-01-27,RG-04,CC-025,Certification Fees,NGO,RCP-729356,364000,301000,-63000,Bank Transfer,Reconciled,2026-02-10,14,Revenue Manager,Yes,January,7
+REV-001066,FY2025/2026,2025-10-23,RG-01,CC-011,Service Fees,Government Agency,RCP-446939,644000,700000,56000,Cheque,Reconciled,2025-11-02,10,Revenue Manager,Yes,October,4
+REV-001067,FY2025/2026,2025-10-13,RG-04,CC-026,Licensing Fees,Private Company,RCP-665618,121000,123000,2000,MPESA,Reconciled,2025-10-18,5,Revenue Manager,No,October,4
+REV-001068,FY2025/2026,2026-04-19,RG-05,CC-018,Certification Fees,Private Company,RCP-246530,483000,415000,-68000,Cheque,Reconciled,2026-04-21,2,Revenue Manager,No,April,10
+REV-001069,FY2025/2026,2025-10-27,RG-05,CC-024,Licensing Fees,International Organisation,RCP-850528,127000,128000,1000,Bank Transfer,Reconciled,2025-11-10,14,Revenue Manager,Yes,October,4
+REV-001070,FY2025/2026,2026-04-25,RG-02,CC-022,Inspection Fees,International Organisation,RCP-759375,121000,122000,1000,Bank Transfer,Reconciled,2026-04-29,4,Revenue Manager,No,April,10
+REV-001071,FY2025/2026,2026-01-25,RG-02,CC-015,Service Fees,NGO,RCP-179812,108000,94000,-14000,Cash,Reconciled,2026-02-03,9,Revenue Manager,Yes,January,7
+REV-001072,FY2025/2026,2025-10-02,RG-01,CC-010,Inspection Fees,Individual,RCP-774264,363000,341000,-22000,Cash,Reconciled,2025-10-02,0,Revenue Manager,No,October,4
+REV-001073,FY2025/2026,2025-07-28,RG-01,CC-012,Consultancy Income,Government Agency,RCP-328495,217000,145000,-72000,MPESA,Pending,2025-07-31,3,Revenue Manager,No,July,1
+REV-001074,FY2025/2026,2026-02-04,RG-03,CC-016,Inspection Fees,NGO,RCP-555391,682000,667000,-15000,Online Portal,Unreconciled,2026-02-05,1,Revenue Manager,No,February,8
+REV-001075,FY2025/2026,2026-01-26,RG-04,CC-017,Licensing Fees,Government Agency,RCP-824658,156000,94000,-62000,Cheque,Reconciled,2026-02-05,10,Revenue Manager,Yes,January,7
+REV-001076,FY2025/2026,2025-09-21,RG-08,CC-021,Facility Hire,Individual,RCP-397950,163000,157000,-6000,Cash,Reconciled,2025-10-01,10,Revenue Manager,Yes,September,3
+REV-001077,FY2025/2026,2026-03-23,RG-01,CC-011,Facility Hire,Individual,RCP-335509,683000,683000,0,MPESA,Reconciled,2026-04-01,9,Revenue Manager,Yes,March,9
+REV-001078,FY2025/2026,2025-09-07,RG-01,CC-004,Inspection Fees,NGO,RCP-783596,765000,657000,-108000,Cash,Reconciled,2025-09-21,14,Revenue Manager,Yes,September,3
+REV-001079,FY2025/2026,2025-07-03,RG-01,CC-007,Licensing Fees,Government Agency,RCP-169425,357000,289000,-68000,Bank Transfer,Reconciled,2025-07-11,8,Revenue Manager,Yes,July,1
+REV-001080,FY2025/2026,2025-08-20,RG-01,CC-014,Training Fees,International Organisation,RCP-275152,790000,674000,-116000,Online Portal,Reconciled,2025-08-23,3,Revenue Manager,No,August,2
+REV-001081,FY2025/2026,2025-11-05,RG-01,CC-003,Publication Sales,Private Company,RCP-937796,606000,613000,7000,Cash,Reconciled,2025-11-16,11,Revenue Manager,Yes,November,5
+REV-001082,FY2025/2026,2026-01-09,RG-02,CC-029,Publication Sales,Government Agency,RCP-143142,473000,403000,-70000,MPESA,Reconciled,2026-01-13,4,Revenue Manager,No,January,7
+REV-001083,FY2025/2026,2026-02-05,RG-01,CC-001,Consultancy Income,International Organisation,RCP-865586,267000,191000,-76000,Cash,Reconciled,2026-02-08,3,Revenue Manager,No,February,8
+REV-001084,FY2025/2026,2025-10-15,RG-01,CC-008,Licensing Fees,Individual,RCP-116364,425000,358000,-67000,Cash,Reconciled,2025-10-17,2,Revenue Manager,No,October,4
+REV-001085,FY2025/2026,2026-03-01,RG-01,CC-023,Service Fees,NGO,RCP-552535,340000,322000,-18000,Online Portal,Reconciled,2026-03-02,1,Revenue Manager,No,February,8
+REV-001086,FY2025/2026,2025-08-08,RG-01,CC-023,Publication Sales,Private Company,RCP-189835,506000,338000,-168000,Cheque,Reconciled,2025-08-17,9,Revenue Manager,Yes,August,2
+REV-001087,FY2025/2026,2025-09-09,RG-01,CC-002,Certification Fees,Government Agency,RCP-919648,352000,306000,-46000,Bank Transfer,Reconciled,2025-09-23,14,Revenue Manager,Yes,September,3
+REV-001088,FY2025/2026,2025-11-27,RG-07,CC-020,Training Fees,NGO,RCP-359883,465000,348000,-117000,Online Portal,Reconciled,2025-12-08,11,Revenue Manager,Yes,November,5
+REV-001089,FY2025/2026,2025-11-25,RG-03,CC-016,Inspection Fees,Government Agency,RCP-925092,490000,526000,36000,Bank Transfer,Reconciled,2025-11-28,3,Revenue Manager,No,November,5
+REV-001090,FY2025/2026,2025-11-15,RG-01,CC-013,Licensing Fees,Private Company,RCP-839271,243000,198000,-45000,Cash,Reconciled,2025-11-22,7,Revenue Manager,Yes,November,5
+REV-001091,FY2025/2026,2025-09-21,RG-01,CC-007,Facility Hire,International Organisation,RCP-179293,691000,619000,-72000,Bank Transfer,Reconciled,2025-10-04,13,Revenue Manager,Yes,September,3
+REV-001092,FY2025/2026,2025-10-29,RG-01,CC-007,Licensing Fees,NGO,RCP-636646,697000,666000,-31000,MPESA,Reconciled,2025-11-07,9,Revenue Manager,Yes,October,4
+REV-001093,FY2025/2026,2025-11-17,RG-01,CC-031,Inspection Fees,Private Company,RCP-428550,632000,270000,-362000,Online Portal,Reconciled,2025-11-18,1,Revenue Manager,Yes,November,5
+REV-001094,FY2025/2026,2026-03-10,RG-01,CC-010,Service Fees,Individual,RCP-671793,636000,409000,-227000,Online Portal,Reconciled,2026-03-14,4,Revenue Manager,No,March,9
+REV-001095,FY2025/2026,2025-08-03,RG-04,CC-017,Service Fees,Individual,RCP-221449,563000,367000,-196000,Cash,Reconciled,2025-08-05,2,Revenue Manager,No,August,2
+REV-001096,FY2025/2026,2025-11-26,RG-01,CC-031,Facility Hire,Individual,RCP-621569,193000,177000,-16000,Bank Transfer,Reconciled,2025-12-03,7,Revenue Manager,Yes,November,5
+REV-001097,FY2025/2026,2026-04-06,RG-01,CC-002,Facility Hire,Private Company,RCP-529500,439000,290000,-149000,Cheque,Reconciled,2026-04-10,4,Revenue Manager,No,April,10
+REV-001098,FY2025/2026,2025-11-07,RG-01,CC-008,Licensing Fees,Private Company,RCP-226468,126000,112000,-14000,Cash,Reconciled,2025-11-21,14,Revenue Manager,Yes,November,5
+REV-001099,FY2025/2026,2026-05-23,RG-01,CC-005,Licensing Fees,NGO,RCP-604369,339000,236000,-103000,Cash,Reconciled,2026-06-02,10,Revenue Manager,Yes,May,11
+REV-001100,FY2025/2026,2025-07-30,RG-01,CC-005,Service Fees,International Organisation,RCP-620200,558000,562000,4000,MPESA,Reconciled,2025-08-12,13,Revenue Manager,Yes,July,1
+REV-001101,FY2025/2026,2026-04-25,RG-02,CC-015,Facility Hire,Private Company,RCP-395625,524000,355000,-169000,Cash,Reconciled,2026-05-02,7,Revenue Manager,Yes,April,10
+REV-001102,FY2025/2026,2026-04-08,RG-01,CC-001,Inspection Fees,Private Company,RCP-230509,522000,519000,-3000,Bank Transfer,Pending,2026-04-12,4,Revenue Manager,No,April,10
+REV-001103,FY2025/2026,2025-12-13,RG-01,CC-002,Certification Fees,Private Company,RCP-641679,417000,265000,-152000,Online Portal,Unreconciled,2025-12-27,14,Revenue Manager,Yes,December,6
+REV-001104,FY2025/2026,2026-05-27,RG-01,CC-002,Consultancy Income,NGO,RCP-134343,476000,293000,-183000,MPESA,Reconciled,2026-05-29,2,Revenue Manager,No,May,11
+REV-001105,FY2025/2026,2026-03-25,RG-05,CC-024,Facility Hire,Private Company,RCP-536664,342000,357000,15000,MPESA,Reconciled,2026-04-02,8,Revenue Manager,Yes,March,9
+REV-001106,FY2025/2026,2025-08-16,RG-01,CC-004,Inspection Fees,Private Company,RCP-464547,730000,638000,-92000,Cash,Reconciled,2025-08-22,6,Revenue Manager,Yes,August,2
+REV-001107,FY2025/2026,2025-08-04,RG-01,CC-012,Facility Hire,NGO,RCP-258145,737000,682000,-55000,Cheque,Pending,2025-08-17,13,Revenue Manager,Yes,August,2
+REV-001108,FY2025/2026,2025-09-02,RG-01,CC-010,Inspection Fees,Individual,RCP-474154,173000,155000,-18000,Cheque,Reconciled,2025-09-16,14,Revenue Manager,Yes,September,3
+REV-001109,FY2025/2026,2026-01-03,RG-01,CC-002,Licensing Fees,Individual,RCP-702797,665000,571000,-94000,Cash,Pending,2026-01-11,8,Revenue Manager,Yes,January,7
+REV-001110,FY2025/2026,2025-10-17,RG-01,CC-005,Certification Fees,Government Agency,RCP-349987,579000,515000,-64000,MPESA,Reconciled,2025-10-19,2,Revenue Manager,No,October,4
+REV-001111,FY2025/2026,2025-12-17,RG-07,CC-030,Publication Sales,NGO,RCP-517636,244000,192000,-52000,Bank Transfer,Reconciled,2025-12-24,7,Revenue Manager,Yes,December,6
+REV-001112,FY2025/2026,2026-05-23,RG-03,CC-016,Consultancy Income,International Organisation,RCP-619944,752000,803000,51000,Online Portal,Reconciled,2026-06-06,14,Revenue Manager,Yes,May,11
+REV-001113,FY2025/2026,2025-08-13,RG-01,CC-010,Training Fees,Government Agency,RCP-588005,376000,404000,28000,Bank Transfer,Reconciled,2025-08-26,13,Revenue Manager,Yes,August,2
+REV-001114,FY2025/2026,2026-03-28,RG-01,CC-001,Service Fees,Individual,RCP-188633,204000,202000,-2000,MPESA,Reconciled,2026-04-01,4,Revenue Manager,No,March,9
+REV-001115,FY2025/2026,2025-10-10,RG-01,CC-003,Facility Hire,NGO,RCP-228209,111000,82000,-29000,Cheque,Reconciled,2025-10-12,2,Revenue Manager,No,October,4
+REV-001116,FY2025/2026,2026-05-12,RG-01,CC-013,Licensing Fees,Private Company,RCP-699762,766000,714000,-52000,Cheque,Reconciled,2026-05-26,14,Revenue Manager,Yes,May,11
+REV-001117,FY2025/2026,2025-08-05,RG-07,CC-030,Licensing Fees,International Organisation,RCP-257869,304000,236000,-68000,Online Portal,Reconciled,2025-08-09,4,Revenue Manager,No,August,2
+REV-001118,FY2025/2026,2025-12-12,RG-01,CC-008,Inspection Fees,Government Agency,RCP-854854,488000,535000,47000,Cheque,Reconciled,2025-12-12,0,Revenue Manager,No,December,6
+REV-001119,FY2025/2026,2025-07-21,RG-01,CC-013,Training Fees,NGO,RCP-434634,383000,319000,-64000,MPESA,Reconciled,2025-07-21,0,Revenue Manager,No,July,1
+REV-001120,FY2025/2026,2025-07-02,RG-07,CC-030,Certification Fees,International Organisation,RCP-321926,776000,498000,-278000,MPESA,Reconciled,2025-07-02,0,Revenue Manager,No,July,1
+REV-001121,FY2025/2026,2025-12-20,RG-01,CC-006,Service Fees,Individual,RCP-398252,365000,290000,-75000,MPESA,Reconciled,2026-01-02,13,Revenue Manager,Yes,December,6
+REV-001122,FY2025/2026,2026-03-05,RG-01,CC-031,Licensing Fees,Government Agency,RCP-713883,422000,325000,-97000,Cheque,Reconciled,2026-03-12,7,Revenue Manager,Yes,March,9
+REV-001123,FY2025/2026,2025-11-16,RG-02,CC-015,Inspection Fees,Private Company,RCP-633768,502000,391000,-111000,Cheque,Reconciled,2025-11-17,1,Revenue Manager,No,November,5
+REV-001124,FY2025/2026,2025-11-30,RG-01,CC-001,Consultancy Income,NGO,RCP-400656,193000,148000,-45000,Cash,Reconciled,2025-12-06,6,Revenue Manager,Yes,November,5
+REV-001125,FY2025/2026,2026-01-18,RG-01,CC-008,Licensing Fees,Individual,RCP-423028,184000,130000,-54000,Online Portal,Reconciled,2026-01-26,8,Revenue Manager,Yes,January,7
+REV-001126,FY2025/2026,2026-01-19,RG-01,CC-011,Service Fees,Government Agency,RCP-182971,726000,696000,-30000,Online Portal,Reconciled,2026-02-02,14,Revenue Manager,Yes,January,7
+REV-001127,FY2025/2026,2025-12-04,RG-04,CC-017,Inspection Fees,International Organisation,RCP-668155,791000,716000,-75000,MPESA,Pending,2025-12-07,3,Revenue Manager,No,December,6
+REV-001128,FY2025/2026,2026-04-27,RG-01,CC-009,Service Fees,Individual,RCP-629106,446000,418000,-28000,Cheque,Unreconciled,2026-04-29,2,Revenue Manager,No,April,10
+REV-001129,FY2025/2026,2026-04-19,RG-07,CC-030,Publication Sales,Private Company,RCP-716838,609000,457000,-152000,Online Portal,Unreconciled,2026-04-19,0,Revenue Manager,No,April,10
+REV-001130,FY2025/2026,2025-08-11,RG-01,CC-023,Inspection Fees,International Organisation,RCP-721191,243000,290000,47000,Cheque,Reconciled,2025-08-18,7,Revenue Manager,Yes,August,2
+REV-001131,FY2025/2026,2025-12-02,RG-01,CC-006,Training Fees,NGO,RCP-303559,758000,560000,-198000,Cash,Pending,2025-12-13,11,Revenue Manager,Yes,December,6
+REV-001132,FY2025/2026,2025-10-09,RG-01,CC-001,Licensing Fees,International Organisation,RCP-423143,436000,499000,63000,Cash,Reconciled,2025-10-09,0,Revenue Manager,No,October,4
+REV-001133,FY2025/2026,2025-08-13,RG-05,CC-018,Inspection Fees,Government Agency,RCP-217218,799000,572000,-227000,Online Portal,Reconciled,2025-08-14,1,Revenue Manager,No,August,2
+REV-001134,FY2025/2026,2025-10-25,RG-02,CC-028,Training Fees,Individual,RCP-764022,665000,560000,-105000,Cheque,Reconciled,2025-11-08,14,Revenue Manager,Yes,October,4
+REV-001135,FY2025/2026,2025-11-26,RG-07,CC-020,Certification Fees,International Organisation,RCP-689672,631000,439000,-192000,Online Portal,Reconciled,2025-12-09,13,Revenue Manager,Yes,November,5
+REV-001136,FY2025/2026,2025-11-26,RG-01,CC-007,Licensing Fees,International Organisation,RCP-904132,635000,564000,-71000,Cash,Reconciled,2025-12-06,10,Revenue Manager,Yes,November,5
+REV-001137,FY2025/2026,2026-02-08,RG-02,CC-022,Publication Sales,Individual,RCP-988556,550000,571000,21000,Cash,Reconciled,2026-02-18,10,Revenue Manager,Yes,February,8
+REV-001138,FY2025/2026,2026-04-23,RG-03,CC-027,Facility Hire,International Organisation,RCP-317275,581000,363000,-218000,Online Portal,Reconciled,2026-05-06,13,Revenue Manager,Yes,April,10
+REV-001139,FY2025/2026,2026-01-15,RG-01,CC-023,Training Fees,International Organisation,RCP-909687,238000,276000,38000,Cheque,Reconciled,2026-01-18,3,Revenue Manager,No,January,7
+REV-001140,FY2025/2026,2025-11-14,RG-02,CC-029,Inspection Fees,Government Agency,RCP-722874,517000,487000,-30000,Cheque,Reconciled,2025-11-25,11,Revenue Manager,Yes,November,5
