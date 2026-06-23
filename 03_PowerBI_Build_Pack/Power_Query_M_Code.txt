@@ -1,0 +1,500 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// PARASTATAL X - COMPLETE POWER QUERY M CODE
+// Power BI Desktop - Data Transformation Scripts
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Fact_Approved_Budget
+// Source: Approved_Annual_Budget.csv
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    // 1. Import source file
+    Source = Csv.Document(
+        File.Contents("C:\ParastalX\Data\Approved_Annual_Budget.csv"),
+        [Delimiter=",", Columns=24, Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+
+    // 2. Promote headers
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+
+    // 3. Assign correct data types
+    TypedTable = Table.TransformColumnTypes(PromotedHeaders, {
+        {"BudgetID",                  type text},
+        {"FinancialYear",             type text},
+        {"BudgetVersion",             type text},
+        {"ApprovalDate",              type date},
+        {"ApprovalAuthority",         type text},
+        {"ProgrammeCode",             type text},
+        {"ProgrammeName",             type text},
+        {"DirectorateCode",           type text},
+        {"DirectorateName",           type text},
+        {"CostCentreCode",            type text},
+        {"CostCentreName",            type text},
+        {"RegionCode",                type text},
+        {"RegionName",                type text},
+        {"FundSourceCode",            type text},
+        {"FundSourceName",            type text},
+        {"DonorCode",                 type text},
+        {"DonorName",                 type text},
+        {"ActivityCode",              type text},
+        {"ActivityName",              type text},
+        {"SubActivityCode",           type text},
+        {"SubActivityName",           type text},
+        {"VoteCode",                  type text},
+        {"VoteDescription",           type text},
+        {"EconomicClassification",    type text},
+        {"ApprovedAnnualAmount",      type number},
+        {"SourceDocument",            type text},
+        {"Status",                    type text},
+        {"Notes",                     type text}
+    }),
+
+    // 4. Remove blank rows
+    RemovedBlanks = Table.SelectRows(TypedTable,
+        each [BudgetID] <> null and [BudgetID] <> ""),
+
+    // 5. Trim all text columns
+    TrimmedText = Table.TransformColumns(RemovedBlanks, {
+        {"BudgetID",          Text.Trim},
+        {"FinancialYear",     Text.Trim},
+        {"DirectorateCode",   Text.Trim},
+        {"CostCentreCode",    Text.Trim},
+        {"VoteCode",          Text.Trim},
+        {"FundSourceCode",    Text.Trim},
+        {"ActivityCode",      Text.Trim}
+    }),
+
+    // 6. Standardise codes to uppercase
+    StandardisedCodes = Table.TransformColumns(TrimmedText, {
+        {"DirectorateCode", Text.Upper},
+        {"CostCentreCode",  Text.Upper},
+        {"VoteCode",        Text.Upper},
+        {"FundSourceCode",  Text.Upper},
+        {"ActivityCode",    Text.Upper},
+        {"RegionCode",      Text.Upper}
+    }),
+
+    // 7. Validate: flag negative approved amounts
+    FlaggedNegative = Table.AddColumn(StandardisedCodes, "DataQualityFlag",
+        each if [ApprovedAnnualAmount] < 0 then "Error: Negative Amount"
+             else if [CostCentreCode] = "" or [CostCentreCode] = null then "Warning: Missing CC"
+             else if [VoteCode] = "" or [VoteCode] = null then "Warning: Missing Vote"
+             else "Clean",
+        type text),
+
+    // 8. Add KSh thousands and millions columns
+    AddKshThousands = Table.AddColumn(FlaggedNegative, "ApprovedAmountKSh000",
+        each Number.Round([ApprovedAnnualAmount] / 1000, 1), type number),
+
+    AddKshMillions = Table.AddColumn(AddKshThousands, "ApprovedAmountKShM",
+        each Number.Round([ApprovedAnnualAmount] / 1000000, 3), type number),
+
+    // 9. Add refresh timestamp
+    AddRefreshDate = Table.AddColumn(AddKshMillions, "LastRefreshed",
+        each DateTime.LocalNow(), type datetime),
+
+    // 10. Keep only Clean records for fact table (flag others for DQ log)
+    CleanRecords = Table.SelectRows(AddRefreshDate,
+        each [DataQualityFlag] = "Clean"),
+
+    // 11. Final sort
+    Sorted = Table.Sort(CleanRecords, {{"FinancialYear", Order.Ascending},
+                                        {"CostCentreCode", Order.Ascending}})
+in
+    Sorted
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Fact_Expenditure
+// Source: Expenditure_Transactions.csv
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    Source = Csv.Document(
+        File.Contents("C:\ParastalX\Data\Expenditure_Transactions.csv"),
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+
+    TypedTable = Table.TransformColumnTypes(PromotedHeaders, {
+        {"TransactionID",           type text},
+        {"FinancialYear",           type text},
+        {"TransactionDate",         type date},
+        {"PostingDate",             type date},
+        {"DocumentNumber",          type text},
+        {"InvoiceNumber",           type text},
+        {"SupplierID",              type text},
+        {"SupplierCategory",        type text},
+        {"ProgrammeCode",           type text},
+        {"DirectorateCode",         type text},
+        {"CostCentreCode",          type text},
+        {"RegionCode",              type text},
+        {"FundSourceCode",          type text},
+        {"DonorCode",               type text},
+        {"ActivityCode",            type text},
+        {"SubActivityCode",         type text},
+        {"VoteCode",                type text},
+        {"ProcurementCategory",     type text},
+        {"Description",             type text},
+        {"GrossAmount",             type number},
+        {"TaxAmount",               type number},
+        {"NetAmount",               type number},
+        {"CommitmentReference",     type text},
+        {"PurchaseOrderReference",  type text},
+        {"PaymentVoucherReference", type text},
+        {"PaymentStatus",           type text},
+        {"PaymentDate",             type date},
+        {"AccountingPeriod",        type text},
+        {"EnteredByRole",           type text},
+        {"ApprovedByRole",          type text},
+        {"SourceSystem",            type text},
+        {"DataQualityFlag",         type text}
+    }),
+
+    // Remove blanks and errors
+    RemovedBlanks = Table.SelectRows(TypedTable,
+        each [TransactionID] <> null and [TransactionID] <> ""
+             and [NetAmount] >= 0),
+
+    // Trim and standardise
+    TrimmedAndStd = Table.TransformColumns(RemovedBlanks, {
+        {"CostCentreCode", each Text.Upper(Text.Trim(_))},
+        {"VoteCode",       each Text.Upper(Text.Trim(_))},
+        {"DirectorateCode",each Text.Upper(Text.Trim(_))},
+        {"RegionCode",     each Text.Upper(Text.Trim(_))}
+    }),
+
+    // Add Financial Year Month Number (Jul=1 ... Jun=12)
+    AddFYMonth = Table.AddColumn(TrimmedAndStd, "FYMonthNumber",
+        each let m = Date.Month([TransactionDate])
+             in if m >= 7 then m - 6 else m + 6,
+        type number),
+
+    // Add FY Quarter
+    AddFYQuarter = Table.AddColumn(AddFYMonth, "FYQuarter",
+        each let m = [FYMonthNumber]
+             in if m <= 3 then "Q1" else if m <= 6 then "Q2"
+                else if m <= 9 then "Q3" else "Q4",
+        type text),
+
+    // Add DateKey for relationship to Dim_Date
+    AddDateKey = Table.AddColumn(AddFYQuarter, "DateKey",
+        each Date.Year([TransactionDate]) * 10000
+             + Date.Month([TransactionDate]) * 100
+             + Date.Day([TransactionDate]),
+        type number),
+
+    // Flag duplicate invoice numbers
+    GroupCount = Table.Group(TrimmedAndStd, {"InvoiceNumber"},
+        {{"Count", each Table.RowCount(_), type number}}),
+    WithDupFlag = Table.NestedJoin(AddDateKey, "InvoiceNumber",
+                                   GroupCount, "InvoiceNumber", "DupCheck"),
+    ExpandedDup = Table.ExpandTableColumn(WithDupFlag, "DupCheck", {"Count"}, {"InvCount"}),
+    AddDupFlag  = Table.AddColumn(ExpandedDup, "DuplicateInvoiceFlag",
+        each if [InvCount] > 1 then "Potential Duplicate" else "Unique",
+        type text),
+
+    // Keep only Clean/Warning records (exclude explicit errors)
+    CleanRecords = Table.SelectRows(AddDupFlag,
+        each [DataQualityFlag] <> "Error"),
+
+    // Sort by date
+    Sorted = Table.Sort(CleanRecords, {{"TransactionDate", Order.Ascending}})
+in
+    Sorted
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Fact_Commitments
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    Source = Csv.Document(
+        File.Contents("C:\ParastalX\Data\Commitments.csv"),
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    TypedTable = Table.TransformColumnTypes(PromotedHeaders, {
+        {"CommitmentID",             type text},
+        {"CommitmentDate",           type date},
+        {"FinancialYear",            type text},
+        {"PurchaseRequisitionReference", type text},
+        {"PurchaseOrderReference",   type text},
+        {"ProgrammeCode",            type text},
+        {"DirectorateCode",          type text},
+        {"CostCentreCode",           type text},
+        {"RegionCode",               type text},
+        {"ActivityCode",             type text},
+        {"VoteCode",                 type text},
+        {"FundSourceCode",           type text},
+        {"SupplierCategory",         type text},
+        {"CommitmentAmount",         type number},
+        {"AmountInvoiced",           type number},
+        {"AmountPaid",               type number},
+        {"OutstandingCommitment",    type number},
+        {"ExpectedDeliveryDate",     type date},
+        {"CommitmentStatus",         type text},
+        {"DaysOutstanding",          type number},
+        {"ResponsibleRole",          type text},
+        {"RiskRating",               type text}
+    }),
+    RemovedBlanks = Table.SelectRows(TypedTable,
+        each [CommitmentID] <> null and [CommitmentAmount] > 0),
+    TrimmedAndStd = Table.TransformColumns(RemovedBlanks, {
+        {"CostCentreCode", each Text.Upper(Text.Trim(_))},
+        {"VoteCode",       each Text.Upper(Text.Trim(_))}
+    }),
+    // Add overdue flag
+    AddOverdueFlag = Table.AddColumn(TrimmedAndStd, "IsOverdue",
+        each if [DaysOutstanding] > 90 and
+                [CommitmentStatus] <> "Fully Paid" and
+                [CommitmentStatus] <> "Cancelled"
+             then "Yes" else "No",
+        type text)
+in
+    AddOverdueFlag
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Fact_Budget_Requests
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    Source = Csv.Document(
+        File.Contents("C:\ParastalX\Data\Budget_Review_Requests.csv"),
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    TypedTable = Table.TransformColumnTypes(PromotedHeaders, {
+        {"RequestID",           type text},
+        {"DocumentReference",   type text},
+        {"DocumentDate",        type date},
+        {"DateReceived",        type date},
+        {"RequestingDirectorate", type text},
+        {"RequestingCostCentre",  type text},
+        {"RegionCode",          type text},
+        {"Purpose",             type text},
+        {"RequestedAmount",     type number},
+        {"ApprovalDate",        type date},
+        {"ApprovedAmount",      type number},
+        {"ApprovedByRole",      type text},
+        {"ApprovalComment",     type text},
+        {"ProcessReference",    type text},
+        {"ProcessingDate",      type date},
+        {"ProcessedAmount",     type number},
+        {"OutstandingAmount",   type number},
+        {"ActivityCode",        type text},
+        {"VoteCode",            type text},
+        {"FundSourceCode",      type text},
+        {"DonorCode",           type text},
+        {"Status",              type text},
+        {"AgingDays",           type number},
+        {"AgingBand",           type text},
+        {"Priority",            type text},
+        {"SupportingDocumentStatus", type text},
+        {"DataCompletenessStatus",   type text},
+        {"FinancialYear",       type text}
+    }),
+    // Validate: flag if processed > approved
+    FlaggedRecords = Table.AddColumn(TypedTable, "ValidationFlag",
+        each if [ProcessedAmount] > [ApprovedAmount] * 1.01
+             then "Error: Processed Exceeds Approved"
+             else if [AgingDays] > 30 and [Status] <> "Fully Processed"
+             then "Warning: Aging Request"
+             else "Clean",
+        type text),
+    RemovedBlanks = Table.SelectRows(FlaggedRecords,
+        each [RequestID] <> null and [RequestID] <> "")
+in
+    RemovedBlanks
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Dim_Date (Full Calendar)
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    // Generate date range: 1 July 2023 to 30 June 2026
+    StartDate = #date(2023, 7, 1),
+    EndDate   = #date(2026, 6, 30),
+    Duration  = Duration.Days(EndDate - StartDate) + 1,
+    DateList  = List.Dates(StartDate, Duration, #duration(1,0,0,0)),
+    DateTable = Table.FromList(DateList, Splitter.SplitByNothing(), {"Date"}),
+
+    TypedDates = Table.TransformColumnTypes(DateTable, {{"Date", type date}}),
+
+    // Add calendar columns
+    AddYear       = Table.AddColumn(TypedDates,  "CalendarYear",  each Date.Year([Date]),          type number),
+    AddMonth      = Table.AddColumn(AddYear,     "MonthNumber",   each Date.Month([Date]),         type number),
+    AddMonthName  = Table.AddColumn(AddMonth,    "MonthName",     each Date.ToText([Date], "MMMM"),type text),
+    AddQtr        = Table.AddColumn(AddMonthName,"CalendarQtr",   each "Q" & Text.From(Date.QuarterOfYear([Date])), type text),
+    AddDayName    = Table.AddColumn(AddQtr,      "DayOfWeek",     each Date.ToText([Date], "dddd"),type text),
+    AddIsWeekend  = Table.AddColumn(AddDayName,  "IsWeekend",
+        each if Date.DayOfWeek([Date]) >= 5 then "Yes" else "No", type text),
+
+    // Add financial year columns (Jul=FY start)
+    AddFY = Table.AddColumn(AddIsWeekend, "FinancialYear",
+        each let m = Date.Month([Date]), y = Date.Year([Date])
+             in if m >= 7
+                then "FY" & Text.From(y) & "/" & Text.From(y+1) & ""
+                else "FY" & Text.From(y-1) & "/" & Text.From(y) & "",
+        type text),
+
+    AddFYMonth = Table.AddColumn(AddFY, "FYMonthNumber",
+        each let m = Date.Month([Date])
+             in if m >= 7 then m - 6 else m + 6,
+        type number),
+
+    AddFYQuarter = Table.AddColumn(AddFYMonth, "FYQuarter",
+        each let m = [FYMonthNumber]
+             in if m <= 3 then "Q1 (Jul-Sep)"
+                else if m <= 6 then "Q2 (Oct-Dec)"
+                else if m <= 9 then "Q3 (Jan-Mar)"
+                else "Q4 (Apr-Jun)",
+        type text),
+
+    // Add DateKey (YYYYMMDD integer for relationships)
+    AddDateKey = Table.AddColumn(AddFYQuarter, "DateKey",
+        each Date.Year([Date]) * 10000
+           + Date.Month([Date]) * 100
+           + Date.Day([Date]),
+        type number),
+
+    // Sort
+    Sorted = Table.Sort(AddDateKey, {{"Date", Order.Ascending}})
+in
+    Sorted
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Dim_Cost_Centre (with standardisation)
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    Source = Csv.Document(
+        File.Contents("C:\ParastalX\Data\Dim_Cost_Centre.csv"),
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    TypedTable = Table.TransformColumnTypes(PromotedHeaders, {
+        {"CostCentreCode",    type text},
+        {"CostCentreName",    type text},
+        {"DirectorateCode",   type text},
+        {"DirectorateName",   type text},
+        {"RegionCode",        type text},
+        {"RegionName",        type text},
+        {"Type",              type text}
+    }),
+    TrimmedAndStd = Table.TransformColumns(TypedTable, {
+        {"CostCentreCode",  each Text.Upper(Text.Trim(_))},
+        {"DirectorateCode", each Text.Upper(Text.Trim(_))},
+        {"RegionCode",      each Text.Upper(Text.Trim(_))}
+    }),
+    // Flag missing region
+    WithFlags = Table.AddColumn(TrimmedAndStd, "IsValid",
+        each if [CostCentreCode] = null or [CostCentreCode] = "" then "Invalid"
+             else if [RegionCode] = null or [RegionCode] = "" then "Missing Region"
+             else "Valid",
+        type text)
+in
+    WithFlags
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Fact_Revenue
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    Source = Csv.Document(
+        File.Contents("C:\ParastalX\Data\Revenue_AIA.csv"),
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    TypedTable = Table.TransformColumnTypes(PromotedHeaders, {
+        {"RevenueTransactionID", type text},
+        {"FinancialYear",        type text},
+        {"TransactionDate",      type date},
+        {"RegionCode",           type text},
+        {"RevenueCentre",        type text},
+        {"RevenueStream",        type text},
+        {"CustomerCategory",     type text},
+        {"ReceiptReference",     type text},
+        {"BudgetedRevenue",      type number},
+        {"ActualRevenue",        type number},
+        {"Variance",             type number},
+        {"CollectionChannel",    type text},
+        {"ReconciliationStatus", type text},
+        {"BankingDate",          type date},
+        {"DaysToBank",           type number},
+        {"ResponsibleRole",      type text},
+        {"ExceptionFlag",        type text},
+        {"Month",                type text},
+        {"FYMonthNumber",        type number}
+    }),
+    RemovedBlanks = Table.SelectRows(TypedTable,
+        each [RevenueTransactionID] <> null),
+    AddAchievement = Table.AddColumn(RemovedBlanks, "AchievementPct",
+        each Number.Round(
+            if [BudgetedRevenue] > 0
+            then [ActualRevenue] / [BudgetedRevenue]
+            else 0, 4),
+        type number),
+    AddBankingFlag = Table.AddColumn(AddAchievement, "BankingDelayFlag",
+        each if [DaysToBank] > 5 then "Delayed" else "On Time",
+        type text)
+in
+    AddBankingFlag
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: Fact_Data_Quality (Data Quality Log)
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    Source = Csv.Document(
+        File.Contents("C:\ParastalX\Data\Data_Quality_Log.csv"),
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    TypedTable = Table.TransformColumnTypes(PromotedHeaders, {
+        {"DQLogID",           type text},
+        {"RecordIdentifier",  type text},
+        {"Dataset",           type text},
+        {"Field",             type text},
+        {"IssueType",         type text},
+        {"OriginalValue",     type text},
+        {"CorrectedValue",    type text},
+        {"CorrectionRule",    type text},
+        {"ResolutionStatus",  type text},
+        {"Severity",          type text},
+        {"DateCorrected",     type date},
+        {"FinancialYear",     type text},
+        {"CorrectedByRole",   type text}
+    }),
+    // Add severity sort order
+    AddSevOrder = Table.AddColumn(TypedTable, "SeverityOrder",
+        each if [Severity] = "Critical" then 1
+             else if [Severity] = "High" then 2
+             else if [Severity] = "Medium" then 3
+             else 4,
+        type number),
+    Sorted = Table.Sort(AddSevOrder, {{"SeverityOrder", Order.Ascending}})
+in
+    Sorted
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUERY: RAG_Thresholds (configurable table)
+// ═══════════════════════════════════════════════════════════════════════════
+let
+    ThresholdData = #table(
+        {"MetricName", "GreenMin", "GreenMax", "AmberMin", "AmberMax", "RedMin", "RedMax", "Unit"},
+        {
+            {"Budget Absorption",      0.80, 1.10,  0.60, 0.80,   0.00, 0.60,   "Ratio"},
+            {"Forecast Over-Exp",      0.00, 1.00,  1.00, 1.05,   1.05, 9.99,   "Ratio"},
+            {"Request Aging (days)",   0,    14,     15,   30,     31,   9999,   "Days"},
+            {"Pending Bill Aging",     0,    30,     31,   90,     91,   9999,   "Days"},
+            {"Data Quality Score",     0.98, 1.00,  0.95, 0.98,   0.00, 0.95,   "Ratio"},
+            {"Revenue Achievement",    0.90, 1.50,  0.70, 0.90,   0.00, 0.70,   "Ratio"}
+        }
+    )
+in
+    ThresholdData
+
+
+// ═══════════════════════════════════════════════════════════════════════════
+// END OF POWER QUERY M CODE
+// ═══════════════════════════════════════════════════════════════════════════

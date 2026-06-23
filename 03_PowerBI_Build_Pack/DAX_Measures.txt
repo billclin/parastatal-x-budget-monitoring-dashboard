@@ -1,0 +1,461 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// PARASTATAL X - COMPLETE DAX MEASURES LIBRARY
+// Power BI Desktop - Financial Analytics Dashboard
+// All measures use safe division (DIVIDE) and error handling
+// Currency: Kenya Shillings (KSh)
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Budget Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Original Approved Budget =
+CALCULATE(
+    SUM(Fact_Approved_Budget[ApprovedAnnualAmount]),
+    Fact_Approved_Budget[BudgetVersion] = "Original"
+)
+
+Supplementary Increase =
+CALCULATE(
+    SUM(Fact_Supplementary_Budget[SupplementaryIncrease])
+)
+
+Supplementary Reduction =
+CALCULATE(
+    SUM(Fact_Supplementary_Budget[SupplementaryReduction])
+)
+
+Net Supplementary Adjustment =
+[Supplementary Increase] - [Supplementary Reduction]
+
+Revised Approved Budget =
+[Original Approved Budget] + [Net Supplementary Adjustment]
+
+Monthly Budget =
+SUM(Fact_Monthly_Budget[MonthlyAllocationAmount])
+
+YTD Budget =
+CALCULATE(
+    SUM(Fact_Monthly_Budget[MonthlyAllocationAmount]),
+    Fact_Monthly_Budget[FYMonthNumber] <= MAX(Dim_Date[FYMonthNumber])
+)
+
+Current Working Budget =
+COALESCE([Revised Approved Budget], [Original Approved Budget])
+
+Budget Balance =
+[Current Working Budget] - [Total Expenditure]
+
+Available Budget =
+[Current Working Budget] - [Total Expenditure] - [Open Commitments]
+
+Unallocated Budget =
+[Original Approved Budget] - SUM(Fact_Monthly_Budget[MonthlyAllocationAmount])
+
+Budget Utilisation % =
+DIVIDE([Total Expenditure], [Current Working Budget], 0)
+
+Budget Absorption % =
+DIVIDE([YTD Expenditure], [YTD Budget], 0)
+
+Budget Variance =
+[YTD Budget] - [YTD Expenditure]
+
+Expenditure Variance % =
+DIVIDE([Budget Variance], [YTD Budget], 0)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Expenditure Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Total Expenditure =
+SUM(Fact_Expenditure[NetAmount])
+
+Monthly Expenditure =
+CALCULATE(
+    SUM(Fact_Expenditure[NetAmount]),
+    DATESMTD(Dim_Date[Date])
+)
+
+YTD Expenditure =
+CALCULATE(
+    SUM(Fact_Expenditure[NetAmount]),
+    DATESYTD(Dim_Date[Date], "30/6")
+)
+
+Average Monthly Expenditure =
+DIVIDE(
+    [YTD Expenditure],
+    CALCULATE(DISTINCTCOUNT(Dim_Date[FYMonthNumber]),
+              Fact_Expenditure[NetAmount] > 0),
+    0
+)
+
+Expenditure Run Rate =
+[Average Monthly Expenditure] * 12
+
+Prior Year Expenditure =
+CALCULATE(
+    SUM(Fact_Expenditure[NetAmount]),
+    SAMEPERIODLASTYEAR(Dim_Date[Date])
+)
+
+YoY Expenditure Growth =
+DIVIDE(
+    [Total Expenditure] - [Prior Year Expenditure],
+    [Prior Year Expenditure],
+    0
+)
+
+QoQ Expenditure Movement =
+VAR CurrentQ = [Total Expenditure]
+VAR PrevQ =
+    CALCULATE(
+        SUM(Fact_Expenditure[NetAmount]),
+        DATESINPERIOD(Dim_Date[Date], STARTOFQUARTER(LASTDATE(Dim_Date[Date])), -1, QUARTER)
+    )
+RETURN DIVIDE(CurrentQ - PrevQ, PrevQ, 0)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Commitment Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Total Commitments =
+SUM(Fact_Commitments[CommitmentAmount])
+
+Open Commitments =
+CALCULATE(
+    SUM(Fact_Commitments[OutstandingCommitment]),
+    Fact_Commitments[CommitmentStatus] IN {"Open","Partially Invoiced","Partially Paid","Overdue"}
+)
+
+Outstanding Commitments =
+SUM(Fact_Commitments[OutstandingCommitment])
+
+Committed Expenditure =
+SUM(Fact_Commitments[AmountPaid])
+
+Total Exposure =
+[YTD Expenditure] + [Open Commitments]
+
+Available Balance After Commitments =
+[Current Working Budget] - [Total Exposure]
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Approval Workflow Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Total Requested Amount =
+SUM(Fact_Budget_Requests[RequestedAmount])
+
+Total Approved Amount =
+SUM(Fact_Budget_Requests[ApprovedAmount])
+
+Total Processed Amount =
+SUM(Fact_Budget_Requests[ProcessedAmount])
+
+Outstanding Approved Amount =
+[Total Approved Amount] - [Total Processed Amount]
+
+Request Count =
+COUNTROWS(Fact_Budget_Requests)
+
+Pending Request Count =
+CALCULATE(
+    COUNTROWS(Fact_Budget_Requests),
+    Fact_Budget_Requests[Status] IN {
+        "Received","Awaiting Review","Awaiting Approval",
+        "Approved but Unprocessed","Partially Processed","Overdue"
+    }
+)
+
+Approval Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(Fact_Budget_Requests),
+              Fact_Budget_Requests[Status] IN {"Approved","Partially Approved","Fully Processed","Partially Processed"}),
+    [Request Count],
+    0
+)
+
+Processing Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(Fact_Budget_Requests),
+              Fact_Budget_Requests[Status] IN {"Fully Processed","Partially Processed"}),
+    CALCULATE(COUNTROWS(Fact_Budget_Requests),
+              Fact_Budget_Requests[ApprovedAmount] > 0),
+    0
+)
+
+Average Approval Days =
+AVERAGEX(
+    FILTER(Fact_Budget_Requests, Fact_Budget_Requests[ApprovalDate] <> BLANK()),
+    Fact_Budget_Requests[AgingDays]
+)
+
+Average Processing Days =
+AVERAGEX(
+    FILTER(Fact_Budget_Requests, Fact_Budget_Requests[ProcessedAmount] > 0),
+    Fact_Budget_Requests[AgingDays]
+)
+
+Requests Over 30 Days =
+CALCULATE(
+    COUNTROWS(Fact_Budget_Requests),
+    Fact_Budget_Requests[AgingDays] > 30,
+    Fact_Budget_Requests[Status] <> "Fully Processed"
+)
+
+Requests Over 60 Days =
+CALCULATE(
+    COUNTROWS(Fact_Budget_Requests),
+    Fact_Budget_Requests[AgingDays] > 60,
+    Fact_Budget_Requests[Status] <> "Fully Processed"
+)
+
+Oldest Pending Request =
+CALCULATE(
+    MAX(Fact_Budget_Requests[AgingDays]),
+    Fact_Budget_Requests[Status] IN {"Received","Awaiting Review","Awaiting Approval","Overdue"}
+)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Pending Bills Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Total Pending Bills =
+SUM(Fact_Pending_Bills[InvoiceAmount])
+
+Verified Pending Bills =
+SUM(Fact_Pending_Bills[AmountVerified])
+
+Outstanding Pending Bills =
+SUM(Fact_Pending_Bills[OutstandingAmount])
+
+Pending Bills Over 90 Days =
+CALCULATE(
+    SUM(Fact_Pending_Bills[OutstandingAmount]),
+    Fact_Pending_Bills[AgingDays] > 90
+)
+
+Average Pending Bill Age =
+AVERAGE(Fact_Pending_Bills[AgingDays])
+
+High Risk Pending Bills =
+CALCULATE(
+    SUM(Fact_Pending_Bills[OutstandingAmount]),
+    Fact_Pending_Bills[RiskRating] IN {"High","Critical"}
+)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Revenue Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Budgeted Revenue =
+SUM(Fact_Revenue[BudgetedRevenue])
+
+Actual Revenue =
+SUM(Fact_Revenue[ActualRevenue])
+
+Revenue Variance =
+[Actual Revenue] - [Budgeted Revenue]
+
+Revenue Achievement % =
+DIVIDE([Actual Revenue], [Budgeted Revenue], 0)
+
+Unreconciled Revenue =
+CALCULATE(
+    SUM(Fact_Revenue[ActualRevenue]),
+    Fact_Revenue[ReconciliationStatus] = "Unreconciled"
+)
+
+Delayed Banking Amount =
+CALCULATE(
+    SUM(Fact_Revenue[ActualRevenue]),
+    Fact_Revenue[DaysToBank] > 5
+)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Performance Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Total Annual Target =
+SUM(Fact_Performance[AnnualTarget])
+
+Total Achievement =
+SUM(Fact_Performance[ActualAchievement])
+
+Performance Achievement % =
+DIVIDE([Total Achievement], [Total Annual Target], 0)
+
+Cost Per Output =
+DIVIDE(
+    SUM(Fact_Performance[Expenditure]),
+    SUM(Fact_Performance[ActualAchievement]),
+    0
+)
+
+Budget Efficiency Ratio =
+DIVIDE([Total Achievement], [Total Expenditure], 0)
+
+Financial vs Physical Performance Variance =
+[Budget Utilisation %] - [Performance Achievement %]
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Risk Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Negative Balance Count =
+COUNTROWS(
+    FILTER(
+        VALUES(Dim_Cost_Centre[CostCentreCode]),
+        CALCULATE([Available Budget]) < 0
+    )
+)
+
+Over Budget Cost Centres =
+COUNTROWS(
+    FILTER(
+        VALUES(Dim_Cost_Centre[CostCentreCode]),
+        CALCULATE([Total Expenditure]) > CALCULATE([Current Working Budget])
+    )
+)
+
+Low Absorption Cost Centres =
+COUNTROWS(
+    FILTER(
+        VALUES(Dim_Cost_Centre[CostCentreCode]),
+        CALCULATE([Budget Utilisation %]) < 0.60
+    )
+)
+
+High Risk Vote Lines =
+COUNTROWS(
+    FILTER(
+        VALUES(Dim_Vote[VoteCode]),
+        CALCULATE([Budget Utilisation %]) > 0.95
+    )
+)
+
+Audit Exception Count =
+COUNTROWS(Fact_Control_Exceptions)
+
+Amount At Risk =
+SUM(Fact_Control_Exceptions[AmountAtRisk])
+
+Unresolved Exception Count =
+CALCULATE(
+    COUNTROWS(Fact_Control_Exceptions),
+    Fact_Control_Exceptions[Status] IN {"Open","In Progress","Escalated"}
+)
+
+Repeat Finding Count =
+CALCULATE(
+    COUNTROWS(Fact_Control_Exceptions),
+    Fact_Control_Exceptions[RepeatFindingFlag] = "Yes"
+)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Forecasting Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Remaining FY Months =
+12 - MAX(Dim_Date[FYMonthNumber])
+
+Forecast YE Expenditure Straight Line =
+[YTD Expenditure] + ([Average Monthly Expenditure] * [Remaining FY Months])
+
+Forecast YE Expenditure Moving Avg =
+VAR Month9 = CALCULATE([Monthly Expenditure], Dim_Date[FYMonthNumber] = 9)
+VAR Month10 = CALCULATE([Monthly Expenditure], Dim_Date[FYMonthNumber] = 10)
+VAR Month11 = CALCULATE([Monthly Expenditure], Dim_Date[FYMonthNumber] = 11)
+VAR MA3 = DIVIDE(Month9 + Month10 + Month11, 3, [Average Monthly Expenditure])
+RETURN [YTD Expenditure] + (MA3 * [Remaining FY Months])
+
+Forecast YE Expenditure Seasonal =
+VAR SeasonalWeight = 2.0 / 11.0   // June weight relative to 11 months elapsed
+RETURN [YTD Expenditure] + ([YTD Expenditure] * SeasonalWeight)
+
+Forecast YE Commitments =
+[YTD Expenditure] + [Open Commitments]
+
+Forecast YE Balance =
+[Current Working Budget] - [Forecast YE Expenditure Blended]
+
+Forecast Over Expenditure =
+MAX(0, [Forecast YE Expenditure Blended] - [Current Working Budget])
+
+Forecast Underutilisation =
+MAX(0, [Current Working Budget] - [Forecast YE Expenditure Blended])
+
+Forecast YE Expenditure Blended =
+([Forecast YE Expenditure Straight Line] * 0.30) +
+([Forecast YE Expenditure Moving Avg] * 0.25) +
+([Forecast YE Expenditure Seasonal] * 0.25) +
+([Forecast YE Commitments] * 0.20)
+
+Expected Absorption at YE =
+DIVIDE([Forecast YE Expenditure Blended], [Current Working Budget], 0)
+
+Required Monthly Spend to Absorb Budget =
+DIVIDE(
+    [Budget Balance],
+    [Remaining FY Months],
+    0
+)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [Control & Data Quality Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+Last Refresh Date =
+NOW()
+
+Source Record Count =
+COUNTROWS(Fact_Expenditure)
+
+Reconciliation Difference =
+ABS([Original Approved Budget] - SUM(Fact_Monthly_Budget[MonthlyAllocationAmount]))
+
+Data Completeness % =
+VAR TotalDQ = COUNTROWS(Fact_Data_Quality)
+VAR ResolvedDQ = CALCULATE(COUNTROWS(Fact_Data_Quality),
+                           Fact_Data_Quality[ResolutionStatus] = "Resolved")
+RETURN 1 - DIVIDE(TotalDQ - ResolvedDQ, 1000, 0)
+
+Data Quality Exception Count =
+COUNTROWS(Fact_Data_Quality)
+
+// ───────────────────────────────────────────────────────────────────────────
+// TABLE: [RAG Status Measures]
+// ───────────────────────────────────────────────────────────────────────────
+
+RAG Absorption Status =
+VAR UtilPct = [Budget Utilisation %]
+VAR TimeElapsed = 11/12
+VAR Gap = ABS(UtilPct - TimeElapsed)
+RETURN
+    IF(Gap <= 0.10, "Green",
+    IF(Gap <= 0.20, "Amber", "Red"))
+
+RAG Forecast Status =
+VAR ForecastPct = [Expected Absorption at YE]
+RETURN
+    IF(ForecastPct <= 1.00, "Green",
+    IF(ForecastPct <= 1.05, "Amber", "Red"))
+
+RAG Pending Bills Status =
+VAR AvgAge = [Average Pending Bill Age]
+RETURN
+    IF(AvgAge <= 30, "Green",
+    IF(AvgAge <= 90, "Amber", "Red"))
+
+RAG Data Quality Status =
+VAR DQScore = [Data Completeness %]
+RETURN
+    IF(DQScore >= 0.98, "Green",
+    IF(DQScore >= 0.95, "Amber", "Red"))
+
+// ═══════════════════════════════════════════════════════════════════════════
+// END OF DAX MEASURES LIBRARY
+// Total measures: 70+
+// ═══════════════════════════════════════════════════════════════════════════

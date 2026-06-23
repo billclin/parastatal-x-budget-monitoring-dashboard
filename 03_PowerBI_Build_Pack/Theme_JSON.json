@@ -1,0 +1,99 @@
+{
+  "name": "Parastatal X Financial Dashboard Theme",
+  "dataColors": [
+    "#1B4332",
+    "#B7950B",
+    "#2C3E50",
+    "#27AE60",
+    "#E67E22",
+    "#C0392B",
+    "#2980B9",
+    "#8E44AD",
+    "#16A085",
+    "#D35400"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2C3E50",
+  "tableAccent": "#1B4332",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#FFFFFF"}}}],
+        "border": [{"show": true, "color": {"solid": {"color": "#E0E0E0"}}}]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{"show": true, "color": {"solid": {"color": "#1B4332"}}, "fontSize": 11}],
+        "categoryLabels": [{"show": true, "color": {"solid": {"color": "#2C3E50"}}, "fontSize": 9}],
+        "background": [{"show": true, "color": {"solid": {"color": "#F9F9F9"}}, "transparency": 5}]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "dataPoint": [{"defaultColor": {"solid": {"color": "#1B4332"}}}],
+        "legend": [{"show": true, "position": "Bottom"}]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [{"strokeWidth": 2}],
+        "dataPoint": [{"defaultColor": {"solid": {"color": "#1B4332"}}}]
+      }
+    },
+    "waterfallChart": {
+      "*": {
+        "sentimentColors": {
+          "totalBar": {"solid": {"color": "#1B4332"}},
+          "increasedBar": {"solid": {"color": "#27AE60"}},
+          "decreasedBar": {"solid": {"color": "#C0392B"}},
+          "totalFill": {"solid": {"color": "#1B4332"}}
+        }
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [{"outlineColor": {"solid": {"color": "#1B4332"}}}],
+        "columnHeaders": [{"backColor": {"solid": {"color": "#1B4332"}}, "fontColor": {"solid": {"color": "#FFFFFF"}}, "fontSize": 10, "fontBold": true}],
+        "values": [{"fontColor": {"solid": {"color": "#2C3E50"}}, "fontSize": 9}],
+        "totals": [{"fontColor": {"solid": {"color": "#1B4332"}}, "fontBold": true}]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {
+      "fontFace": "Calibri",
+      "color": "#2C3E50",
+      "fontSize": 9
+    },
+    "title": {
+      "fontFace": "Calibri",
+      "color": "#1B4332",
+      "fontSize": 14,
+      "fontBold": true
+    },
+    "calloutValue": {
+      "fontFace": "Calibri",
+      "color": "#1B4332",
+      "fontSize": 28,
+      "fontBold": true
+    },
+    "header": {
+      "fontFace": "Calibri",
+      "color": "#FFFFFF",
+      "fontSize": 11,
+      "fontBold": true
+    }
+  },
+  "conditionalFormatting": {
+    "diverging": {
+      "minColor": "#C0392B",
+      "midColor": "#F39C12",
+      "maxColor": "#27AE60"
+    },
+    "sequential": {
+      "minColor": "#FFF2CC",
+      "maxColor": "#1B4332"
+    }
+  }
+}
