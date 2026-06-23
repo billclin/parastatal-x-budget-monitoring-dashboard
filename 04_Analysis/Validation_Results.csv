@@ -1,0 +1,37 @@
+Check,Status,Detail
+Budget rows >= 90,PASS,96 rows
+Monthly allocation rows >= 1000,PASS,1152 rows
+Expenditure transactions >= 10000,PASS,12100 rows
+Commitments >= 500,PASS,1350 rows
+Budget requests >= 800,PASS,1000 rows
+Budget IDs unique,PASS,
+Allocation IDs unique,PASS,
+Transaction IDs unique,PASS,
+Commitment IDs unique,PASS,
+Request IDs unique,PASS,
+Pending Bill IDs unique,PASS,
+Revenue IDs unique,PASS,
+Procurement IDs unique,PASS,
+Budget has FY2023/2024,PASS,
+Transactions have FY2023/2024,PASS,
+Budget has FY2024/2025,PASS,
+Transactions have FY2024/2025,PASS,
+Budget has FY2025/2026,PASS,
+Transactions have FY2025/2026,PASS,
+Monthly allocations reconcile to annual budget [FY2023/2024],PASS,"Annual: 1,400,000,000  Monthly sum: 1,400,000,000  Diff: 0"
+Monthly allocations reconcile to annual budget [FY2024/2025],PASS,"Annual: 1,550,000,000  Monthly sum: 1,550,000,000  Diff: 0"
+Monthly allocations reconcile to annual budget [FY2025/2026],PASS,"Annual: 1,700,000,000  Monthly sum: 1,700,000,000  Diff: 0"
+No negative approved budget,PASS,
+No negative monthly allocations,PASS,
+No negative net expenditure (after flag),PASS,0 negative found
+Paid amount <= Commitment amount,PASS,
+Invoiced amount <= Commitment amount,PASS,
+Approved <= Requested (for approved requests),PASS,0 exceptions
+Processed <= Approved (for processed requests),PASS,0 exceptions
+Outstanding = Invoice - Paid,PASS,
+12 months in allocation [FY2023/2024],PASS,12 months found
+12 months in allocation [FY2024/2025],PASS,12 months found
+12 months in allocation [FY2025/2026],PASS,12 months found
+DQ log has records,PASS,250 records
+DQ log has severity field,PASS,
+DQ covers Critical issues,PASS,

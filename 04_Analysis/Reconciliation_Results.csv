@@ -1,0 +1,19 @@
+Dataset,SourceTotal,ModelTotal,Difference,AbsDifference,Status,Explanation
+Budget vs Monthly Alloc [FY2023/2024],1400000000,1400000000,0,0,Reconciled,Zero difference
+Expenditure Transactions [FY2023/2024],1339765500,1339765500,0,0,Reconciled,Transaction-level sum matches itself
+Commitments Total [FY2023/2024],745168000,745168000,0,0,Reconciled,Commitment register self-consistent
+Requests: Approved vs Processed [FY2023/2024],338479000,100429000,238050000,238050000,Variance - Explained,"Outstanding unprocessed: KSh 238,050,000"
+Pending Bills: Invoice vs Paid+Outstanding [FY2023/2024],154434000,154434000,0,0,Reconciled,Invoice = Paid + Outstanding
+Revenue: Budget vs Actual [FY2023/2024],166230000,146102000,20128000,20128000,Variance - Explained,"Revenue variance: KSh -20,128,000"
+Budget vs Monthly Alloc [FY2024/2025],1550000000,1550000000,0,0,Reconciled,Zero difference
+Expenditure Transactions [FY2024/2025],1338255800,1338255800,0,0,Reconciled,Transaction-level sum matches itself
+Commitments Total [FY2024/2025],715375000,715375000,0,0,Reconciled,Commitment register self-consistent
+Requests: Approved vs Processed [FY2024/2025],359514000,92467000,267047000,267047000,Variance - Explained,"Outstanding unprocessed: KSh 267,047,000"
+Pending Bills: Invoice vs Paid+Outstanding [FY2024/2025],150626000,150626000,0,0,Reconciled,Invoice = Paid + Outstanding
+Revenue: Budget vs Actual [FY2024/2025],155875000,136470000,19405000,19405000,Variance - Explained,"Revenue variance: KSh -19,405,000"
+Budget vs Monthly Alloc [FY2025/2026],1700000000,1700000000,0,0,Reconciled,Zero difference
+Expenditure Transactions [FY2025/2026],1478365800,1478365800,0,0,Reconciled,Transaction-level sum matches itself
+Commitments Total [FY2025/2026],1013630000,1013630000,0,0,Reconciled,Commitment register self-consistent
+Requests: Approved vs Processed [FY2025/2026],440374000,104608000,335766000,335766000,Variance - Explained,"Outstanding unprocessed: KSh 335,766,000"
+Pending Bills: Invoice vs Paid+Outstanding [FY2025/2026],227596000,227596000,0,0,Reconciled,Invoice = Paid + Outstanding
+Revenue: Budget vs Actual [FY2025/2026],182070000,160589000,21481000,21481000,Variance - Explained,"Revenue variance: KSh -21,481,000"
